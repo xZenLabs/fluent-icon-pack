@@ -7,19 +7,15 @@ ZenPM, packaged by [ZenLabs](https://github.com/xZenLabs) from
 This repository uses the [Solar pack](https://github.com/xZenLabs/solariconpack-zen)
 as its packaging template and contains only Microsoft Fluent artwork.
 
-<details>
-<summary><strong>Fluent Color preview</strong></summary>
+## Icon overviews
 
-![Fluent Color icon preview](.github/preview.svg)
+### Fluent Color
 
-</details>
+![Fluent Color: all source icons with filenames](.github/overview-fluent-color.png)
 
-<details>
-<summary><strong>Fluent Mono preview</strong></summary>
+### Fluent Mono
 
-![Fluent Mono icon preview](.github/preview-mono.svg)
-
-</details>
+![Fluent Mono: all source icons with filenames](.github/overview-fluent-mono.png)
 
 ## What's included
 
@@ -86,6 +82,10 @@ disable **Custom icons** and restart. After switching away, remove this pack
 through ZenPM or delete its manually installed folder.
 
 ## Building and checking
+
+Each pack manifest includes `"color": true` for colour artwork or
+`"color": false` for monochrome artwork. Per-style values are retained in the
+release ZIPs when building the whole repository.
 
 The source folders mirror the Solar template: `Pack Icons`, `KOReader Icons`,
 and `Supplementary Icons`, with `(Color)` or `(Mono)` suffixes inside

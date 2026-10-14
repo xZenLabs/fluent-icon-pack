@@ -2,7 +2,7 @@
 
 import importlib.util
 import hashlib
-from io import BytesIO
+from io import BytesIO, StringIO
 import json
 from pathlib import Path
 import re
@@ -69,7 +69,8 @@ class BuildPacksTest(unittest.TestCase):
                     builder.main()
                     for pack, directories in selected:
                         expected = dict(metadata, id=builder.zen_id(pack.name),
-                                        name=pack.name + " for ZenOS", version=expected_version)
+                                        name=pack.name + " for ZenOS", version=expected_version,
+                                        color=pack.name != "Fluent Mono")
                         style_metadata = json.loads((pack / "pack.json").read_text())
                         self.assertEqual(dict(style_metadata, version=expected_version), expected)
                         sources = {path.name: path for directory in directories
@@ -154,6 +155,42 @@ class BuildPacksTest(unittest.TestCase):
                         self.assertEqual(root[0].attrib["transform"], recorded["transform"])
                     if "opacity" in recorded:
                         self.assertEqual(float(root[0].attrib["opacity"]), recorded["opacity"])
+
+    def test_color_metadata_survives_repository_and_direct_builds(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            output = root / "output"
+            manifest = {"version": "2.3.4", "author": "Repository artist", "color": True}
+            (root / "pack.json").write_text(json.dumps(manifest))
+            for name, color in (("Color", True), ("Mono", False)):
+                pack = root / name
+                icons = pack / "Pack Icons"
+                icons.mkdir(parents=True)
+                (icons / "home.svg").write_bytes(SVG)
+                (pack / "pack.json").write_text(json.dumps(dict(manifest, color=color)))
+            for source in (root, root / "Color", root / "Mono"):
+                with self.subTest(source=source), patch("sys.argv", [
+                        "build-zen-packs.py", str(source), "--output", str(output),
+                        "--version", "3.4.5"]):
+                    builder.main()
+                    for pack, _ in builder.pack_sources(source, output):
+                        pack_id = builder.zen_id(pack.name)
+                        with zipfile.ZipFile(output / (pack_id + ".zip")) as archive:
+                            metadata = json.loads(archive.read(pack_id + "/pack.json"))
+                            self.assertIs(metadata["color"], pack.name == "Color")
+                            self.assertEqual(metadata["version"], "3.4.5")
+                            self.assertEqual(metadata["author"], "Repository artist")
+            for manifest_path in (root / "pack.json", root / "Mono" / "pack.json"):
+                for invalid in (None, "false", 0, 1, [], {}):
+                    with self.subTest(manifest=manifest_path, color=invalid):
+                        manifest_path.write_text(json.dumps(dict(manifest, color=invalid)))
+                        with patch("sys.argv", ["build-zen-packs.py", str(root),
+                                                "--output", str(output)]):
+                            with patch("sys.stderr", new=StringIO()) as errors:
+                                with self.assertRaises(SystemExit):
+                                    builder.main()
+                            self.assertIn("color must be a boolean", errors.getvalue())
+                manifest_path.write_text(json.dumps(manifest))
 
     def test_repository_pack_json_metadata_and_cli_override(self):
         with tempfile.TemporaryDirectory() as temporary:
