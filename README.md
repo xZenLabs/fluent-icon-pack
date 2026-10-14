@@ -21,26 +21,30 @@ and contains only Microsoft Fluent artwork.
 
 Each variant is a standalone pack for ZenOS navigation and quick actions,
 KOReader controls, and ZenPM categories and package actions. Color retains the
-upstream palette and gradients. Mono uses Fluent's regular outlines in black,
+upstream color artwork and adds tinted Fluent filled shapes for missing controls.
+Mono uses Fluent's regular outlines in black,
 with a filled full-star state. Both retain native view boxes and path geometry;
 selected arrows and markers are rotated or mirrored, and alpha variants reduce
 opacity. Related actions may share a design.
 
 | Pack | Source files | SVG lookups | Screen | Release asset |
 |---|---|---|---|---|
-| **Fluent Color** | 137 | 202 | Color e-ink | `zen-fluent-color.zip` |
-| **Fluent Mono** | 192 | 270 | Black & white e-ink | `zen-fluent-mono.zip` |
+| **Fluent Color** | 151 | 222 | Color e-ink | `zen-fluent-color.zip` |
+| **Fluent Mono** | 197 | 276 | Black & white e-ink | `zen-fluent-mono.zip` |
 
-Mono also covers batteries and charging, Bluetooth, text alignment, column
-layouts, playback, night mode, power, QR codes, USB, and other controls absent
-from the Color collection. Both variants can be used on color or grayscale
-devices; choose the artwork you prefer.
+Both variants cover all 50 ZenOS `quick_` controls and `tab_` icons, excluding
+the blank spacer. Color uses Fluent filled moon, snooze, tag, battery, Bluetooth,
+power, incognito, USB, fire, leaf, chess, puzzle, and RSS shapes with matching
+gradients where the native Color collection has no design. Mono also covers
+text alignment, column layouts, playback, and QR codes. Both variants can be used
+on color or grayscale devices; choose the artwork you prefer.
 
 Unavailable designs use ZenOS and KOReader's bundled artwork. Exact reading
 direction and rotation states retain their bundled icons in both variants.
 Mono supplies open Wi-Fi strength levels and full-strength secured Wi-Fi;
 other secured signal levels retain the bundled artwork. Color has broader gaps,
-including battery levels and Bluetooth. Every source name, checksum,
+including individual battery levels and weaker Wi-Fi signals. Every source name,
+checksum,
 transformation, and omitted source lookup is recorded in the
 [Color source map](icon-sources.json) and
 [Mono source map](Fluent%20Mono/icon-sources.json). Paths in these maps are
@@ -89,7 +93,8 @@ release ZIPs when building the whole repository.
 
 The source folders mirror the Zen icon pack template: `Pack Icons`, `KOReader Icons`,
 and `Supplementary Icons`, with `(Color)` or `(Mono)` suffixes inside
-`Fluent Color/` and `Fluent Mono/`. Only lookups with suitable artwork are included.
+`Fluent Color/` and `Fluent Mono/`. Lookups use suitable native artwork or related
+Fluent shapes.
 The existing Python builder copies source SVGs unchanged, generates aliases,
 checks assets and archive limits, and writes a standalone ZIP. No Lua is needed.
 

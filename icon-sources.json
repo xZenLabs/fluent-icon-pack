@@ -244,6 +244,74 @@
       "icon": "fluent-color:puzzle-piece-24",
       "sha256": "be2fd6db8dcc1aa066fb4aefac6f2cb78eb55c4af6b15a24c529d7f0fa6c1650"
     },
+    "Fluent Color/Pack Icons (Color)/quick_battery.svg": {
+      "icon": "fluent:battery-10-24-filled",
+      "sha256": "c95d2728e4626338f47a33534f69148c9e8dc795acf58d16d9e815691f6ccfa4",
+      "gradient": [
+        "#5DDE89",
+        "#157C4B"
+      ]
+    },
+    "Fluent Color/Pack Icons (Color)/quick_bluetooth.svg": {
+      "icon": "fluent:bluetooth-24-filled",
+      "sha256": "d760961fc55ee5322b3e4b5664ca26d1bd7a6a6b054dec4a32af11360cc194b0",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ]
+    },
+    "Fluent Color/Pack Icons (Color)/quick_chess.svg": {
+      "icon": "fluent:chess-24-filled",
+      "sha256": "d177d6dca01a33e34405129467daa2754638078fbf1f2197cfa022cad88b5159",
+      "gradient": [
+        "#CB6FF7",
+        "#6F36C9"
+      ]
+    },
+    "Fluent Color/Pack Icons (Color)/quick_connections.svg": {
+      "icon": "fluent:puzzle-cube-24-filled",
+      "sha256": "0905c9160db3e63991e90295e66e06f6f78f870df9ded80151ae6c809594a3cf",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ]
+    },
+    "Fluent Color/Pack Icons (Color)/quick_exit.svg": {
+      "icon": "fluent:power-24-filled",
+      "sha256": "179f12bc9a7bd93852fba5d807ceeddcb655c1bf0e73837cbace1666e03a5c5d",
+      "gradient": [
+        "#CB6FF7",
+        "#6F36C9"
+      ]
+    },
+    "Fluent Color/Pack Icons (Color)/quick_incognito.svg": {
+      "icon": "fluent:incognito-24-filled",
+      "sha256": "e6231bf0aef40e66edcc0d22a8021d00ec46a4dd6e6495728ec8ddd2bc8a0c89",
+      "gradient": [
+        "#CB6FF7",
+        "#6F36C9"
+      ]
+    },
+    "Fluent Color/Pack Icons (Color)/quick_nightmode.svg": {
+      "icon": "fluent:weather-moon-24-filled",
+      "sha256": "3fd0ce631334450c584ccc9a29021c425fb7da72032b1c1c65151673cd2e722f",
+      "gradient": [
+        "#CB6FF7",
+        "#6F36C9"
+      ]
+    },
+    "Fluent Color/Pack Icons (Color)/quick_notion.svg": {
+      "icon": "fluent-color:notebook-24",
+      "sha256": "e013d047465df18c5d3bbb4f6c85ae561e8755925c76370d7703f89fe682cbfe"
+    },
+    "Fluent Color/Pack Icons (Color)/quick_quickrss.svg": {
+      "icon": "fluent:rss-24-filled",
+      "sha256": "e16dabf179b3d05f665aa5d8ff83414c5da7b1f4c532309962432f6e49b46c8b",
+      "gradient": [
+        "#FFD15C",
+        "#F7630C"
+      ]
+    },
     "Fluent Color/Pack Icons (Color)/quick_search.svg": {
       "icon": "fluent-color:search-sparkle-24",
       "sha256": "d6f931f7a87f62932b4262db727e8cfaf8de757d47979b4be5ac62433c15dbd8"
@@ -252,9 +320,33 @@
       "icon": "fluent-color:calendar-24",
       "sha256": "80171aabe7b736f3d265e08c759308521397cc128ef91a2703f37fcf7b7ac056"
     },
+    "Fluent Color/Pack Icons (Color)/quick_streak.svg": {
+      "icon": "fluent:fire-24-filled",
+      "sha256": "69b523091c2c705d78dff7506144926ff50cf9ae81b173ec2d2b6dd39f34ed11",
+      "gradient": [
+        "#FFD15C",
+        "#F7630C"
+      ]
+    },
+    "Fluent Color/Pack Icons (Color)/quick_usb.svg": {
+      "icon": "fluent:usb-24-filled",
+      "sha256": "420345ecadb12963398813bf91d889dd85bbcaabbfbaa5a893309a7b53426de6",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ]
+    },
     "Fluent Color/Pack Icons (Color)/quick_wifi.svg": {
       "icon": "fluent-color:wifi-24",
       "sha256": "d69f46a4f699120cf999c4f04efd18ccb8826a78727c6e87c3ebd948d9c15b3e"
+    },
+    "Fluent Color/Pack Icons (Color)/quick_zen.svg": {
+      "icon": "fluent:leaf-one-24-filled",
+      "sha256": "3bf3cbcfdcfb7c563d34cf0f6a421ffb6cc7252f29ed5127cd4d39612cb7033d",
+      "gradient": [
+        "#5DDE89",
+        "#157C4B"
+      ]
     },
     "Fluent Color/Pack Icons (Color)/quicksettings.svg": {
       "icon": "fluent-color:options-24",
@@ -305,6 +397,14 @@
     "Fluent Color/Pack Icons (Color)/tab_series.svg": {
       "icon": "fluent-color:book-open-24",
       "sha256": "f372934dab09f0539b813099898948775710fcfe20d3b702b02a18cff161ed3b"
+    },
+    "Fluent Color/Pack Icons (Color)/tab_tags.svg": {
+      "icon": "fluent:tag-24-filled",
+      "sha256": "071d6382cc896acd0a7377e8b654dccd325978191ab2ae9ce588ab26dc5f2291",
+      "gradient": [
+        "#CB6FF7",
+        "#6F36C9"
+      ]
     },
     "Fluent Color/Pack Icons (Color)/tab_to_be_read.svg": {
       "icon": "fluent-color:bookmark-24",
@@ -515,6 +615,14 @@
       "icon": "fluent-color:fast-forward-circle-24",
       "sha256": "620b9559ba830755094863a476f3a321cf49d34c3cb7f0d4fac3f206ab6cea72"
     },
+    "Fluent Color/Supplementary Icons (Color)/sleep.svg": {
+      "icon": "fluent:snooze-24-filled",
+      "sha256": "63d5b6d4d0e7e120411cdf20a6b1687bb26f1aa058dc09225f2030e1ccab0362",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ]
+    },
     "Fluent Color/Supplementary Icons (Color)/sort.svg": {
       "icon": "fluent-color:data-bar-vertical-ascending-24",
       "sha256": "6da7e1c8aeede58d6814a0c4a967b9332d32db3fc78f4bcb3391a8a7e189354c"
@@ -621,14 +729,6 @@
     "notice-info",
     "patch",
     "qrcode",
-    "quick_battery",
-    "quick_bluetooth",
-    "quick_exit",
-    "quick_incognito",
-    "quick_nightmode",
-    "quick_streak",
-    "quick_usb",
-    "quick_zen",
     "rotation.0UR",
     "rotation.180UD",
     "rotation.90CCW",
@@ -641,9 +741,7 @@
     "rotation.P.180UD",
     "rotation.P.90CCW",
     "rotation.P.90CW",
-    "sleep",
     "sort_desc",
-    "tab_tags",
     "texture-box",
     "trash",
     "triangle",
@@ -662,5 +760,13 @@
     "zoom.content",
     "zoom.page",
     "zoom.row"
+  ],
+  "additional_sources": [
+    {
+      "prefix": "fluent",
+      "revision": "c455eb6232ac0fa657550afb512af55fb8237ed6",
+      "source": "https://github.com/iconify/icon-sets/blob/c455eb6232ac0fa657550afb512af55fb8237ed6/json/fluent.json",
+      "source_sha256": "0a04bfa54816df138374702241e8ce618a001ad1b3fb3c7c1bc53061eca5c0b0"
+    }
   ]
 }

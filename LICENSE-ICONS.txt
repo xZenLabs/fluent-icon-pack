@@ -15,8 +15,11 @@ https://github.com/iconify/icon-sets/blob/c455eb6232ac0fa657550afb512af55fb8237e
 
 Changes: wrapped the Iconify SVG bodies in standalone SVG documents, renamed
 files for supported lookups, and rotated selected arrows and markers.
-Native view boxes and color palettes are preserved. Similar designs are reused
-for related actions. Unavailable controls retain the bundled interface artwork.
+Native view boxes and existing Color palettes are preserved. Missing Color
+controls use Fluent filled path geometry from the same pinned fluent.json
+collection, tinted with matching gradients. These adaptations and gradient colors
+are recorded in icon-sources.json. Similar designs are reused for related
+actions. Unavailable controls retain the bundled interface artwork.
 icon-sources.json records Color mappings. Fluent Mono/icon-sources.json records
 Mono mappings, including source names, rotations, mirroring, checksums, and
 fallbacks. Mono uses regular outlines, a filled full-star state, explicit black

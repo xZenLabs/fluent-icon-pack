@@ -346,6 +346,14 @@
       "icon": "fluent:puzzle-piece-24-regular",
       "sha256": "2d81b5b4c46f3ee95e55d4489160f1e367465b7aa527759a7e37211c8cdfc0eb"
     },
+    "Fluent Mono/Pack Icons (Mono)/quick_chess.svg": {
+      "icon": "fluent:chess-24-regular",
+      "sha256": "16773296ac3cba66acfc91c3dd0ac96d1567543b6e63584a8de4a0fa03833fd7"
+    },
+    "Fluent Mono/Pack Icons (Mono)/quick_connections.svg": {
+      "icon": "fluent:puzzle-cube-24-regular",
+      "sha256": "8c214627513adba90ec4541f71cf4c33d29346f7e4b4c0dbecfe4a51aecd2ace"
+    },
     "Fluent Mono/Pack Icons (Mono)/quick_exit.svg": {
       "icon": "fluent:power-24-regular",
       "sha256": "9f7aca16c35c88ec03c8a1f7bcb8da1b2f896a01f88c0a3e2afc40b61633637e"
@@ -353,6 +361,14 @@
     "Fluent Mono/Pack Icons (Mono)/quick_nightmode.svg": {
       "icon": "fluent:weather-moon-24-regular",
       "sha256": "586db0a06fa2ba5fc2b71f79788efccdb86d923d82dc093f0e5573a2cf95cc72"
+    },
+    "Fluent Mono/Pack Icons (Mono)/quick_notion.svg": {
+      "icon": "fluent:notebook-24-regular",
+      "sha256": "7efd011d66e07d46228d369e70a5813088a77a7ae625c31b4749b20418f59ec5"
+    },
+    "Fluent Mono/Pack Icons (Mono)/quick_quickrss.svg": {
+      "icon": "fluent:rss-24-regular",
+      "sha256": "fec6c3f337ed4ba7768dc6677da272f8c16e47427ada5184af80e0172b8c72ba"
     },
     "Fluent Mono/Pack Icons (Mono)/quick_search.svg": {
       "icon": "fluent:search-sparkle-24-regular",
@@ -365,6 +381,10 @@
     "Fluent Mono/Pack Icons (Mono)/quick_wifi.svg": {
       "icon": "fluent:wifi-1-24-regular",
       "sha256": "1f801347680879e5fb94e751b0c8dd99eb88d8ac421f72a79ac03f679d657594"
+    },
+    "Fluent Mono/Pack Icons (Mono)/quick_zen.svg": {
+      "icon": "fluent:leaf-one-24-regular",
+      "sha256": "35f8e5d95961ac658cecc8bc74adb259cdba1ce93a1d8a2353dac0c97974d372"
     },
     "Fluent Mono/Pack Icons (Mono)/quicksettings.svg": {
       "icon": "fluent:options-24-regular",
@@ -797,7 +817,6 @@
     "direction.RLTB",
     "direction.TBLR",
     "direction.TBRL",
-    "quick_zen",
     "rotation.0UR",
     "rotation.180UD",
     "rotation.90CCW",

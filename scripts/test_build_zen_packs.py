@@ -43,6 +43,10 @@ class BuildPacksTest(unittest.TestCase):
             plugin productivity reference refresh reinstall remove remove_queue scan_plugins
             search settings settings_advanced sources star star.filled theme title
             unverified update upgrade utility verified wallabag wallpaper zenpm
+            quick_aa quick_battery quick_bluetooth quick_calibre quick_calibre_dark quick_chess
+            quick_connections quick_crossword quick_exit quick_filebrowser quick_incognito quick_nightmode
+            quick_notion quick_quickrss quick_restart quick_sleep quick_streak quick_usb
+            quick_zen quick_zlib tab_exit tab_folder tab_tags
         """.split())
         mono_required = set("""
             align.auto align.center align.justify align.left align.right
@@ -53,7 +57,7 @@ class BuildPacksTest(unittest.TestCase):
             sort_desc trash usb warmth column.one column.two column.three
             wifi.open.0 wifi.open.25 wifi.open.50 wifi.open.75 wifi.secure.100
         """.split())
-        expected_counts = {"Fluent Color": 202, "Fluent Mono": 270}
+        expected_counts = {"Fluent Color": 222, "Fluent Mono": 276}
         metadata = json.loads((builder.ROOT / "pack.json").read_text())
         with tempfile.TemporaryDirectory() as temporary:
             output = Path(temporary)
@@ -88,8 +92,7 @@ class BuildPacksTest(unittest.TestCase):
                             required_names = required | (mono_required if pack.name == "Fluent Mono" else set())
                             self.assertFalse(required_names - names, sorted(required_names - names))
                             self.assertFalse(set(provenance["bundled_fallbacks"]) & names)
-                            self.assertFalse({"quick_chess", "quick_connections", "quick_notion",
-                                              "quick_quickrss", "tab_spacer"} & names)
+                            self.assertNotIn("tab_spacer", names)
                             self.assertEqual(len(archive.namelist()), len(set(archive.namelist())))
                             self.assertIsNone(archive.testzip())
                             self.assertFalse(any(name.endswith(".lua") for name in archive.namelist()))
@@ -134,7 +137,10 @@ class BuildPacksTest(unittest.TestCase):
                 with self.subTest(icon=relative):
                     data = (builder.ROOT / relative).read_bytes()
                     self.assertEqual(hashlib.sha256(data).hexdigest(), recorded["sha256"])
-                    self.assertTrue(recorded["icon"].startswith(provenance["prefix"] + ":"))
+                    prefixes = {provenance["prefix"]} | {
+                        item["prefix"] for item in provenance.get("additional_sources", [])
+                    }
+                    self.assertIn(recorded["icon"].split(":", 1)[0], prefixes)
                     root = ET.fromstring(data)
                     self.assertEqual(root.tag, "{http://www.w3.org/2000/svg}svg")
                     self.assertTrue(all(float(value) > 0 for value in root.attrib["viewBox"].split()[2:]))
@@ -151,6 +157,11 @@ class BuildPacksTest(unittest.TestCase):
                                 self.assertIn(value[1:], ids)
                             for reference in re.findall(r"url\(#([^)]+)\)", value):
                                 self.assertIn(reference, ids)
+                    if "gradient" in recorded:
+                        stops = root.findall(".//{http://www.w3.org/2000/svg}stop")
+                        self.assertEqual([stop.attrib["stop-color"] for stop in stops],
+                                         recorded["gradient"])
+                        self.assertNotIn(b"currentColor", data)
                     if "transform" in recorded:
                         self.assertEqual(root[0].attrib["transform"], recorded["transform"])
                     if "opacity" in recorded:
