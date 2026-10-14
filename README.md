@@ -4,18 +4,18 @@ Replacement icons for [ZenOS](https://github.com/xZenLabs/zen-os), KOReader, and
 ZenPM, packaged by [ZenLabs](https://github.com/xZenLabs) from
 [Microsoft's Fluent Color icons](https://icon-sets.iconify.design/fluent-color/) and
 [Fluent UI System Icons](https://icon-sets.iconify.design/fluent/).
-This repository uses the [Solar pack](https://github.com/xZenLabs/solariconpack-zen)
-as its packaging template and contains only Microsoft Fluent artwork.
+This repository uses the [Zen icon pack template](https://github.com/xZenLabs/icon-pack-template)
+and contains only Microsoft Fluent artwork.
 
 ## Icon overviews
 
 ### Fluent Color
 
-![Fluent Color: all source icons with filenames](.github/overview-fluent-color.png)
+![Fluent Color: selected KOReader controls, library tabs, and common actions](.github/overview-fluent-color.png)
 
 ### Fluent Mono
 
-![Fluent Mono: all source icons with filenames](.github/overview-fluent-mono.png)
+![Fluent Mono: selected KOReader controls, library tabs, and common actions](.github/overview-fluent-mono.png)
 
 ## What's included
 
@@ -87,7 +87,7 @@ Each pack manifest includes `"color": true` for colour artwork or
 `"color": false` for monochrome artwork. Per-style values are retained in the
 release ZIPs when building the whole repository.
 
-The source folders mirror the Solar template: `Pack Icons`, `KOReader Icons`,
+The source folders mirror the Zen icon pack template: `Pack Icons`, `KOReader Icons`,
 and `Supplementary Icons`, with `(Color)` or `(Mono)` suffixes inside
 `Fluent Color/` and `Fluent Mono/`. Only lookups with suitable artwork are included.
 The existing Python builder copies source SVGs unchanged, generates aliases,
@@ -133,13 +133,13 @@ release tags. Release runs are serialized. The initial source version is `1.0.0`
   and [Mono](https://github.com/iconify/icon-sets/blob/c455eb6232ac0fa657550afb512af55fb8237ed6/json/fluent.json),
   both pinned to Iconify revision `c455eb6232ac`.
 - **Packaging:** [ZenLabs](https://github.com/xZenLabs), using the
-  [Solar repository template](https://github.com/xZenLabs/solariconpack-zen).
+  [Zen icon pack template](https://github.com/xZenLabs/icon-pack-template).
 - **Repository code:** AGPL-3.0; see [LICENSE](LICENSE). Icon licensing is separate;
   retain [LICENSE-ICONS.txt](LICENSE-ICONS.txt) when redistributing the pack.
 
 Changes are limited to standalone SVG wrappers, lookup filenames, selected
 rotations, mirroring and opacity, explicit black currentColor for Mono, and
-build-time aliases. No Solar artwork is redistributed.
+build-time aliases.
 Not affiliated with or endorsed by Microsoft, KOReader, or Iconify.
 
 ## Support
