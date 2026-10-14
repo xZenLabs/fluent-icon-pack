@@ -1,0 +1,59 @@
+Fluent UI System Color Icons and Fluent UI System Icons by Microsoft Corporation.
+https://github.com/microsoft/fluentui-system-icons
+https://icon-sets.iconify.design/fluent-color/
+https://icon-sets.iconify.design/fluent/
+
+Icon artwork is licensed under MIT:
+https://github.com/microsoft/fluentui-system-icons/blob/main/LICENSE
+
+Packaged for ZenOS, KOReader, and ZenPM by xZenLabs:
+https://github.com/xZenLabs/fluent-icon-pack
+
+SVG bodies, gradients, and original colors are retained from Iconify's
+collection at revision c455eb6232ac0fa657550afb512af55fb8237ed6:
+https://github.com/iconify/icon-sets/blob/c455eb6232ac0fa657550afb512af55fb8237ed6/json/fluent-color.json
+
+Changes: wrapped the Iconify SVG bodies in standalone SVG documents, renamed
+files for supported lookups, and rotated selected arrows and markers.
+Native view boxes and color palettes are preserved. Similar designs are reused
+for related actions. Unavailable controls retain the bundled interface artwork.
+icon-sources.json records Color mappings. Fluent Mono/icon-sources.json records
+Mono mappings, including source names, rotations, mirroring, checksums, and
+fallbacks. Mono uses regular outlines, a filled full-star state, explicit black
+currentColor, and reduced opacity for alpha variants.
+The Python builder generates additional aliases without changing the SVGs.
+
+The packaging scripts and release workflow are based on xZenLabs' Solar template:
+https://github.com/xZenLabs/solariconpack-zen
+Mono source collection:
+https://github.com/iconify/icon-sets/blob/c455eb6232ac0fa657550afb512af55fb8237ed6/json/fluent.json
+
+No Solar icon artwork is included. Repository code is licensed under AGPL-3.0;
+this does not change the separate license of the icons.
+
+Retain this attribution and the icon license when redistributing the pack.
+Not affiliated with or endorsed by Microsoft Corporation, KOReader, or Iconify.
+
+Full upstream MIT license:
+
+MIT License
+
+Copyright (c) 2020 Microsoft Corporation
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
