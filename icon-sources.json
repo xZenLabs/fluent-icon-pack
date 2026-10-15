@@ -9,242 +9,37 @@
     "url": "https://github.com/microsoft/fluentui-system-icons/blob/main/LICENSE"
   },
   "icons": {
-    "Fluent Color/KOReader Icons (Color)/appbar.filebrowser.svg": {
-      "icon": "fluent-color:document-folder-24",
-      "sha256": "ef49d24fc4b86d4e3e30e1827f1d01dce8c714bf2fc5e62401700559c903b428"
-    },
-    "Fluent Color/KOReader Icons (Color)/appbar.menu.svg": {
-      "icon": "fluent-color:text-bullet-list-square-24",
-      "sha256": "23f5fe47b7448d10984bce796ee8a9c6ee5057c330f18eb8aedf8346a69cbc56"
-    },
-    "Fluent Color/KOReader Icons (Color)/appbar.pageview.svg": {
-      "icon": "fluent-color:document-24",
-      "sha256": "8d4b587d0d6f561808728d87388945fd8d45aa167df5689fc1a71263b9e22c62"
-    },
-    "Fluent Color/KOReader Icons (Color)/appbar.rotation.svg": {
-      "icon": "fluent-color:arrow-clockwise-dashes-24",
-      "sha256": "3e83bf517a92a3fce1d86134c8e85779616ebd93f96f03a5005b535dd265c35a"
-    },
-    "Fluent Color/KOReader Icons (Color)/appbar.search.svg": {
-      "icon": "fluent-color:search-sparkle-24",
-      "sha256": "d6f931f7a87f62932b4262db727e8cfaf8de757d47979b4be5ac62433c15dbd8"
-    },
-    "Fluent Color/KOReader Icons (Color)/appbar.settings.svg": {
-      "icon": "fluent-color:settings-24",
-      "sha256": "8fea350f930c100310ace8d813647d814e220d1f056d4521111947d8c41da739"
-    },
-    "Fluent Color/KOReader Icons (Color)/appbar.textsize.svg": {
-      "icon": "fluent-color:text-edit-style-24",
-      "sha256": "f7dbdd64c7c9fbb233e75a3d8d0701b7a4782d50cbad903967cdea37f0c12cb8"
-    },
-    "Fluent Color/KOReader Icons (Color)/appbar.tools.svg": {
-      "icon": "fluent-color:toolbox-24",
-      "sha256": "5fdd1b9b9bd9451956ad77f098d38ef5438b4ec031f3db1c6cc9a9dc9ed0c6a1"
-    },
-    "Fluent Color/KOReader Icons (Color)/appbar.typeset.svg": {
-      "icon": "fluent-color:document-text-24",
-      "sha256": "907fb0e752e1228e7b99308e0bfa56f35987d359b9f09de14e866f7543f67b40"
-    },
-    "Fluent Color/KOReader Icons (Color)/back.top.rtl.svg": {
-      "icon": "fluent-color:arrow-square-down-24",
-      "sha256": "33eab013e307956d93eeeec034897aa0f03606c21f7c22ef00751547f51056b2",
-      "transform": "rotate(270 12 12)"
-    },
-    "Fluent Color/KOReader Icons (Color)/back.top.svg": {
-      "icon": "fluent-color:arrow-square-down-24",
-      "sha256": "f82f5976f97c9bf928d31565901227b019f5d52daf019c8a9cedc1c842749afc",
-      "transform": "rotate(90 12 12)"
-    },
-    "Fluent Color/KOReader Icons (Color)/book.opened.svg": {
-      "icon": "fluent-color:book-open-24",
-      "sha256": "f372934dab09f0539b813099898948775710fcfe20d3b702b02a18cff161ed3b"
-    },
-    "Fluent Color/KOReader Icons (Color)/bookmark.svg": {
-      "icon": "fluent-color:bookmark-24",
-      "sha256": "8bc25e92d26fe2ea8ffa4d278b3b50f05da3d6dd52b5e508fe6683d644343674"
-    },
-    "Fluent Color/KOReader Icons (Color)/cancel.svg": {
-      "icon": "fluent-color:dismiss-circle-24",
-      "sha256": "0027f040d3f19ff8f3129d7e615b89dc8da5c8cd6be42106ac2b2decd7985449"
-    },
-    "Fluent Color/KOReader Icons (Color)/check.svg": {
+    "Fluent Color/controls/checkmark.svg": {
       "icon": "fluent-color:checkmark-circle-24",
       "sha256": "8bd59298add0abc9e020a00933d5c94bfbc818d64d22defc81bcbd6f4cfe8317"
     },
-    "Fluent Color/KOReader Icons (Color)/chevron.first.svg": {
-      "icon": "fluent-color:arrow-square-down-24",
-      "sha256": "f82f5976f97c9bf928d31565901227b019f5d52daf019c8a9cedc1c842749afc",
-      "transform": "rotate(90 12 12)"
-    },
-    "Fluent Color/KOReader Icons (Color)/chevron.last.svg": {
-      "icon": "fluent-color:arrow-square-down-24",
-      "sha256": "33eab013e307956d93eeeec034897aa0f03606c21f7c22ef00751547f51056b2",
-      "transform": "rotate(270 12 12)"
-    },
-    "Fluent Color/KOReader Icons (Color)/chevron.left.svg": {
-      "icon": "fluent-color:arrow-square-down-24",
-      "sha256": "f82f5976f97c9bf928d31565901227b019f5d52daf019c8a9cedc1c842749afc",
-      "transform": "rotate(90 12 12)"
-    },
-    "Fluent Color/KOReader Icons (Color)/chevron.right.svg": {
-      "icon": "fluent-color:arrow-square-down-24",
-      "sha256": "33eab013e307956d93eeeec034897aa0f03606c21f7c22ef00751547f51056b2",
-      "transform": "rotate(270 12 12)"
-    },
-    "Fluent Color/KOReader Icons (Color)/chevron.up.svg": {
-      "icon": "fluent-color:arrow-square-down-24",
-      "sha256": "caedcc2a3beec50d027e9a40057bb1cbf261154890dd77779a9a08aafeba817f",
-      "transform": "rotate(180 12 12)"
-    },
-    "Fluent Color/KOReader Icons (Color)/close.svg": {
+    "Fluent Color/controls/clear.svg": {
       "icon": "fluent-color:dismiss-circle-24",
       "sha256": "0027f040d3f19ff8f3129d7e615b89dc8da5c8cd6be42106ac2b2decd7985449"
     },
-    "Fluent Color/KOReader Icons (Color)/control.collapse.svg": {
-      "icon": "fluent-color:arrow-square-down-24",
-      "sha256": "da96bebc1243c834672a9d8fa025a6a23251cf16203b28c1e204f0fb53822b12"
-    },
-    "Fluent Color/KOReader Icons (Color)/control.expand.alpha.svg": {
-      "icon": "fluent-color:arrow-square-down-24",
-      "sha256": "f7f9c013d81365131e90be58a3d76db4fa20f698e9673530720149c92c35ffb0",
-      "transform": "rotate(180 12 12)",
-      "opacity": 0.3
-    },
-    "Fluent Color/KOReader Icons (Color)/control.expand.svg": {
-      "icon": "fluent-color:arrow-square-down-24",
-      "sha256": "caedcc2a3beec50d027e9a40057bb1cbf261154890dd77779a9a08aafeba817f",
-      "transform": "rotate(180 12 12)"
-    },
-    "Fluent Color/KOReader Icons (Color)/cre.render.ready.svg": {
-      "icon": "fluent-color:checkmark-circle-24",
-      "sha256": "8bd59298add0abc9e020a00933d5c94bfbc818d64d22defc81bcbd6f4cfe8317"
-    },
-    "Fluent Color/KOReader Icons (Color)/cre.render.reload.alpha.svg": {
-      "icon": "fluent-color:arrow-sync-24",
-      "sha256": "8c77ffbdf920886efca754e801f7c26adf96a59b23d92c1286e9ed7a8a89a680",
-      "opacity": 0.3
-    },
-    "Fluent Color/KOReader Icons (Color)/cre.render.reload.svg": {
-      "icon": "fluent-color:arrow-sync-24",
-      "sha256": "46e4da8483138e8122efe61f2b32f707f0574c08b8400ff926f927116f5af3d7"
-    },
-    "Fluent Color/KOReader Icons (Color)/cre.render.working.svg": {
-      "icon": "fluent-color:arrow-clockwise-dashes-24",
-      "sha256": "3e83bf517a92a3fce1d86134c8e85779616ebd93f96f03a5005b535dd265c35a"
-    },
-    "Fluent Color/KOReader Icons (Color)/dogear.alpha.svg": {
-      "icon": "fluent-color:bookmark-24",
-      "sha256": "a1b51434e283e2f13bc3a704675ccb3b0be448c081327c713d486089139cd572",
-      "opacity": 0.3
-    },
-    "Fluent Color/KOReader Icons (Color)/dogear.opaque.svg": {
-      "icon": "fluent-color:bookmark-24",
-      "sha256": "8bc25e92d26fe2ea8ffa4d278b3b50f05da3d6dd52b5e508fe6683d644343674"
-    },
-    "Fluent Color/KOReader Icons (Color)/dogear.reading.svg": {
-      "icon": "fluent-color:bookmark-24",
-      "sha256": "8bc25e92d26fe2ea8ffa4d278b3b50f05da3d6dd52b5e508fe6683d644343674"
-    },
-    "Fluent Color/KOReader Icons (Color)/edit.svg": {
-      "icon": "fluent-color:edit-24",
-      "sha256": "8ff062d6a12b09fcf022666f40daba79e51cde2748614f7d626fd8f999bb542b"
-    },
-    "Fluent Color/KOReader Icons (Color)/exit.svg": {
+    "Fluent Color/controls/close_light.svg": {
       "icon": "fluent-color:dismiss-circle-24",
       "sha256": "0027f040d3f19ff8f3129d7e615b89dc8da5c8cd6be42106ac2b2decd7985449"
     },
-    "Fluent Color/KOReader Icons (Color)/home.svg": {
-      "icon": "fluent-color:home-24",
-      "sha256": "969e086029c51affc1432c20dbbef4237aa0f44f2131bb95598203c17321a2a4"
-    },
-    "Fluent Color/KOReader Icons (Color)/move.down.svg": {
-      "icon": "fluent-color:arrow-square-down-24",
-      "sha256": "da96bebc1243c834672a9d8fa025a6a23251cf16203b28c1e204f0fb53822b12"
-    },
-    "Fluent Color/KOReader Icons (Color)/move.up.svg": {
-      "icon": "fluent-color:arrow-square-down-24",
-      "sha256": "caedcc2a3beec50d027e9a40057bb1cbf261154890dd77779a9a08aafeba817f",
-      "transform": "rotate(180 12 12)"
-    },
-    "Fluent Color/KOReader Icons (Color)/notice-question.svg": {
-      "icon": "fluent-color:question-circle-24",
-      "sha256": "2e075d63ec68f4accf08a03980f6aed1b325a15fe8b79c2ea49e5a1798eaf31d"
-    },
-    "Fluent Color/KOReader Icons (Color)/notice-warning.svg": {
-      "icon": "fluent-color:warning-24",
-      "sha256": "9f7bf31cc7c9c31517c15517c90016a7ae5d9de415aa362e2a6e4a7a34545be9"
-    },
-    "Fluent Color/KOReader Icons (Color)/plus.svg": {
-      "icon": "fluent-color:add-circle-24",
-      "sha256": "31a6a1f0274ca4aec5e19c542eae30e6bb79e594ab27e788b2ed1b2765363b6f"
-    },
-    "Fluent Color/KOReader Icons (Color)/position.marker.svg": {
-      "icon": "fluent-color:pin-24",
-      "sha256": "dbcfaf485aa58b02e506e1a938fed0716d4d84b14ca361bdf91865342ed240eb"
-    },
-    "Fluent Color/KOReader Icons (Color)/position.marker.top.svg": {
-      "icon": "fluent-color:pin-24",
-      "sha256": "af237595931685acd2dd35af0da0530706d038af944a6b4f9b389ba99e8f9c22",
-      "transform": "rotate(180 12 12)"
-    },
-    "Fluent Color/KOReader Icons (Color)/star.empty.svg": {
-      "icon": "fluent-color:star-24",
-      "sha256": "3eb58770f28ab7dd2155a21c77cdc993484e77e27107abc29a86da15498b73c6"
-    },
-    "Fluent Color/KOReader Icons (Color)/star.full.svg": {
-      "icon": "fluent-color:star-24",
-      "sha256": "3eb58770f28ab7dd2155a21c77cdc993484e77e27107abc29a86da15498b73c6"
-    },
-    "Fluent Color/KOReader Icons (Color)/star.white.svg": {
-      "icon": "fluent-color:star-24",
-      "sha256": "3eb58770f28ab7dd2155a21c77cdc993484e77e27107abc29a86da15498b73c6"
-    },
-    "Fluent Color/KOReader Icons (Color)/wifi.open.100.svg": {
-      "icon": "fluent-color:wifi-24",
-      "sha256": "d69f46a4f699120cf999c4f04efd18ccb8826a78727c6e87c3ebd948d9c15b3e"
-    },
-    "Fluent Color/KOReader Icons (Color)/wifi.svg": {
-      "icon": "fluent-color:wifi-24",
-      "sha256": "d69f46a4f699120cf999c4f04efd18ccb8826a78727c6e87c3ebd948d9c15b3e"
-    },
-    "Fluent Color/KOReader Icons (Color)/zoom.manual.svg": {
-      "icon": "fluent-color:search-visual-24",
-      "sha256": "920e7c6dd9e0ec971ffb81bc0607daa453e03bf8f2a9f00958360ad4bab020a1"
-    },
-    "Fluent Color/Pack Icons (Color)/app_menu.svg": {
-      "icon": "fluent-color:text-bullet-list-square-24",
-      "sha256": "23f5fe47b7448d10984bce796ee8a9c6ee5057c330f18eb8aedf8346a69cbc56"
-    },
-    "Fluent Color/Pack Icons (Color)/coll_back.svg": {
+    "Fluent Color/controls/coll_back.svg": {
       "icon": "fluent-color:arrow-square-down-24",
       "sha256": "f82f5976f97c9bf928d31565901227b019f5d52daf019c8a9cedc1c842749afc",
       "transform": "rotate(90 12 12)"
     },
-    "Fluent Color/Pack Icons (Color)/folder.svg": {
-      "icon": "fluent-color:document-folder-24",
-      "sha256": "ef49d24fc4b86d4e3e30e1827f1d01dce8c714bf2fc5e62401700559c903b428"
+    "Fluent Color/controls/large_chevron_up.svg": {
+      "icon": "fluent-color:arrow-square-down-24",
+      "sha256": "caedcc2a3beec50d027e9a40057bb1cbf261154890dd77779a9a08aafeba817f",
+      "transform": "rotate(180 12 12)"
     },
-    "Fluent Color/Pack Icons (Color)/homescreen.svg": {
-      "icon": "fluent-color:home-24",
-      "sha256": "969e086029c51affc1432c20dbbef4237aa0f44f2131bb95598203c17321a2a4"
+    "Fluent Color/controls/more_vertical.svg": {
+      "icon": "fluent-color:chat-more-24",
+      "sha256": "bb989e1ae15c64aa709ef540772217787acd8a5f7569ce967e8ef3983ff61ac3"
     },
-    "Fluent Color/Pack Icons (Color)/library.svg": {
-      "icon": "fluent-color:library-24",
-      "sha256": "e192363b9d398811f35088783f0e2ac24cff259cd4e22e0d571be3ad4355a951"
+    "Fluent Color/controls/quick_aa.svg": {
+      "icon": "fluent-color:bot-sparkle-24",
+      "sha256": "dcbb79f5c8d3afeffdac554adf0e05b1b329347c3d40c10fdc74f8ca9c4221b1"
     },
-    "Fluent Color/Pack Icons (Color)/lightbulb.svg": {
-      "icon": "fluent-color:lightbulb-24",
-      "sha256": "d2d878b75c11bb89dbc0627bf8d91d90f79265482889987c5e2f2ae35734fb4f"
-    },
-    "Fluent Color/Pack Icons (Color)/qa_group.svg": {
-      "icon": "fluent-color:people-team-24",
-      "sha256": "7de4b9a68f6ffd57ae145bd1247d35c10775bf783067bc07eb37e03527329d00"
-    },
-    "Fluent Color/Pack Icons (Color)/qa_plugin.svg": {
-      "icon": "fluent-color:puzzle-piece-24",
-      "sha256": "be2fd6db8dcc1aa066fb4aefac6f2cb78eb55c4af6b15a24c529d7f0fa6c1650"
-    },
-    "Fluent Color/Pack Icons (Color)/quick_battery.svg": {
+    "Fluent Color/controls/quick_battery.svg": {
       "icon": "fluent:battery-10-24-filled",
       "sha256": "c95d2728e4626338f47a33534f69148c9e8dc795acf58d16d9e815691f6ccfa4",
       "gradient": [
@@ -252,7 +47,7 @@
         "#157C4B"
       ]
     },
-    "Fluent Color/Pack Icons (Color)/quick_bluetooth.svg": {
+    "Fluent Color/controls/quick_bluetooth.svg": {
       "icon": "fluent:bluetooth-24-filled",
       "sha256": "d760961fc55ee5322b3e4b5664ca26d1bd7a6a6b054dec4a32af11360cc194b0",
       "gradient": [
@@ -260,7 +55,15 @@
         "#0F6CBD"
       ]
     },
-    "Fluent Color/Pack Icons (Color)/quick_chess.svg": {
+    "Fluent Color/controls/quick_calibre.svg": {
+      "icon": "fluent-color:library-24",
+      "sha256": "e192363b9d398811f35088783f0e2ac24cff259cd4e22e0d571be3ad4355a951"
+    },
+    "Fluent Color/controls/quick_calibre_dark.svg": {
+      "icon": "fluent-color:library-24",
+      "sha256": "e192363b9d398811f35088783f0e2ac24cff259cd4e22e0d571be3ad4355a951"
+    },
+    "Fluent Color/controls/quick_chess.svg": {
       "icon": "fluent:chess-24-filled",
       "sha256": "d177d6dca01a33e34405129467daa2754638078fbf1f2197cfa022cad88b5159",
       "gradient": [
@@ -268,7 +71,11 @@
         "#6F36C9"
       ]
     },
-    "Fluent Color/Pack Icons (Color)/quick_connections.svg": {
+    "Fluent Color/controls/quick_cloud.svg": {
+      "icon": "fluent-color:cloud-24",
+      "sha256": "bf2556a068c79a8a5e24542dedbaaf68a3a23aa1f80ef1ed3ac538c78fd09050"
+    },
+    "Fluent Color/controls/quick_connections.svg": {
       "icon": "fluent:puzzle-cube-24-filled",
       "sha256": "0905c9160db3e63991e90295e66e06f6f78f870df9ded80151ae6c809594a3cf",
       "gradient": [
@@ -276,7 +83,11 @@
         "#0F6CBD"
       ]
     },
-    "Fluent Color/Pack Icons (Color)/quick_exit.svg": {
+    "Fluent Color/controls/quick_crossword.svg": {
+      "icon": "fluent-color:table-24",
+      "sha256": "4257bdd1dc454c92cce43cab26eb777c551be7dedc0a819d56fd56f883c88558"
+    },
+    "Fluent Color/controls/quick_exit.svg": {
       "icon": "fluent:power-24-filled",
       "sha256": "179f12bc9a7bd93852fba5d807ceeddcb655c1bf0e73837cbace1666e03a5c5d",
       "gradient": [
@@ -284,7 +95,11 @@
         "#6F36C9"
       ]
     },
-    "Fluent Color/Pack Icons (Color)/quick_incognito.svg": {
+    "Fluent Color/controls/quick_filebrowser.svg": {
+      "icon": "fluent-color:document-folder-24",
+      "sha256": "ef49d24fc4b86d4e3e30e1827f1d01dce8c714bf2fc5e62401700559c903b428"
+    },
+    "Fluent Color/controls/quick_incognito.svg": {
       "icon": "fluent:incognito-24-filled",
       "sha256": "e6231bf0aef40e66edcc0d22a8021d00ec46a4dd6e6495728ec8ddd2bc8a0c89",
       "gradient": [
@@ -292,7 +107,15 @@
         "#6F36C9"
       ]
     },
-    "Fluent Color/Pack Icons (Color)/quick_nightmode.svg": {
+    "Fluent Color/controls/quick_localsend.svg": {
+      "icon": "fluent-color:share-android-24",
+      "sha256": "ca2fffb8ca5b766501887bdce2ff533b9a66a7c68481c9f7aed6b3382832628e"
+    },
+    "Fluent Color/controls/quick_lockdown.svg": {
+      "icon": "fluent-color:lock-shield-24",
+      "sha256": "37c6c54a21b5b1e143635480ccef66a21ab2a198417450d5d1c62a1abfed37d1"
+    },
+    "Fluent Color/controls/quick_nightmode.svg": {
       "icon": "fluent:weather-moon-24-filled",
       "sha256": "3fd0ce631334450c584ccc9a29021c425fb7da72032b1c1c65151673cd2e722f",
       "gradient": [
@@ -300,11 +123,19 @@
         "#6F36C9"
       ]
     },
-    "Fluent Color/Pack Icons (Color)/quick_notion.svg": {
+    "Fluent Color/controls/quick_notion.svg": {
       "icon": "fluent-color:notebook-24",
       "sha256": "e013d047465df18c5d3bbb4f6c85ae561e8755925c76370d7703f89fe682cbfe"
     },
-    "Fluent Color/Pack Icons (Color)/quick_quickrss.svg": {
+    "Fluent Color/controls/quick_opds.svg": {
+      "icon": "fluent-color:globe-24",
+      "sha256": "6db557499580c8ae77fa84369cea7e567834bc02d003f08fe9a85469832c0373"
+    },
+    "Fluent Color/controls/quick_puzzle.svg": {
+      "icon": "fluent-color:puzzle-piece-24",
+      "sha256": "be2fd6db8dcc1aa066fb4aefac6f2cb78eb55c4af6b15a24c529d7f0fa6c1650"
+    },
+    "Fluent Color/controls/quick_quickrss.svg": {
       "icon": "fluent:rss-24-filled",
       "sha256": "e16dabf179b3d05f665aa5d8ff83414c5da7b1f4c532309962432f6e49b46c8b",
       "gradient": [
@@ -312,310 +143,23 @@
         "#F7630C"
       ]
     },
-    "Fluent Color/Pack Icons (Color)/quick_search.svg": {
-      "icon": "fluent-color:search-sparkle-24",
-      "sha256": "d6f931f7a87f62932b4262db727e8cfaf8de757d47979b4be5ac62433c15dbd8"
-    },
-    "Fluent Color/Pack Icons (Color)/quick_stats_calendar.svg": {
-      "icon": "fluent-color:calendar-24",
-      "sha256": "80171aabe7b736f3d265e08c759308521397cc128ef91a2703f37fcf7b7ac056"
-    },
-    "Fluent Color/Pack Icons (Color)/quick_streak.svg": {
-      "icon": "fluent:fire-24-filled",
-      "sha256": "69b523091c2c705d78dff7506144926ff50cf9ae81b173ec2d2b6dd39f34ed11",
-      "gradient": [
-        "#FFD15C",
-        "#F7630C"
-      ]
-    },
-    "Fluent Color/Pack Icons (Color)/quick_usb.svg": {
-      "icon": "fluent:usb-24-filled",
-      "sha256": "420345ecadb12963398813bf91d889dd85bbcaabbfbaa5a893309a7b53426de6",
-      "gradient": [
-        "#2D92F6",
-        "#0F6CBD"
-      ]
-    },
-    "Fluent Color/Pack Icons (Color)/quick_wifi.svg": {
-      "icon": "fluent-color:wifi-24",
-      "sha256": "d69f46a4f699120cf999c4f04efd18ccb8826a78727c6e87c3ebd948d9c15b3e"
-    },
-    "Fluent Color/Pack Icons (Color)/quick_zen.svg": {
-      "icon": "fluent:leaf-one-24-filled",
-      "sha256": "3bf3cbcfdcfb7c563d34cf0f6a421ffb6cc7252f29ed5127cd4d39612cb7033d",
-      "gradient": [
-        "#5DDE89",
-        "#157C4B"
-      ]
-    },
-    "Fluent Color/Pack Icons (Color)/quicksettings.svg": {
-      "icon": "fluent-color:options-24",
-      "sha256": "92b5c1b06fc833801729fdc05b1d8dd80395ec725f05da47591c6439806b9e1b"
-    },
-    "Fluent Color/Pack Icons (Color)/random_document.svg": {
-      "icon": "fluent-color:document-24",
-      "sha256": "8d4b587d0d6f561808728d87388945fd8d45aa167df5689fc1a71263b9e22c62"
-    },
-    "Fluent Color/Pack Icons (Color)/recent.svg": {
-      "icon": "fluent-color:history-24",
-      "sha256": "a21d912cc5baaddfb9c3f089e63203f67e6c5748a0081135b21e2074db13f70b"
-    },
-    "Fluent Color/Pack Icons (Color)/tab_authors.svg": {
-      "icon": "fluent-color:person-24",
-      "sha256": "4ad70108dee2919b8ac024b0ab750e387e7a27c30d00e98f1375e73c9ecc92db"
-    },
-    "Fluent Color/Pack Icons (Color)/tab_collections.svg": {
-      "icon": "fluent-color:library-24",
-      "sha256": "e192363b9d398811f35088783f0e2ac24cff259cd4e22e0d571be3ad4355a951"
-    },
-    "Fluent Color/Pack Icons (Color)/tab_continue.svg": {
-      "icon": "fluent-color:book-open-24",
-      "sha256": "f372934dab09f0539b813099898948775710fcfe20d3b702b02a18cff161ed3b"
-    },
-    "Fluent Color/Pack Icons (Color)/tab_favorites.svg": {
-      "icon": "fluent-color:star-24",
-      "sha256": "3eb58770f28ab7dd2155a21c77cdc993484e77e27107abc29a86da15498b73c6"
-    },
-    "Fluent Color/Pack Icons (Color)/tab_filebrowser.svg": {
-      "icon": "fluent-color:document-folder-24",
-      "sha256": "ef49d24fc4b86d4e3e30e1827f1d01dce8c714bf2fc5e62401700559c903b428"
-    },
-    "Fluent Color/Pack Icons (Color)/tab_history.svg": {
-      "icon": "fluent-color:history-24",
-      "sha256": "a21d912cc5baaddfb9c3f089e63203f67e6c5748a0081135b21e2074db13f70b"
-    },
-    "Fluent Color/Pack Icons (Color)/tab_left.svg": {
-      "icon": "fluent-color:arrow-square-down-24",
-      "sha256": "f82f5976f97c9bf928d31565901227b019f5d52daf019c8a9cedc1c842749afc",
-      "transform": "rotate(90 12 12)"
-    },
-    "Fluent Color/Pack Icons (Color)/tab_right.svg": {
-      "icon": "fluent-color:arrow-square-down-24",
-      "sha256": "33eab013e307956d93eeeec034897aa0f03606c21f7c22ef00751547f51056b2",
-      "transform": "rotate(270 12 12)"
-    },
-    "Fluent Color/Pack Icons (Color)/tab_series.svg": {
-      "icon": "fluent-color:book-open-24",
-      "sha256": "f372934dab09f0539b813099898948775710fcfe20d3b702b02a18cff161ed3b"
-    },
-    "Fluent Color/Pack Icons (Color)/tab_tags.svg": {
-      "icon": "fluent:tag-24-filled",
-      "sha256": "071d6382cc896acd0a7377e8b654dccd325978191ab2ae9ce588ab26dc5f2291",
-      "gradient": [
-        "#CB6FF7",
-        "#6F36C9"
-      ]
-    },
-    "Fluent Color/Pack Icons (Color)/tab_to_be_read.svg": {
-      "icon": "fluent-color:bookmark-24",
-      "sha256": "8bc25e92d26fe2ea8ffa4d278b3b50f05da3d6dd52b5e508fe6683d644343674"
-    },
-    "Fluent Color/Pack Icons (Color)/tab_tools.svg": {
-      "icon": "fluent-color:toolbox-24",
-      "sha256": "5fdd1b9b9bd9451956ad77f098d38ef5438b4ec031f3db1c6cc9a9dc9ed0c6a1"
-    },
-    "Fluent Color/Supplementary Icons (Color)/annotations_viewer.svg": {
-      "icon": "fluent-color:clipboard-text-edit-24",
-      "sha256": "adff4822d81a27cd2563342823b11b51625eb861bfc9c601a0ee6db4a62afd24"
-    },
-    "Fluent Color/Supplementary Icons (Color)/app_launcher.svg": {
-      "icon": "fluent-color:apps-24",
-      "sha256": "947300e09c14568ef47ea9df020d4d561c275581a29734a5b0a5894eff4012be"
-    },
-    "Fluent Color/Supplementary Icons (Color)/archive.svg": {
-      "icon": "fluent-color:vault-24",
-      "sha256": "3338cd308443151f33c9060e8f7df59887cf9c15ba5394574e78b4c0a3965c55"
-    },
-    "Fluent Color/Supplementary Icons (Color)/atom.svg": {
-      "icon": "fluent-color:molecule-24",
-      "sha256": "9a5d75672b70a51ae26a3104d952f985b93806263fb88b62efb6bf61d9a39e2f"
-    },
-    "Fluent Color/Supplementary Icons (Color)/avatar.svg": {
-      "icon": "fluent-color:person-24",
-      "sha256": "4ad70108dee2919b8ac024b0ab750e387e7a27c30d00e98f1375e73c9ecc92db"
-    },
-    "Fluent Color/Supplementary Icons (Color)/backup.svg": {
+    "Fluent Color/controls/quick_restart.svg": {
       "icon": "fluent-color:arrow-clockwise-dashes-24",
       "sha256": "3e83bf517a92a3fce1d86134c8e85779616ebd93f96f03a5005b535dd265c35a"
     },
-    "Fluent Color/Supplementary Icons (Color)/bell.svg": {
-      "icon": "fluent-color:alert-24",
-      "sha256": "81cffa790f112d039a9849d13d82174c71169795c62962047cc953ebf8bc9101"
-    },
-    "Fluent Color/Supplementary Icons (Color)/blocks.svg": {
-      "icon": "fluent-color:briefcase-24",
-      "sha256": "d5b29c1b25122143e95be01e58d2c6264ea772c174b7e3d41071e1c5022d31e7"
-    },
-    "Fluent Color/Supplementary Icons (Color)/book_closed.svg": {
-      "icon": "fluent-color:book-24",
-      "sha256": "834700d7aac65707e00be8c85439d3bb3da1397e37ae75f0a348a0eb4b93b8e7"
-    },
-    "Fluent Color/Supplementary Icons (Color)/calendar_view.svg": {
-      "icon": "fluent-color:calendar-24",
-      "sha256": "80171aabe7b736f3d265e08c759308521397cc128ef91a2703f37fcf7b7ac056"
-    },
-    "Fluent Color/Supplementary Icons (Color)/clapperboard.svg": {
-      "icon": "fluent-color:video-24",
-      "sha256": "3bccc25a2d5bacc4939adc2990127231835e99704ea3a0385d91ba3503563afb"
-    },
-    "Fluent Color/Supplementary Icons (Color)/clipboard.svg": {
-      "icon": "fluent-color:clipboard-task-24",
-      "sha256": "040b1fbe974230e6b706375f376eca5116c495f12bc892c3738931178fda17b6"
-    },
-    "Fluent Color/Supplementary Icons (Color)/coverflow.svg": {
-      "icon": "fluent-color:content-view-24",
-      "sha256": "aad334c143687b4af4299d6868346061b0ecd3a2f17abf86b01638ad1f502910"
-    },
-    "Fluent Color/Supplementary Icons (Color)/database.svg": {
-      "icon": "fluent-color:database-24",
-      "sha256": "9e48045edf6708f55af3597cbc5f82ad7d37ff228928cd24e72c08c73d11aeb4"
-    },
-    "Fluent Color/Supplementary Icons (Color)/download.svg": {
-      "icon": "fluent-color:arrow-square-down-24",
-      "sha256": "da96bebc1243c834672a9d8fa025a6a23251cf16203b28c1e204f0fb53822b12"
-    },
-    "Fluent Color/Supplementary Icons (Color)/downloads.svg": {
-      "icon": "fluent-color:arrow-square-down-24",
-      "sha256": "da96bebc1243c834672a9d8fa025a6a23251cf16203b28c1e204f0fb53822b12"
-    },
-    "Fluent Color/Supplementary Icons (Color)/education.svg": {
-      "icon": "fluent-color:certificate-24",
-      "sha256": "9efc344eca84189fdffeaf05515d9c4ff9f6b2fb6e9b3c4754f2d182ccc39664"
-    },
-    "Fluent Color/Supplementary Icons (Color)/external_link.svg": {
-      "icon": "fluent-color:link-24",
-      "sha256": "ec7df6d50ab5db6b54ae2f5f567d0f156037acf506ee5ebe772924737a84fcfc"
-    },
-    "Fluent Color/Supplementary Icons (Color)/filebrowserplus.svg": {
-      "icon": "fluent-color:document-folder-24",
-      "sha256": "ef49d24fc4b86d4e3e30e1827f1d01dce8c714bf2fc5e62401700559c903b428"
-    },
-    "Fluent Color/Supplementary Icons (Color)/folder_open.svg": {
-      "icon": "fluent-color:document-folder-24",
-      "sha256": "ef49d24fc4b86d4e3e30e1827f1d01dce8c714bf2fc5e62401700559c903b428"
-    },
-    "Fluent Color/Supplementary Icons (Color)/font.svg": {
-      "icon": "fluent-color:text-edit-style-24",
-      "sha256": "f7dbdd64c7c9fbb233e75a3d8d0701b7a4782d50cbad903967cdea37f0c12cb8"
-    },
-    "Fluent Color/Supplementary Icons (Color)/gallery.svg": {
-      "icon": "fluent-color:image-24",
-      "sha256": "bf0588114120263ad521d8809ac5b4276852e9e6b4cd38eee301d272d834f6f3"
-    },
-    "Fluent Color/Supplementary Icons (Color)/gamepad.svg": {
-      "icon": "fluent-color:game-chat-20",
-      "sha256": "538f9aa7be64768d3c9d2650210eb6dcc00fa0ef8fbf160b18b9be00281f8a43"
-    },
-    "Fluent Color/Supplementary Icons (Color)/globe.svg": {
-      "icon": "fluent-color:globe-24",
-      "sha256": "6db557499580c8ae77fa84369cea7e567834bc02d003f08fe9a85469832c0373"
-    },
-    "Fluent Color/Supplementary Icons (Color)/grid_slide.svg": {
-      "icon": "fluent-color:document-24",
-      "sha256": "8d4b587d0d6f561808728d87388945fd8d45aa167df5689fc1a71263b9e22c62"
-    },
-    "Fluent Color/Supplementary Icons (Color)/lookup_highlight.svg": {
-      "icon": "fluent-color:edit-24",
-      "sha256": "8ff062d6a12b09fcf022666f40daba79e51cde2748614f7d626fd8f999bb542b"
-    },
-    "Fluent Color/Supplementary Icons (Color)/lookup_vocab_remove.svg": {
-      "icon": "fluent-color:dismiss-circle-24",
-      "sha256": "0027f040d3f19ff8f3129d7e615b89dc8da5c8cd6be42106ac2b2decd7985449"
-    },
-    "Fluent Color/Supplementary Icons (Color)/more_vertical.svg": {
-      "icon": "fluent-color:chat-more-24",
-      "sha256": "bb989e1ae15c64aa709ef540772217787acd8a5f7569ce967e8ef3983ff61ac3"
-    },
-    "Fluent Color/Supplementary Icons (Color)/network.svg": {
-      "icon": "fluent-color:globe-24",
-      "sha256": "6db557499580c8ae77fa84369cea7e567834bc02d003f08fe9a85469832c0373"
-    },
-    "Fluent Color/Supplementary Icons (Color)/open_box.svg": {
-      "icon": "fluent-color:briefcase-24",
-      "sha256": "d5b29c1b25122143e95be01e58d2c6264ea772c174b7e3d41071e1c5022d31e7"
-    },
-    "Fluent Color/Supplementary Icons (Color)/paint_palette.svg": {
-      "icon": "fluent-color:paint-brush-24",
-      "sha256": "bbedd8789dbb1fe0658ed66f5c40d3777f7df35c723e2ef94bac528af3e2ce9e"
-    },
-    "Fluent Color/Supplementary Icons (Color)/quick_aa.svg": {
-      "icon": "fluent-color:bot-sparkle-24",
-      "sha256": "dcbb79f5c8d3afeffdac554adf0e05b1b329347c3d40c10fdc74f8ca9c4221b1"
-    },
-    "Fluent Color/Supplementary Icons (Color)/quick_cloud.svg": {
-      "icon": "fluent-color:cloud-24",
-      "sha256": "bf2556a068c79a8a5e24542dedbaaf68a3a23aa1f80ef1ed3ac538c78fd09050"
-    },
-    "Fluent Color/Supplementary Icons (Color)/quick_crossword.svg": {
-      "icon": "fluent-color:table-24",
-      "sha256": "4257bdd1dc454c92cce43cab26eb777c551be7dedc0a819d56fd56f883c88558"
-    },
-    "Fluent Color/Supplementary Icons (Color)/quick_localsend.svg": {
-      "icon": "fluent-color:share-android-24",
-      "sha256": "ca2fffb8ca5b766501887bdce2ff533b9a66a7c68481c9f7aed6b3382832628e"
-    },
-    "Fluent Color/Supplementary Icons (Color)/quick_lockdown.svg": {
-      "icon": "fluent-color:lock-shield-24",
-      "sha256": "37c6c54a21b5b1e143635480ccef66a21ab2a198417450d5d1c62a1abfed37d1"
-    },
-    "Fluent Color/Supplementary Icons (Color)/quick_opds.svg": {
-      "icon": "fluent-color:globe-24",
-      "sha256": "6db557499580c8ae77fa84369cea7e567834bc02d003f08fe9a85469832c0373"
-    },
-    "Fluent Color/Supplementary Icons (Color)/quick_puzzle.svg": {
-      "icon": "fluent-color:puzzle-piece-24",
-      "sha256": "be2fd6db8dcc1aa066fb4aefac6f2cb78eb55c4af6b15a24c529d7f0fa6c1650"
-    },
-    "Fluent Color/Supplementary Icons (Color)/quick_rotate.svg": {
+    "Fluent Color/controls/quick_rotate.svg": {
       "icon": "fluent-color:arrow-clockwise-dashes-24",
       "sha256": "3e83bf517a92a3fce1d86134c8e85779616ebd93f96f03a5005b535dd265c35a"
     },
-    "Fluent Color/Supplementary Icons (Color)/quick_screenshot.svg": {
+    "Fluent Color/controls/quick_screenshot.svg": {
       "icon": "fluent-color:camera-24",
       "sha256": "83498e5760cc38543eea02b11dbad3523bebbdbe2b9eec34ba82ede2433ccad7"
     },
-    "Fluent Color/Supplementary Icons (Color)/quick_sync.svg": {
-      "icon": "fluent-color:arrow-sync-24",
-      "sha256": "46e4da8483138e8122efe61f2b32f707f0574c08b8400ff926f927116f5af3d7"
+    "Fluent Color/controls/quick_search.svg": {
+      "icon": "fluent-color:search-sparkle-24",
+      "sha256": "d6f931f7a87f62932b4262db727e8cfaf8de757d47979b4be5ac62433c15dbd8"
     },
-    "Fluent Color/Supplementary Icons (Color)/quick_zlib.svg": {
-      "icon": "fluent-color:library-24",
-      "sha256": "e192363b9d398811f35088783f0e2ac24cff259cd4e22e0d571be3ad4355a951"
-    },
-    "Fluent Color/Supplementary Icons (Color)/records.svg": {
-      "icon": "fluent-color:clipboard-text-edit-24",
-      "sha256": "adff4822d81a27cd2563342823b11b51625eb861bfc9c601a0ee6db4a62afd24"
-    },
-    "Fluent Color/Supplementary Icons (Color)/restart.svg": {
-      "icon": "fluent-color:arrow-clockwise-dashes-24",
-      "sha256": "3e83bf517a92a3fce1d86134c8e85779616ebd93f96f03a5005b535dd265c35a"
-    },
-    "Fluent Color/Supplementary Icons (Color)/scan.svg": {
-      "icon": "fluent-color:scan-type-24",
-      "sha256": "f1899633bc2d1a10b4d87aa5a91b4a8bb3deff27830f72b137848abc0524cd2f"
-    },
-    "Fluent Color/Supplementary Icons (Color)/share.svg": {
-      "icon": "fluent-color:share-android-24",
-      "sha256": "ca2fffb8ca5b766501887bdce2ff533b9a66a7c68481c9f7aed6b3382832628e"
-    },
-    "Fluent Color/Supplementary Icons (Color)/shield_check.svg": {
-      "icon": "fluent-color:shield-checkmark-24",
-      "sha256": "762026a1c0a941ba5565b97451215f4ecf62961fa7a509c0c2bd01f751069cbf"
-    },
-    "Fluent Color/Supplementary Icons (Color)/shield_warning.svg": {
-      "icon": "fluent-color:warning-24",
-      "sha256": "9f7bf31cc7c9c31517c15517c90016a7ae5d9de415aa362e2a6e4a7a34545be9"
-    },
-    "Fluent Color/Supplementary Icons (Color)/skip_left.svg": {
-      "icon": "fluent-color:fast-forward-circle-24",
-      "sha256": "40c114629e80a8865dd69442dfc5dd161174044d58d8f5f7bd823550be163a3b",
-      "transform": "rotate(180 12 12)"
-    },
-    "Fluent Color/Supplementary Icons (Color)/skip_right.svg": {
-      "icon": "fluent-color:fast-forward-circle-24",
-      "sha256": "620b9559ba830755094863a476f3a321cf49d34c3cb7f0d4fac3f206ab6cea72"
-    },
-    "Fluent Color/Supplementary Icons (Color)/sleep.svg": {
+    "Fluent Color/controls/quick_sleep.svg": {
       "icon": "fluent:snooze-24-filled",
       "sha256": "63d5b6d4d0e7e120411cdf20a6b1687bb26f1aa058dc09225f2030e1ccab0362",
       "gradient": [
@@ -623,66 +167,824 @@
         "#0F6CBD"
       ]
     },
-    "Fluent Color/Supplementary Icons (Color)/sort.svg": {
-      "icon": "fluent-color:data-bar-vertical-ascending-24",
-      "sha256": "6da7e1c8aeede58d6814a0c4a967b9332d32db3fc78f4bcb3391a8a7e189354c"
+    "Fluent Color/controls/quick_stats_calendar.svg": {
+      "icon": "fluent-color:calendar-24",
+      "sha256": "80171aabe7b736f3d265e08c759308521397cc128ef91a2703f37fcf7b7ac056"
     },
-    "Fluent Color/Supplementary Icons (Color)/sort_asc.svg": {
-      "icon": "fluent-color:data-bar-vertical-ascending-24",
-      "sha256": "6da7e1c8aeede58d6814a0c4a967b9332d32db3fc78f4bcb3391a8a7e189354c"
-    },
-    "Fluent Color/Supplementary Icons (Color)/speed.svg": {
-      "icon": "fluent-color:gauge-24",
-      "sha256": "a6c4890fe6310fc02cddd974f720f87e7af7745d19e7d737a988dcea96b70d31"
-    },
-    "Fluent Color/Supplementary Icons (Color)/sun.svg": {
-      "icon": "fluent-color:weather-sunny-low-24",
-      "sha256": "89ad1d5d95fbcf43f907d538173e049650b8e9ecfe532dd56d246891c8c10503"
-    },
-    "Fluent Color/Supplementary Icons (Color)/tab_manga.svg": {
-      "icon": "fluent-color:notebook-24",
-      "sha256": "e013d047465df18c5d3bbb4f6c85ae561e8755925c76370d7703f89fe682cbfe"
-    },
-    "Fluent Color/Supplementary Icons (Color)/tab_news.svg": {
-      "icon": "fluent-color:news-24",
-      "sha256": "3484326ebc70393e13bf619d4dd3402eaf571739827ae8fffe8021deff1e058a"
-    },
-    "Fluent Color/Supplementary Icons (Color)/tab_stats.svg": {
+    "Fluent Color/controls/quick_stats_progress.svg": {
       "icon": "fluent-color:data-trending-24",
       "sha256": "2f866d78ebf4ec97d68da3c593d6b58b117b7e97d4b374394d42764dafe82c03"
     },
-    "Fluent Color/Supplementary Icons (Color)/tab_vocab.svg": {
-      "icon": "fluent-color:notebook-24",
-      "sha256": "e013d047465df18c5d3bbb4f6c85ae561e8755925c76370d7703f89fe682cbfe"
+    "Fluent Color/controls/quick_streak.svg": {
+      "icon": "fluent:fire-24-filled",
+      "sha256": "69b523091c2c705d78dff7506144926ff50cf9ae81b173ec2d2b6dd39f34ed11",
+      "gradient": [
+        "#FFD15C",
+        "#F7630C"
+      ]
     },
-    "Fluent Color/Supplementary Icons (Color)/tablet.svg": {
-      "icon": "fluent-color:phone-laptop-24",
-      "sha256": "c8c10d941c6f9579741dcf489482a5de8c8e9c428639a06a42f3381751fb4531"
+    "Fluent Color/controls/quick_sync.svg": {
+      "icon": "fluent-color:arrow-sync-24",
+      "sha256": "46e4da8483138e8122efe61f2b32f707f0574c08b8400ff926f927116f5af3d7"
     },
-    "Fluent Color/Supplementary Icons (Color)/terminal.svg": {
-      "icon": "fluent-color:code-block-24",
-      "sha256": "7de457fd84ea83c20659e1d49c395de78498bfc401367af0c54adf7c0044ea14"
+    "Fluent Color/controls/quick_usb.svg": {
+      "icon": "fluent:usb-24-filled",
+      "sha256": "420345ecadb12963398813bf91d889dd85bbcaabbfbaa5a893309a7b53426de6",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ]
     },
-    "Fluent Color/Supplementary Icons (Color)/time.svg": {
-      "icon": "fluent-color:clock-24",
-      "sha256": "327d51d6f859d6fec96761b568ad4e0eb234f86047b07e930703d1e5e8e909be"
+    "Fluent Color/controls/quick_wifi.svg": {
+      "icon": "fluent-color:wifi-24",
+      "sha256": "d69f46a4f699120cf999c4f04efd18ccb8826a78727c6e87c3ebd948d9c15b3e"
     },
-    "Fluent Color/Supplementary Icons (Color)/timer.svg": {
-      "icon": "fluent-color:clock-alarm-24",
-      "sha256": "2535885ba9a13f150377d63f520474e2d92daf8b40ef04f6302dbb1880de131e"
+    "Fluent Color/controls/quick_zen.svg": {
+      "icon": "fluent:leaf-one-24-filled",
+      "sha256": "3bf3cbcfdcfb7c563d34cf0f6a421ffb6cc7252f29ed5127cd4d39612cb7033d",
+      "gradient": [
+        "#5DDE89",
+        "#157C4B"
+      ]
     },
-    "Fluent Color/Supplementary Icons (Color)/toc.svg": {
-      "icon": "fluent-color:text-bullet-list-square-24",
-      "sha256": "23f5fe47b7448d10984bce796ee8a9c6ee5057c330f18eb8aedf8346a69cbc56"
+    "Fluent Color/controls/quick_zlib.svg": {
+      "icon": "fluent-color:library-24",
+      "sha256": "e192363b9d398811f35088783f0e2ac24cff259cd4e22e0d571be3ad4355a951"
     },
-    "Fluent Color/Supplementary Icons (Color)/tuning.svg": {
+    "Fluent Color/controls/quicksettings.svg": {
       "icon": "fluent-color:options-24",
       "sha256": "92b5c1b06fc833801729fdc05b1d8dd80395ec725f05da47591c6439806b9e1b"
     },
-    "Fluent Color/Supplementary Icons (Color)/upload.svg": {
+    "Fluent Color/controls/share.svg": {
+      "icon": "fluent-color:share-android-24",
+      "sha256": "ca2fffb8ca5b766501887bdce2ff533b9a66a7c68481c9f7aed6b3382832628e"
+    },
+    "Fluent Color/controls/skip_left.svg": {
+      "icon": "fluent-color:fast-forward-circle-24",
+      "sha256": "40c114629e80a8865dd69442dfc5dd161174044d58d8f5f7bd823550be163a3b",
+      "transform": "rotate(180 12 12)"
+    },
+    "Fluent Color/controls/skip_right.svg": {
+      "icon": "fluent-color:fast-forward-circle-24",
+      "sha256": "620b9559ba830755094863a476f3a321cf49d34c3cb7f0d4fac3f206ab6cea72"
+    },
+    "Fluent Color/controls/star.filled.svg": {
+      "icon": "fluent-color:star-24",
+      "sha256": "3eb58770f28ab7dd2155a21c77cdc993484e77e27107abc29a86da15498b73c6"
+    },
+    "Fluent Color/controls/star.svg": {
+      "icon": "fluent-color:star-24",
+      "sha256": "3eb58770f28ab7dd2155a21c77cdc993484e77e27107abc29a86da15498b73c6"
+    },
+    "Fluent Color/navbar/tab_left.svg": {
+      "icon": "fluent-color:arrow-square-down-24",
+      "sha256": "f82f5976f97c9bf928d31565901227b019f5d52daf019c8a9cedc1c842749afc",
+      "transform": "rotate(90 12 12)"
+    },
+    "Fluent Color/navbar/tab_right.svg": {
+      "icon": "fluent-color:arrow-square-down-24",
+      "sha256": "33eab013e307956d93eeeec034897aa0f03606c21f7c22ef00751547f51056b2",
+      "transform": "rotate(270 12 12)"
+    },
+    "Fluent Color/device/backup.svg": {
+      "icon": "fluent-color:arrow-clockwise-dashes-24",
+      "sha256": "3e83bf517a92a3fce1d86134c8e85779616ebd93f96f03a5005b535dd265c35a"
+    },
+    "Fluent Color/device/bell.svg": {
+      "icon": "fluent-color:alert-24",
+      "sha256": "81cffa790f112d039a9849d13d82174c71169795c62962047cc953ebf8bc9101"
+    },
+    "Fluent Color/device/brightness.svg": {
+      "icon": "fluent-color:lightbulb-24",
+      "sha256": "d2d878b75c11bb89dbc0627bf8d91d90f79265482889987c5e2f2ae35734fb4f"
+    },
+    "Fluent Color/device/database.svg": {
+      "icon": "fluent-color:database-24",
+      "sha256": "9e48045edf6708f55af3597cbc5f82ad7d37ff228928cd24e72c08c73d11aeb4"
+    },
+    "Fluent Color/device/lightbulb.svg": {
+      "icon": "fluent-color:lightbulb-24",
+      "sha256": "d2d878b75c11bb89dbc0627bf8d91d90f79265482889987c5e2f2ae35734fb4f"
+    },
+    "Fluent Color/device/network.svg": {
+      "icon": "fluent-color:globe-24",
+      "sha256": "6db557499580c8ae77fa84369cea7e567834bc02d003f08fe9a85469832c0373"
+    },
+    "Fluent Color/device/restart.svg": {
+      "icon": "fluent-color:arrow-clockwise-dashes-24",
+      "sha256": "3e83bf517a92a3fce1d86134c8e85779616ebd93f96f03a5005b535dd265c35a"
+    },
+    "Fluent Color/device/sleep.svg": {
+      "icon": "fluent:snooze-24-filled",
+      "sha256": "63d5b6d4d0e7e120411cdf20a6b1687bb26f1aa058dc09225f2030e1ccab0362",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ]
+    },
+    "Fluent Color/device/sun.svg": {
+      "icon": "fluent-color:weather-sunny-low-24",
+      "sha256": "89ad1d5d95fbcf43f907d538173e049650b8e9ecfe532dd56d246891c8c10503"
+    },
+    "Fluent Color/device/time.svg": {
+      "icon": "fluent-color:clock-24",
+      "sha256": "327d51d6f859d6fec96761b568ad4e0eb234f86047b07e930703d1e5e8e909be"
+    },
+    "Fluent Color/device/timer.svg": {
+      "icon": "fluent-color:clock-alarm-24",
+      "sha256": "2535885ba9a13f150377d63f520474e2d92daf8b40ef04f6302dbb1880de131e"
+    },
+    "Fluent Color/koreader/appbar.filebrowser.svg": {
+      "icon": "fluent-color:document-folder-24",
+      "sha256": "ef49d24fc4b86d4e3e30e1827f1d01dce8c714bf2fc5e62401700559c903b428"
+    },
+    "Fluent Color/koreader/appbar.menu.svg": {
+      "icon": "fluent-color:text-bullet-list-square-24",
+      "sha256": "23f5fe47b7448d10984bce796ee8a9c6ee5057c330f18eb8aedf8346a69cbc56"
+    },
+    "Fluent Color/koreader/appbar.pageview.svg": {
+      "icon": "fluent-color:document-24",
+      "sha256": "8d4b587d0d6f561808728d87388945fd8d45aa167df5689fc1a71263b9e22c62"
+    },
+    "Fluent Color/koreader/appbar.rotation.svg": {
+      "icon": "fluent-color:arrow-clockwise-dashes-24",
+      "sha256": "3e83bf517a92a3fce1d86134c8e85779616ebd93f96f03a5005b535dd265c35a"
+    },
+    "Fluent Color/koreader/appbar.search.svg": {
+      "icon": "fluent-color:search-sparkle-24",
+      "sha256": "d6f931f7a87f62932b4262db727e8cfaf8de757d47979b4be5ac62433c15dbd8"
+    },
+    "Fluent Color/koreader/appbar.settings.svg": {
+      "icon": "fluent-color:settings-24",
+      "sha256": "8fea350f930c100310ace8d813647d814e220d1f056d4521111947d8c41da739"
+    },
+    "Fluent Color/koreader/appbar.textsize.svg": {
+      "icon": "fluent-color:text-edit-style-24",
+      "sha256": "f7dbdd64c7c9fbb233e75a3d8d0701b7a4782d50cbad903967cdea37f0c12cb8"
+    },
+    "Fluent Color/koreader/appbar.tools.svg": {
+      "icon": "fluent-color:toolbox-24",
+      "sha256": "5fdd1b9b9bd9451956ad77f098d38ef5438b4ec031f3db1c6cc9a9dc9ed0c6a1"
+    },
+    "Fluent Color/koreader/appbar.typeset.svg": {
+      "icon": "fluent-color:document-text-24",
+      "sha256": "907fb0e752e1228e7b99308e0bfa56f35987d359b9f09de14e866f7543f67b40"
+    },
+    "Fluent Color/koreader/back.top.rtl.svg": {
+      "icon": "fluent-color:arrow-square-down-24",
+      "sha256": "33eab013e307956d93eeeec034897aa0f03606c21f7c22ef00751547f51056b2",
+      "transform": "rotate(270 12 12)"
+    },
+    "Fluent Color/koreader/back.top.svg": {
+      "icon": "fluent-color:arrow-square-down-24",
+      "sha256": "f82f5976f97c9bf928d31565901227b019f5d52daf019c8a9cedc1c842749afc",
+      "transform": "rotate(90 12 12)"
+    },
+    "Fluent Color/koreader/book.opened.svg": {
+      "icon": "fluent-color:book-open-24",
+      "sha256": "f372934dab09f0539b813099898948775710fcfe20d3b702b02a18cff161ed3b"
+    },
+    "Fluent Color/koreader/bookmark.svg": {
+      "icon": "fluent-color:bookmark-24",
+      "sha256": "8bc25e92d26fe2ea8ffa4d278b3b50f05da3d6dd52b5e508fe6683d644343674"
+    },
+    "Fluent Color/koreader/cancel.svg": {
+      "icon": "fluent-color:dismiss-circle-24",
+      "sha256": "0027f040d3f19ff8f3129d7e615b89dc8da5c8cd6be42106ac2b2decd7985449"
+    },
+    "Fluent Color/koreader/check.svg": {
+      "icon": "fluent-color:checkmark-circle-24",
+      "sha256": "8bd59298add0abc9e020a00933d5c94bfbc818d64d22defc81bcbd6f4cfe8317"
+    },
+    "Fluent Color/koreader/chevron.first.svg": {
+      "icon": "fluent-color:arrow-square-down-24",
+      "sha256": "f82f5976f97c9bf928d31565901227b019f5d52daf019c8a9cedc1c842749afc",
+      "transform": "rotate(90 12 12)"
+    },
+    "Fluent Color/koreader/chevron.last.svg": {
+      "icon": "fluent-color:arrow-square-down-24",
+      "sha256": "33eab013e307956d93eeeec034897aa0f03606c21f7c22ef00751547f51056b2",
+      "transform": "rotate(270 12 12)"
+    },
+    "Fluent Color/koreader/chevron.left.svg": {
+      "icon": "fluent-color:arrow-square-down-24",
+      "sha256": "f82f5976f97c9bf928d31565901227b019f5d52daf019c8a9cedc1c842749afc",
+      "transform": "rotate(90 12 12)"
+    },
+    "Fluent Color/koreader/chevron.right.svg": {
+      "icon": "fluent-color:arrow-square-down-24",
+      "sha256": "33eab013e307956d93eeeec034897aa0f03606c21f7c22ef00751547f51056b2",
+      "transform": "rotate(270 12 12)"
+    },
+    "Fluent Color/koreader/chevron.up.svg": {
       "icon": "fluent-color:arrow-square-down-24",
       "sha256": "caedcc2a3beec50d027e9a40057bb1cbf261154890dd77779a9a08aafeba817f",
       "transform": "rotate(180 12 12)"
+    },
+    "Fluent Color/koreader/close.svg": {
+      "icon": "fluent-color:dismiss-circle-24",
+      "sha256": "0027f040d3f19ff8f3129d7e615b89dc8da5c8cd6be42106ac2b2decd7985449"
+    },
+    "Fluent Color/koreader/control.collapse.svg": {
+      "icon": "fluent-color:arrow-square-down-24",
+      "sha256": "da96bebc1243c834672a9d8fa025a6a23251cf16203b28c1e204f0fb53822b12"
+    },
+    "Fluent Color/koreader/control.expand.alpha.svg": {
+      "icon": "fluent-color:arrow-square-down-24",
+      "sha256": "f7f9c013d81365131e90be58a3d76db4fa20f698e9673530720149c92c35ffb0",
+      "transform": "rotate(180 12 12)",
+      "opacity": 0.3
+    },
+    "Fluent Color/koreader/control.expand.svg": {
+      "icon": "fluent-color:arrow-square-down-24",
+      "sha256": "caedcc2a3beec50d027e9a40057bb1cbf261154890dd77779a9a08aafeba817f",
+      "transform": "rotate(180 12 12)"
+    },
+    "Fluent Color/koreader/cre.render.ready.svg": {
+      "icon": "fluent-color:checkmark-circle-24",
+      "sha256": "8bd59298add0abc9e020a00933d5c94bfbc818d64d22defc81bcbd6f4cfe8317"
+    },
+    "Fluent Color/koreader/cre.render.reload.alpha.svg": {
+      "icon": "fluent-color:arrow-sync-24",
+      "sha256": "8c77ffbdf920886efca754e801f7c26adf96a59b23d92c1286e9ed7a8a89a680",
+      "opacity": 0.3
+    },
+    "Fluent Color/koreader/cre.render.reload.svg": {
+      "icon": "fluent-color:arrow-sync-24",
+      "sha256": "46e4da8483138e8122efe61f2b32f707f0574c08b8400ff926f927116f5af3d7"
+    },
+    "Fluent Color/koreader/cre.render.working.svg": {
+      "icon": "fluent-color:arrow-clockwise-dashes-24",
+      "sha256": "3e83bf517a92a3fce1d86134c8e85779616ebd93f96f03a5005b535dd265c35a"
+    },
+    "Fluent Color/koreader/dogear.alpha.svg": {
+      "icon": "fluent-color:bookmark-24",
+      "sha256": "a1b51434e283e2f13bc3a704675ccb3b0be448c081327c713d486089139cd572",
+      "opacity": 0.3
+    },
+    "Fluent Color/koreader/dogear.opaque.svg": {
+      "icon": "fluent-color:bookmark-24",
+      "sha256": "8bc25e92d26fe2ea8ffa4d278b3b50f05da3d6dd52b5e508fe6683d644343674"
+    },
+    "Fluent Color/koreader/dogear.reading.svg": {
+      "icon": "fluent-color:bookmark-24",
+      "sha256": "8bc25e92d26fe2ea8ffa4d278b3b50f05da3d6dd52b5e508fe6683d644343674"
+    },
+    "Fluent Color/koreader/edit.svg": {
+      "icon": "fluent-color:edit-24",
+      "sha256": "8ff062d6a12b09fcf022666f40daba79e51cde2748614f7d626fd8f999bb542b"
+    },
+    "Fluent Color/koreader/exit.svg": {
+      "icon": "fluent-color:dismiss-circle-24",
+      "sha256": "0027f040d3f19ff8f3129d7e615b89dc8da5c8cd6be42106ac2b2decd7985449"
+    },
+    "Fluent Color/koreader/home.svg": {
+      "icon": "fluent-color:home-24",
+      "sha256": "969e086029c51affc1432c20dbbef4237aa0f44f2131bb95598203c17321a2a4"
+    },
+    "Fluent Color/koreader/move.down.svg": {
+      "icon": "fluent-color:arrow-square-down-24",
+      "sha256": "da96bebc1243c834672a9d8fa025a6a23251cf16203b28c1e204f0fb53822b12"
+    },
+    "Fluent Color/koreader/move.up.svg": {
+      "icon": "fluent-color:arrow-square-down-24",
+      "sha256": "caedcc2a3beec50d027e9a40057bb1cbf261154890dd77779a9a08aafeba817f",
+      "transform": "rotate(180 12 12)"
+    },
+    "Fluent Color/koreader/notice-question.svg": {
+      "icon": "fluent-color:question-circle-24",
+      "sha256": "2e075d63ec68f4accf08a03980f6aed1b325a15fe8b79c2ea49e5a1798eaf31d"
+    },
+    "Fluent Color/koreader/notice-warning.svg": {
+      "icon": "fluent-color:warning-24",
+      "sha256": "9f7bf31cc7c9c31517c15517c90016a7ae5d9de415aa362e2a6e4a7a34545be9"
+    },
+    "Fluent Color/koreader/plus.svg": {
+      "icon": "fluent-color:add-circle-24",
+      "sha256": "31a6a1f0274ca4aec5e19c542eae30e6bb79e594ab27e788b2ed1b2765363b6f"
+    },
+    "Fluent Color/koreader/position.marker.svg": {
+      "icon": "fluent-color:pin-24",
+      "sha256": "dbcfaf485aa58b02e506e1a938fed0716d4d84b14ca361bdf91865342ed240eb"
+    },
+    "Fluent Color/koreader/position.marker.top.svg": {
+      "icon": "fluent-color:pin-24",
+      "sha256": "af237595931685acd2dd35af0da0530706d038af944a6b4f9b389ba99e8f9c22",
+      "transform": "rotate(180 12 12)"
+    },
+    "Fluent Color/koreader/star.empty.svg": {
+      "icon": "fluent-color:star-24",
+      "sha256": "3eb58770f28ab7dd2155a21c77cdc993484e77e27107abc29a86da15498b73c6"
+    },
+    "Fluent Color/koreader/star.full.svg": {
+      "icon": "fluent-color:star-24",
+      "sha256": "3eb58770f28ab7dd2155a21c77cdc993484e77e27107abc29a86da15498b73c6"
+    },
+    "Fluent Color/koreader/star.white.svg": {
+      "icon": "fluent-color:star-24",
+      "sha256": "3eb58770f28ab7dd2155a21c77cdc993484e77e27107abc29a86da15498b73c6"
+    },
+    "Fluent Color/koreader/wifi.open.100.svg": {
+      "icon": "fluent-color:wifi-24",
+      "sha256": "d69f46a4f699120cf999c4f04efd18ccb8826a78727c6e87c3ebd948d9c15b3e"
+    },
+    "Fluent Color/koreader/wifi.svg": {
+      "icon": "fluent-color:wifi-24",
+      "sha256": "d69f46a4f699120cf999c4f04efd18ccb8826a78727c6e87c3ebd948d9c15b3e"
+    },
+    "Fluent Color/koreader/zoom.manual.svg": {
+      "icon": "fluent-color:search-visual-24",
+      "sha256": "920e7c6dd9e0ec971ffb81bc0607daa453e03bf8f2a9f00958360ad4bab020a1"
+    },
+    "Fluent Color/launcher/annotations_viewer.svg": {
+      "icon": "fluent-color:clipboard-text-edit-24",
+      "sha256": "adff4822d81a27cd2563342823b11b51625eb861bfc9c601a0ee6db4a62afd24"
+    },
+    "Fluent Color/launcher/app_launcher.svg": {
+      "icon": "fluent-color:apps-24",
+      "sha256": "947300e09c14568ef47ea9df020d4d561c275581a29734a5b0a5894eff4012be"
+    },
+    "Fluent Color/launcher/atom.svg": {
+      "icon": "fluent-color:molecule-24",
+      "sha256": "9a5d75672b70a51ae26a3104d952f985b93806263fb88b62efb6bf61d9a39e2f"
+    },
+    "Fluent Color/launcher/avatar.svg": {
+      "icon": "fluent-color:person-24",
+      "sha256": "4ad70108dee2919b8ac024b0ab750e387e7a27c30d00e98f1375e73c9ecc92db"
+    },
+    "Fluent Color/launcher/blocks.svg": {
+      "icon": "fluent-color:briefcase-24",
+      "sha256": "d5b29c1b25122143e95be01e58d2c6264ea772c174b7e3d41071e1c5022d31e7"
+    },
+    "Fluent Color/launcher/book_closed.svg": {
+      "icon": "fluent-color:book-24",
+      "sha256": "834700d7aac65707e00be8c85439d3bb3da1397e37ae75f0a348a0eb4b93b8e7"
+    },
+    "Fluent Color/launcher/bookshelf.svg": {
+      "icon": "fluent-color:library-24",
+      "sha256": "e192363b9d398811f35088783f0e2ac24cff259cd4e22e0d571be3ad4355a951"
+    },
+    "Fluent Color/launcher/calendar.svg": {
+      "icon": "fluent-color:calendar-24",
+      "sha256": "80171aabe7b736f3d265e08c759308521397cc128ef91a2703f37fcf7b7ac056"
+    },
+    "Fluent Color/launcher/calendar_view.svg": {
+      "icon": "fluent-color:calendar-24",
+      "sha256": "80171aabe7b736f3d265e08c759308521397cc128ef91a2703f37fcf7b7ac056"
+    },
+    "Fluent Color/launcher/clapperboard.svg": {
+      "icon": "fluent-color:video-24",
+      "sha256": "3bccc25a2d5bacc4939adc2990127231835e99704ea3a0385d91ba3503563afb"
+    },
+    "Fluent Color/launcher/clipboard.svg": {
+      "icon": "fluent-color:clipboard-task-24",
+      "sha256": "040b1fbe974230e6b706375f376eca5116c495f12bc892c3738931178fda17b6"
+    },
+    "Fluent Color/launcher/cloud.svg": {
+      "icon": "fluent-color:cloud-24",
+      "sha256": "bf2556a068c79a8a5e24542dedbaaf68a3a23aa1f80ef1ed3ac538c78fd09050"
+    },
+    "Fluent Color/reader/coverflow.svg": {
+      "icon": "fluent-color:content-view-24",
+      "sha256": "aad334c143687b4af4299d6868346061b0ecd3a2f17abf86b01638ad1f502910"
+    },
+    "Fluent Color/launcher/education.svg": {
+      "icon": "fluent-color:certificate-24",
+      "sha256": "9efc344eca84189fdffeaf05515d9c4ff9f6b2fb6e9b3c4754f2d182ccc39664"
+    },
+    "Fluent Color/launcher/external_link.svg": {
+      "icon": "fluent-color:link-24",
+      "sha256": "ec7df6d50ab5db6b54ae2f5f567d0f156037acf506ee5ebe772924737a84fcfc"
+    },
+    "Fluent Color/launcher/filebrowserplus.svg": {
+      "icon": "fluent-color:document-folder-24",
+      "sha256": "ef49d24fc4b86d4e3e30e1827f1d01dce8c714bf2fc5e62401700559c903b428"
+    },
+    "Fluent Color/launcher/flame.svg": {
+      "icon": "fluent:fire-24-filled",
+      "sha256": "69b523091c2c705d78dff7506144926ff50cf9ae81b173ec2d2b6dd39f34ed11",
+      "gradient": [
+        "#FFD15C",
+        "#F7630C"
+      ]
+    },
+    "Fluent Color/launcher/folder_open.svg": {
+      "icon": "fluent-color:document-folder-24",
+      "sha256": "ef49d24fc4b86d4e3e30e1827f1d01dce8c714bf2fc5e62401700559c903b428"
+    },
+    "Fluent Color/launcher/font.svg": {
+      "icon": "fluent-color:text-edit-style-24",
+      "sha256": "f7dbdd64c7c9fbb233e75a3d8d0701b7a4782d50cbad903967cdea37f0c12cb8"
+    },
+    "Fluent Color/launcher/gallery.svg": {
+      "icon": "fluent-color:image-24",
+      "sha256": "bf0588114120263ad521d8809ac5b4276852e9e6b4cd38eee301d272d834f6f3"
+    },
+    "Fluent Color/launcher/gamepad.svg": {
+      "icon": "fluent-color:game-chat-20",
+      "sha256": "538f9aa7be64768d3c9d2650210eb6dcc00fa0ef8fbf160b18b9be00281f8a43"
+    },
+    "Fluent Color/launcher/globe.svg": {
+      "icon": "fluent-color:globe-24",
+      "sha256": "6db557499580c8ae77fa84369cea7e567834bc02d003f08fe9a85469832c0373"
+    },
+    "Fluent Color/reader/grid.svg": {
+      "icon": "fluent-color:apps-24",
+      "sha256": "947300e09c14568ef47ea9df020d4d561c275581a29734a5b0a5894eff4012be"
+    },
+    "Fluent Color/reader/grid_slide.svg": {
+      "icon": "fluent-color:document-24",
+      "sha256": "8d4b587d0d6f561808728d87388945fd8d45aa167df5689fc1a71263b9e22c62"
+    },
+    "Fluent Color/launcher/paint_palette.svg": {
+      "icon": "fluent-color:paint-brush-24",
+      "sha256": "bbedd8789dbb1fe0658ed66f5c40d3777f7df35c723e2ef94bac528af3e2ce9e"
+    },
+    "Fluent Color/launcher/random_document.svg": {
+      "icon": "fluent-color:document-24",
+      "sha256": "8d4b587d0d6f561808728d87388945fd8d45aa167df5689fc1a71263b9e22c62"
+    },
+    "Fluent Color/launcher/records.svg": {
+      "icon": "fluent-color:clipboard-text-edit-24",
+      "sha256": "adff4822d81a27cd2563342823b11b51625eb861bfc9c601a0ee6db4a62afd24"
+    },
+    "Fluent Color/launcher/scan.svg": {
+      "icon": "fluent-color:scan-type-24",
+      "sha256": "f1899633bc2d1a10b4d87aa5a91b4a8bb3deff27830f72b137848abc0524cd2f"
+    },
+    "Fluent Color/launcher/speed.svg": {
+      "icon": "fluent-color:gauge-24",
+      "sha256": "a6c4890fe6310fc02cddd974f720f87e7af7745d19e7d737a988dcea96b70d31"
+    },
+    "Fluent Color/launcher/tablet.svg": {
+      "icon": "fluent-color:phone-laptop-24",
+      "sha256": "c8c10d941c6f9579741dcf489482a5de8c8e9c428639a06a42f3381751fb4531"
+    },
+    "Fluent Color/launcher/terminal.svg": {
+      "icon": "fluent-color:code-block-24",
+      "sha256": "7de457fd84ea83c20659e1d49c395de78498bfc401367af0c54adf7c0044ea14"
+    },
+    "Fluent Color/launcher/tuning.svg": {
+      "icon": "fluent-color:options-24",
+      "sha256": "92b5c1b06fc833801729fdc05b1d8dd80395ec725f05da47591c6439806b9e1b"
+    },
+    "Fluent Color/launcher/upload.svg": {
+      "icon": "fluent-color:arrow-square-down-24",
+      "sha256": "caedcc2a3beec50d027e9a40057bb1cbf261154890dd77779a9a08aafeba817f",
+      "transform": "rotate(180 12 12)"
+    },
+    "Fluent Color/lookup/lookup.ai.svg": {
+      "icon": "fluent-color:bot-sparkle-24",
+      "sha256": "dcbb79f5c8d3afeffdac554adf0e05b1b329347c3d40c10fdc74f8ca9c4221b1"
+    },
+    "Fluent Color/lookup/lookup.dictionary.svg": {
+      "icon": "fluent-color:book-24",
+      "sha256": "834700d7aac65707e00be8c85439d3bb3da1397e37ae75f0a348a0eb4b93b8e7"
+    },
+    "Fluent Color/lookup/lookup.highlight.svg": {
+      "icon": "fluent-color:edit-24",
+      "sha256": "8ff062d6a12b09fcf022666f40daba79e51cde2748614f7d626fd8f999bb542b"
+    },
+    "Fluent Color/lookup/lookup.search.svg": {
+      "icon": "fluent-color:search-sparkle-24",
+      "sha256": "d6f931f7a87f62932b4262db727e8cfaf8de757d47979b4be5ac62433c15dbd8"
+    },
+    "Fluent Color/lookup/lookup.vocab.svg": {
+      "icon": "fluent-color:notebook-24",
+      "sha256": "e013d047465df18c5d3bbb4f6c85ae561e8755925c76370d7703f89fe682cbfe"
+    },
+    "Fluent Color/lookup/lookup.vocab_remove.svg": {
+      "icon": "fluent-color:dismiss-circle-24",
+      "sha256": "0027f040d3f19ff8f3129d7e615b89dc8da5c8cd6be42106ac2b2decd7985449"
+    },
+    "Fluent Color/lookup/lookup_ai.svg": {
+      "icon": "fluent-color:bot-sparkle-24",
+      "sha256": "dcbb79f5c8d3afeffdac554adf0e05b1b329347c3d40c10fdc74f8ca9c4221b1"
+    },
+    "Fluent Color/lookup/lookup_dictionary.svg": {
+      "icon": "fluent-color:book-24",
+      "sha256": "834700d7aac65707e00be8c85439d3bb3da1397e37ae75f0a348a0eb4b93b8e7"
+    },
+    "Fluent Color/lookup/lookup_highlight.svg": {
+      "icon": "fluent-color:edit-24",
+      "sha256": "8ff062d6a12b09fcf022666f40daba79e51cde2748614f7d626fd8f999bb542b"
+    },
+    "Fluent Color/lookup/lookup_search.svg": {
+      "icon": "fluent-color:search-sparkle-24",
+      "sha256": "d6f931f7a87f62932b4262db727e8cfaf8de757d47979b4be5ac62433c15dbd8"
+    },
+    "Fluent Color/lookup/lookup_vocab.svg": {
+      "icon": "fluent-color:notebook-24",
+      "sha256": "e013d047465df18c5d3bbb4f6c85ae561e8755925c76370d7703f89fe682cbfe"
+    },
+    "Fluent Color/lookup/lookup_vocab_remove.svg": {
+      "icon": "fluent-color:dismiss-circle-24",
+      "sha256": "0027f040d3f19ff8f3129d7e615b89dc8da5c8cd6be42106ac2b2decd7985449"
+    },
+    "Fluent Color/menus/app_menu.svg": {
+      "icon": "fluent-color:text-bullet-list-square-24",
+      "sha256": "23f5fe47b7448d10984bce796ee8a9c6ee5057c330f18eb8aedf8346a69cbc56"
+    },
+    "Fluent Color/menus/tab_fm_settings.svg": {
+      "icon": "fluent-color:document-folder-24",
+      "sha256": "ef49d24fc4b86d4e3e30e1827f1d01dce8c714bf2fc5e62401700559c903b428"
+    },
+    "Fluent Color/navbar/archive.svg": {
+      "icon": "fluent-color:vault-24",
+      "sha256": "3338cd308443151f33c9060e8f7df59887cf9c15ba5394574e78b4c0a3965c55"
+    },
+    "Fluent Color/navbar/folder.svg": {
+      "icon": "fluent-color:document-folder-24",
+      "sha256": "ef49d24fc4b86d4e3e30e1827f1d01dce8c714bf2fc5e62401700559c903b428"
+    },
+    "Fluent Color/navbar/homescreen.svg": {
+      "icon": "fluent-color:home-24",
+      "sha256": "969e086029c51affc1432c20dbbef4237aa0f44f2131bb95598203c17321a2a4"
+    },
+    "Fluent Color/navbar/library.svg": {
+      "icon": "fluent-color:library-24",
+      "sha256": "e192363b9d398811f35088783f0e2ac24cff259cd4e22e0d571be3ad4355a951"
+    },
+    "Fluent Color/navbar/recent.svg": {
+      "icon": "fluent-color:history-24",
+      "sha256": "a21d912cc5baaddfb9c3f089e63203f67e6c5748a0081135b21e2074db13f70b"
+    },
+    "Fluent Color/navbar/tab_authors.svg": {
+      "icon": "fluent-color:person-24",
+      "sha256": "4ad70108dee2919b8ac024b0ab750e387e7a27c30d00e98f1375e73c9ecc92db"
+    },
+    "Fluent Color/navbar/tab_books.svg": {
+      "icon": "fluent-color:library-24",
+      "sha256": "e192363b9d398811f35088783f0e2ac24cff259cd4e22e0d571be3ad4355a951"
+    },
+    "Fluent Color/navbar/tab_collections.svg": {
+      "icon": "fluent-color:library-24",
+      "sha256": "e192363b9d398811f35088783f0e2ac24cff259cd4e22e0d571be3ad4355a951"
+    },
+    "Fluent Color/navbar/tab_continue.svg": {
+      "icon": "fluent-color:book-open-24",
+      "sha256": "f372934dab09f0539b813099898948775710fcfe20d3b702b02a18cff161ed3b"
+    },
+    "Fluent Color/navbar/tab_exit.svg": {
+      "icon": "fluent:power-24-filled",
+      "sha256": "179f12bc9a7bd93852fba5d807ceeddcb655c1bf0e73837cbace1666e03a5c5d",
+      "gradient": [
+        "#CB6FF7",
+        "#6F36C9"
+      ]
+    },
+    "Fluent Color/navbar/tab_favorites.svg": {
+      "icon": "fluent-color:star-24",
+      "sha256": "3eb58770f28ab7dd2155a21c77cdc993484e77e27107abc29a86da15498b73c6"
+    },
+    "Fluent Color/navbar/tab_filebrowser.svg": {
+      "icon": "fluent-color:document-folder-24",
+      "sha256": "ef49d24fc4b86d4e3e30e1827f1d01dce8c714bf2fc5e62401700559c903b428"
+    },
+    "Fluent Color/navbar/tab_folder.svg": {
+      "icon": "fluent-color:document-folder-24",
+      "sha256": "ef49d24fc4b86d4e3e30e1827f1d01dce8c714bf2fc5e62401700559c903b428"
+    },
+    "Fluent Color/navbar/tab_history.svg": {
+      "icon": "fluent-color:history-24",
+      "sha256": "a21d912cc5baaddfb9c3f089e63203f67e6c5748a0081135b21e2074db13f70b"
+    },
+    "Fluent Color/navbar/tab_manga.svg": {
+      "icon": "fluent-color:notebook-24",
+      "sha256": "e013d047465df18c5d3bbb4f6c85ae561e8755925c76370d7703f89fe682cbfe"
+    },
+    "Fluent Color/navbar/tab_news.svg": {
+      "icon": "fluent-color:news-24",
+      "sha256": "3484326ebc70393e13bf619d4dd3402eaf571739827ae8fffe8021deff1e058a"
+    },
+    "Fluent Color/navbar/tab_series.svg": {
+      "icon": "fluent-color:book-open-24",
+      "sha256": "f372934dab09f0539b813099898948775710fcfe20d3b702b02a18cff161ed3b"
+    },
+    "Fluent Color/navbar/tab_stats.2.svg": {
+      "icon": "fluent-color:data-trending-24",
+      "sha256": "2f866d78ebf4ec97d68da3c593d6b58b117b7e97d4b374394d42764dafe82c03"
+    },
+    "Fluent Color/navbar/tab_stats.old.svg": {
+      "icon": "fluent-color:data-trending-24",
+      "sha256": "2f866d78ebf4ec97d68da3c593d6b58b117b7e97d4b374394d42764dafe82c03"
+    },
+    "Fluent Color/navbar/tab_stats.svg": {
+      "icon": "fluent-color:data-trending-24",
+      "sha256": "2f866d78ebf4ec97d68da3c593d6b58b117b7e97d4b374394d42764dafe82c03"
+    },
+    "Fluent Color/navbar/tab_tags.svg": {
+      "icon": "fluent:tag-24-filled",
+      "sha256": "071d6382cc896acd0a7377e8b654dccd325978191ab2ae9ce588ab26dc5f2291",
+      "gradient": [
+        "#CB6FF7",
+        "#6F36C9"
+      ]
+    },
+    "Fluent Color/navbar/tab_to_be_read.svg": {
+      "icon": "fluent-color:bookmark-24",
+      "sha256": "8bc25e92d26fe2ea8ffa4d278b3b50f05da3d6dd52b5e508fe6683d644343674"
+    },
+    "Fluent Color/navbar/tab_tools.svg": {
+      "icon": "fluent-color:toolbox-24",
+      "sha256": "5fdd1b9b9bd9451956ad77f098d38ef5438b4ec031f3db1c6cc9a9dc9ed0c6a1"
+    },
+    "Fluent Color/navbar/tab_translate.svg": {
+      "icon": "fluent-color:globe-24",
+      "sha256": "6db557499580c8ae77fa84369cea7e567834bc02d003f08fe9a85469832c0373"
+    },
+    "Fluent Color/reader/tab_vocab.svg": {
+      "icon": "fluent-color:notebook-24",
+      "sha256": "e013d047465df18c5d3bbb4f6c85ae561e8755925c76370d7703f89fe682cbfe"
+    },
+    "Fluent Color/koreader/book_open.svg": {
+      "icon": "fluent-color:book-open-24",
+      "sha256": "f372934dab09f0539b813099898948775710fcfe20d3b702b02a18cff161ed3b"
+    },
+    "Fluent Color/reader/toc.svg": {
+      "icon": "fluent-color:text-bullet-list-square-24",
+      "sha256": "23f5fe47b7448d10984bce796ee8a9c6ee5057c330f18eb8aedf8346a69cbc56"
+    },
+    "Fluent Color/zenpm/allow_updates.svg": {
+      "icon": "fluent-color:alert-24",
+      "sha256": "81cffa790f112d039a9849d13d82174c71169795c62962047cc953ebf8bc9101"
+    },
+    "Fluent Color/zenpm/browser.svg": {
+      "icon": "fluent-color:link-24",
+      "sha256": "ec7df6d50ab5db6b54ae2f5f567d0f156037acf506ee5ebe772924737a84fcfc"
+    },
+    "Fluent Color/zenpm/categories.svg": {
+      "icon": "fluent-color:apps-24",
+      "sha256": "947300e09c14568ef47ea9df020d4d561c275581a29734a5b0a5894eff4012be"
+    },
+    "Fluent Color/zenpm/date.svg": {
+      "icon": "fluent-color:calendar-24",
+      "sha256": "80171aabe7b736f3d265e08c759308521397cc128ef91a2703f37fcf7b7ac056"
+    },
+    "Fluent Color/zenpm/downgrade.svg": {
+      "icon": "fluent-color:arrow-square-down-24",
+      "sha256": "da96bebc1243c834672a9d8fa025a6a23251cf16203b28c1e204f0fb53822b12"
+    },
+    "Fluent Color/zenpm/download.svg": {
+      "icon": "fluent-color:arrow-square-down-24",
+      "sha256": "da96bebc1243c834672a9d8fa025a6a23251cf16203b28c1e204f0fb53822b12"
+    },
+    "Fluent Color/zenpm/downloads.svg": {
+      "icon": "fluent-color:arrow-square-down-24",
+      "sha256": "da96bebc1243c834672a9d8fa025a6a23251cf16203b28c1e204f0fb53822b12"
+    },
+    "Fluent Color/zenpm/fonts.svg": {
+      "icon": "fluent-color:text-edit-style-24",
+      "sha256": "f7dbdd64c7c9fbb233e75a3d8d0701b7a4782d50cbad903967cdea37f0c12cb8"
+    },
+    "Fluent Color/zenpm/games.svg": {
+      "icon": "fluent-color:game-chat-20",
+      "sha256": "538f9aa7be64768d3c9d2650210eb6dcc00fa0ef8fbf160b18b9be00281f8a43"
+    },
+    "Fluent Color/zenpm/icon_packs.svg": {
+      "icon": "fluent-color:apps-24",
+      "sha256": "947300e09c14568ef47ea9df020d4d561c275581a29734a5b0a5894eff4012be"
+    },
+    "Fluent Color/zenpm/kindleforge.svg": {
+      "icon": "fluent:fire-24-filled",
+      "sha256": "69b523091c2c705d78dff7506144926ff50cf9ae81b173ec2d2b6dd39f34ed11",
+      "gradient": [
+        "#FFD15C",
+        "#F7630C"
+      ]
+    },
+    "Fluent Color/zenpm/media.svg": {
+      "icon": "fluent-color:video-24",
+      "sha256": "3bccc25a2d5bacc4939adc2990127231835e99704ea3a0385d91ba3503563afb"
+    },
+    "Fluent Color/zenpm/open_box.svg": {
+      "icon": "fluent-color:briefcase-24",
+      "sha256": "d5b29c1b25122143e95be01e58d2c6264ea772c174b7e3d41071e1c5022d31e7"
+    },
+    "Fluent Color/zenpm/packages.svg": {
+      "icon": "fluent-color:briefcase-24",
+      "sha256": "d5b29c1b25122143e95be01e58d2c6264ea772c174b7e3d41071e1c5022d31e7"
+    },
+    "Fluent Color/zenpm/plugin.svg": {
+      "icon": "fluent-color:puzzle-piece-24",
+      "sha256": "be2fd6db8dcc1aa066fb4aefac6f2cb78eb55c4af6b15a24c529d7f0fa6c1650"
+    },
+    "Fluent Color/zenpm/productivity.svg": {
+      "icon": "fluent-color:clipboard-task-24",
+      "sha256": "040b1fbe974230e6b706375f376eca5116c495f12bc892c3738931178fda17b6"
+    },
+    "Fluent Color/zenpm/reference.svg": {
+      "icon": "fluent-color:book-24",
+      "sha256": "834700d7aac65707e00be8c85439d3bb3da1397e37ae75f0a348a0eb4b93b8e7"
+    },
+    "Fluent Color/zenpm/refresh.svg": {
+      "icon": "fluent-color:arrow-clockwise-dashes-24",
+      "sha256": "3e83bf517a92a3fce1d86134c8e85779616ebd93f96f03a5005b535dd265c35a"
+    },
+    "Fluent Color/zenpm/reinstall.svg": {
+      "icon": "fluent-color:arrow-clockwise-dashes-24",
+      "sha256": "3e83bf517a92a3fce1d86134c8e85779616ebd93f96f03a5005b535dd265c35a"
+    },
+    "Fluent Color/zenpm/remove.svg": {
+      "icon": "fluent-color:dismiss-circle-24",
+      "sha256": "0027f040d3f19ff8f3129d7e615b89dc8da5c8cd6be42106ac2b2decd7985449"
+    },
+    "Fluent Color/zenpm/remove_queue.svg": {
+      "icon": "fluent-color:dismiss-circle-24",
+      "sha256": "0027f040d3f19ff8f3129d7e615b89dc8da5c8cd6be42106ac2b2decd7985449"
+    },
+    "Fluent Color/zenpm/scan_plugins.svg": {
+      "icon": "fluent-color:scan-type-24",
+      "sha256": "f1899633bc2d1a10b4d87aa5a91b4a8bb3deff27830f72b137848abc0524cd2f"
+    },
+    "Fluent Color/zenpm/screensaver.svg": {
+      "icon": "fluent:snooze-24-filled",
+      "sha256": "63d5b6d4d0e7e120411cdf20a6b1687bb26f1aa058dc09225f2030e1ccab0362",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ]
+    },
+    "Fluent Color/zenpm/search.svg": {
+      "icon": "fluent-color:search-sparkle-24",
+      "sha256": "d6f931f7a87f62932b4262db727e8cfaf8de757d47979b4be5ac62433c15dbd8"
+    },
+    "Fluent Color/zenpm/settings.svg": {
+      "icon": "fluent-color:settings-24",
+      "sha256": "8fea350f930c100310ace8d813647d814e220d1f056d4521111947d8c41da739"
+    },
+    "Fluent Color/zenpm/settings_advanced.svg": {
+      "icon": "fluent-color:options-24",
+      "sha256": "92b5c1b06fc833801729fdc05b1d8dd80395ec725f05da47591c6439806b9e1b"
+    },
+    "Fluent Color/zenpm/shield_check.svg": {
+      "icon": "fluent-color:shield-checkmark-24",
+      "sha256": "762026a1c0a941ba5565b97451215f4ecf62961fa7a509c0c2bd01f751069cbf"
+    },
+    "Fluent Color/zenpm/shield_warning.svg": {
+      "icon": "fluent-color:warning-24",
+      "sha256": "9f7bf31cc7c9c31517c15517c90016a7ae5d9de415aa362e2a6e4a7a34545be9"
+    },
+    "Fluent Color/zenpm/sort.svg": {
+      "icon": "fluent-color:data-bar-vertical-ascending-24",
+      "sha256": "6da7e1c8aeede58d6814a0c4a967b9332d32db3fc78f4bcb3391a8a7e189354c"
+    },
+    "Fluent Color/zenpm/sort_asc.svg": {
+      "icon": "fluent-color:data-bar-vertical-ascending-24",
+      "sha256": "6da7e1c8aeede58d6814a0c4a967b9332d32db3fc78f4bcb3391a8a7e189354c"
+    },
+    "Fluent Color/zenpm/sources.svg": {
+      "icon": "fluent-color:globe-24",
+      "sha256": "6db557499580c8ae77fa84369cea7e567834bc02d003f08fe9a85469832c0373"
+    },
+    "Fluent Color/zenpm/theme.svg": {
+      "icon": "fluent-color:paint-brush-24",
+      "sha256": "bbedd8789dbb1fe0658ed66f5c40d3777f7df35c723e2ef94bac528af3e2ce9e"
+    },
+    "Fluent Color/zenpm/title.svg": {
+      "icon": "fluent-color:text-edit-style-24",
+      "sha256": "f7dbdd64c7c9fbb233e75a3d8d0701b7a4782d50cbad903967cdea37f0c12cb8"
+    },
+    "Fluent Color/zenpm/unverified.svg": {
+      "icon": "fluent-color:warning-24",
+      "sha256": "9f7bf31cc7c9c31517c15517c90016a7ae5d9de415aa362e2a6e4a7a34545be9"
+    },
+    "Fluent Color/zenpm/update.svg": {
+      "icon": "fluent-color:arrow-clockwise-dashes-24",
+      "sha256": "3e83bf517a92a3fce1d86134c8e85779616ebd93f96f03a5005b535dd265c35a"
+    },
+    "Fluent Color/zenpm/upgrade.svg": {
+      "icon": "fluent-color:arrow-square-down-24",
+      "sha256": "caedcc2a3beec50d027e9a40057bb1cbf261154890dd77779a9a08aafeba817f",
+      "transform": "rotate(180 12 12)"
+    },
+    "Fluent Color/zenpm/utility.svg": {
+      "icon": "fluent-color:toolbox-24",
+      "sha256": "5fdd1b9b9bd9451956ad77f098d38ef5438b4ec031f3db1c6cc9a9dc9ed0c6a1"
+    },
+    "Fluent Color/zenpm/verified.svg": {
+      "icon": "fluent-color:shield-checkmark-24",
+      "sha256": "762026a1c0a941ba5565b97451215f4ecf62961fa7a509c0c2bd01f751069cbf"
+    },
+    "Fluent Color/zenpm/wallabag.svg": {
+      "icon": "fluent-color:bookmark-24",
+      "sha256": "8bc25e92d26fe2ea8ffa4d278b3b50f05da3d6dd52b5e508fe6683d644343674"
+    },
+    "Fluent Color/zenpm/wallpaper.svg": {
+      "icon": "fluent-color:image-24",
+      "sha256": "bf0588114120263ad521d8809ac5b4276852e9e6b4cd38eee301d272d834f6f3"
+    },
+    "Fluent Color/zenpm/zen.svg": {
+      "icon": "fluent:leaf-one-24-filled",
+      "sha256": "3bf3cbcfdcfb7c563d34cf0f6a421ffb6cc7252f29ed5127cd4d39612cb7033d",
+      "gradient": [
+        "#5DDE89",
+        "#157C4B"
+      ]
+    },
+    "Fluent Color/zenpm/zenpm.svg": {
+      "icon": "fluent-color:briefcase-24",
+      "sha256": "d5b29c1b25122143e95be01e58d2c6264ea772c174b7e3d41071e1c5022d31e7"
     }
   },
   "bundled_fallbacks": [

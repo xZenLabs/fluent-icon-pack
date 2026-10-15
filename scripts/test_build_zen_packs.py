@@ -31,7 +31,7 @@ class BuildPacksTest(unittest.TestCase):
             font fonts gallery globe grid grid_slide home library lookup.dictionary
             lookup_dictionary lookup.highlight lookup_highlight lookup.vocab lookup_vocab
             lookup.vocab_remove lookup_vocab_remove more_vertical network open_box
-            paint_palette qa_plugin quick_cloud quick_localsend quick_lockdown quick_opds
+            paint_palette plugin quick_cloud quick_localsend quick_lockdown quick_opds
             quick_puzzle quick_rotate quick_screenshot quick_search quick_stats_calendar
             quick_stats_progress quick_sync quick_wifi quicksettings restart share
             shield_check shield_warning skip_left skip_right speed sun tab_authors
@@ -57,7 +57,7 @@ class BuildPacksTest(unittest.TestCase):
             sort_desc trash usb warmth column.one column.two column.three
             wifi.open.0 wifi.open.25 wifi.open.50 wifi.open.75 wifi.secure.100
         """.split())
-        expected_counts = {"Fluent Color": 222, "Fluent Mono": 276}
+        expected_counts = {"Fluent Color": 220, "Fluent Mono": 274}
         metadata = json.loads((builder.ROOT / "pack.json").read_text())
         with tempfile.TemporaryDirectory() as temporary:
             output = Path(temporary)
@@ -98,10 +98,6 @@ class BuildPacksTest(unittest.TestCase):
                             self.assertFalse(any(name.endswith(".lua") for name in archive.namelist()))
                             for name, path in sources.items():
                                 self.assertEqual(archive.read(prefix + name), path.read_bytes())
-                            for target, source_name in builder.ALIASES.items():
-                                if target + ".svg" not in sources and source_name in names:
-                                    self.assertEqual(archive.read(prefix + target + ".svg"),
-                                                     archive.read(prefix + source_name + ".svg"))
                             self.assertEqual(json.loads(archive.read(prefix + "pack.json")), expected)
                             self.assertEqual(archive.read(prefix + "LICENSE-ICONS.txt"),
                                              (pack / "LICENSE-ICONS.txt").read_bytes())
@@ -166,6 +162,39 @@ class BuildPacksTest(unittest.TestCase):
                         self.assertEqual(root[0].attrib["transform"], recorded["transform"])
                     if "opacity" in recorded:
                         self.assertEqual(float(root[0].attrib["opacity"]), recorded["opacity"])
+
+    def test_grouped_pack_builds_directly_and_keeps_explicit_alias_artwork(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            pack, output = root / "Grouped", root / "output"
+            files = {
+                "navbar/tab_books.svg": SVG,
+                "controls/quick_search.svg": SVG,
+                "koreader/appbar.search.svg": SVG.replace(b"48", b"24"),
+                "koreader/book_open.svg": SVG,
+                "koreader/appbar.textsize.svg": SVG,
+                "navbar/tab_left.svg": SVG,
+                "navbar/tab_right.svg": SVG,
+                "zenpm/packages.svg": SVG,
+            }
+            for name, data in files.items():
+                path = pack / name
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_bytes(data)
+            (pack / "pack.json").write_text(json.dumps({
+                "schema_version": 1, "id": "zen-grouped", "name": "Grouped for ZenOS",
+            }))
+            for source in (root, pack):
+                with self.subTest(source=source):
+                    self.assertEqual(list(builder.pack_sources(source, output)), [(pack, [pack])])
+                    with patch("sys.argv", ["build-zen-packs.py", str(source),
+                                            "--output", str(output)]):
+                        builder.main()
+                    with zipfile.ZipFile(output / "zen-grouped.zip") as archive:
+                        self.assertTrue(all(len(Path(name).parts) == 2
+                                            for name in archive.namelist()))
+                        for name, data in files.items():
+                            self.assertEqual(archive.read("zen-grouped/" + Path(name).name), data)
 
     def test_color_metadata_survives_repository_and_direct_builds(self):
         with tempfile.TemporaryDirectory() as temporary:

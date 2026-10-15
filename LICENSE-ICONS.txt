@@ -24,7 +24,7 @@ icon-sources.json records Color mappings. Fluent Mono/icon-sources.json records
 Mono mappings, including source names, rotations, mirroring, checksums, and
 fallbacks. Mono uses regular outlines, a filled full-star state, explicit black
 currentColor, and reduced opacity for alpha variants.
-The Python builder generates additional aliases without changing the SVGs.
+Additional lookup names are stored as source SVGs without changing the artwork.
 
 The packaging scripts and release workflow are based on xZenLabs' Solar template:
 https://github.com/xZenLabs/solariconpack-zen

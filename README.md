@@ -29,8 +29,8 @@ opacity. Related actions may share a design.
 
 | Pack | Source files | SVG lookups | Screen | Release asset |
 |---|---|---|---|---|
-| **Fluent Color** | 151 | 222 | Color e-ink | `zen-fluent-color.zip` |
-| **Fluent Mono** | 197 | 276 | Black & white e-ink | `zen-fluent-mono.zip` |
+| **Fluent Color** | 220 | 220 | Color e-ink | `zen-fluent-color.zip` |
+| **Fluent Mono** | 274 | 274 | Black & white e-ink | `zen-fluent-mono.zip` |
 
 Both variants cover all 50 ZenOS `quick_` controls and `tab_` icons, excluding
 the blank spacer. Color uses Fluent filled moon, snooze, tag, battery, Bluetooth,
@@ -85,17 +85,46 @@ To switch packs, select another pack and restart. To restore bundled icons,
 disable **Custom icons** and restart. After switching away, remove this pack
 through ZenPM or delete its manually installed folder.
 
+## Source layout
+
+Each style keeps category folders directly beside `pack.json`.
+Categories without replacement artwork can be absent:
+
+```text
+<Style>/
+├── pack.json
+├── navbar/
+├── controls/                 # Quick settings and Zen controls
+├── launcher/
+├── zenpm/                    # Includes verification shields
+├── lookup/
+├── menus/                    # Zen menu entry points
+├── reader/                   # Page browser: TOC, vocabulary, view modes
+├── device/
+└── koreader/                 # Stock KOReader icons, including plus/info
+```
+
+[ICON-LIST.md](ICON-LIST.md) lists the filenames by category. Page-browser TOC, vocabulary-builder,
+and view icons belong in `reader/`. All stock KOReader icons, including `appbar.*`,
+the Aa font button, plus/info, bookmarks, and `book_open`, belong in `koreader/`. Quick settings
+belong in `controls/`; `tab_left` and `tab_right` belong in `navbar/`.
+Shared lookup names appear only once per style;
+different lookup names can be edited independently.
+
+Legacy SimpleUI `qa_group` and `qa_plugin` files are omitted. ZenPM uses
+`plugin.svg`; its verification shields belong in `zenpm/`.
+The builder flattens the categories into the pack root in release ZIPs,
+so installed lookup names and artwork remain unchanged apart from the two
+obsolete SimpleUI names. Missing icons keep their normal bundled fallbacks.
+
 ## Building and checking
 
 Each pack manifest includes `"color": true` for colour artwork or
 `"color": false` for monochrome artwork. Per-style values are retained in the
 release ZIPs when building the whole repository.
 
-The source folders mirror the Zen icon pack template: `Pack Icons`, `KOReader Icons`,
-and `Supplementary Icons`, with `(Color)` or `(Mono)` suffixes inside
-`Fluent Color/` and `Fluent Mono/`. Lookups use suitable native artwork or related
-Fluent shapes.
-The existing Python builder copies source SVGs unchanged, generates aliases,
+Lookups use suitable native artwork or related Fluent shapes.
+The existing Python builder copies the grouped source SVGs unchanged,
 checks assets and archive limits, and writes a standalone ZIP. No Lua is needed.
 
 ```sh
@@ -144,7 +173,7 @@ release tags. Release runs are serialized. The initial source version is `1.0.0`
 
 Changes are limited to standalone SVG wrappers, lookup filenames, selected
 rotations, mirroring and opacity, explicit black currentColor for Mono, and
-build-time aliases.
+editable lookup aliases.
 Not affiliated with or endorsed by Microsoft, KOReader, or Iconify.
 
 ## Support

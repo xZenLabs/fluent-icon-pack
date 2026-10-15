@@ -19,7 +19,7 @@ state. SVG currentColor is explicitly black; alpha variants reduce opacity.
 Native view boxes and path geometry are preserved. Similar designs are reused
 for related actions. Unavailable controls retain the bundled interface artwork.
 Fluent Mono/icon-sources.json records every source name, rotation, checksum, and fallback.
-The Python builder generates additional aliases without changing the SVGs.
+Additional lookup names are stored as source SVGs without changing the artwork.
 
 The packaging scripts and release workflow are based on xZenLabs' Solar template:
 https://github.com/xZenLabs/solariconpack-zen

@@ -20,7 +20,7 @@ collection, tinted with matching gradients. These adaptations and gradient color
 are recorded in icon-sources.json. Similar designs are reused for related
 actions. Unavailable controls retain the bundled interface artwork.
 icon-sources.json records every source name, rotation, checksum, and fallback.
-The Python builder generates additional aliases without changing the SVGs.
+Additional lookup names are stored as source SVGs without changing the artwork.
 
 The packaging scripts and release workflow are based on xZenLabs' Solar template:
 https://github.com/xZenLabs/solariconpack-zen
