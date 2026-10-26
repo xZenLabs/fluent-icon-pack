@@ -15,6 +15,7 @@ Release ZIPs flatten the categories into the pack root.
 | [menus](#menus) | Zen menu entry points. |
 | [reader](#reader) | Page-browser TOC, vocabulary builder, and single/carousel/grid view modes. |
 | [device](#device) | Zen battery, lighting, power, hardware, and system indicators. |
+| [settings](#settings) | ZenOS settings menu rows, mirroring ZenOS's bundled `settings_*` lookups. |
 | [koreader](#koreader) | Stock KOReader icons, including appbar, plus/info, bookmarks, and book_open. |
 
 ## navbar
@@ -114,14 +115,14 @@ App Launcher, plugin shortcuts, and utility artwork for the icon picker.
 | `blocks.svg` | [SVG](Fluent%20Color/launcher/blocks.svg) | [SVG](Fluent%20Mono/launcher/blocks.svg) |
 | `book_closed.svg` | [SVG](Fluent%20Color/launcher/book_closed.svg) | [SVG](Fluent%20Mono/launcher/book_closed.svg) |
 | `bookshelf.svg` | [SVG](Fluent%20Color/launcher/bookshelf.svg) | [SVG](Fluent%20Mono/launcher/bookshelf.svg) |
-| `bug.svg` | Bundled fallback | [SVG](Fluent%20Mono/launcher/bug.svg) |
-| `calculator.svg` | Bundled fallback | [SVG](Fluent%20Mono/launcher/calculator.svg) |
+| `bug.svg` | — | [SVG](Fluent%20Mono/launcher/bug.svg) |
+| `calculator.svg` | — | [SVG](Fluent%20Mono/launcher/calculator.svg) |
 | `calendar.svg` | [SVG](Fluent%20Color/launcher/calendar.svg) | [SVG](Fluent%20Mono/launcher/calendar.svg) |
 | `calendar_view.svg` | [SVG](Fluent%20Color/launcher/calendar_view.svg) | [SVG](Fluent%20Mono/launcher/calendar_view.svg) |
 | `clapperboard.svg` | [SVG](Fluent%20Color/launcher/clapperboard.svg) | [SVG](Fluent%20Mono/launcher/clapperboard.svg) |
 | `clipboard.svg` | [SVG](Fluent%20Color/launcher/clipboard.svg) | [SVG](Fluent%20Mono/launcher/clipboard.svg) |
 | `cloud.svg` | [SVG](Fluent%20Color/launcher/cloud.svg) | [SVG](Fluent%20Mono/launcher/cloud.svg) |
-| `compass.svg` | Bundled fallback | [SVG](Fluent%20Mono/launcher/compass.svg) |
+| `compass.svg` | — | [SVG](Fluent%20Mono/launcher/compass.svg) |
 | `education.svg` | [SVG](Fluent%20Color/launcher/education.svg) | [SVG](Fluent%20Mono/launcher/education.svg) |
 | `external_link.svg` | [SVG](Fluent%20Color/launcher/external_link.svg) | [SVG](Fluent%20Mono/launcher/external_link.svg) |
 | `filebrowserplus.svg` | [SVG](Fluent%20Color/launcher/filebrowserplus.svg) | [SVG](Fluent%20Mono/launcher/filebrowserplus.svg) |
@@ -138,7 +139,7 @@ App Launcher, plugin shortcuts, and utility artwork for the icon picker.
 | `speed.svg` | [SVG](Fluent%20Color/launcher/speed.svg) | [SVG](Fluent%20Mono/launcher/speed.svg) |
 | `tablet.svg` | [SVG](Fluent%20Color/launcher/tablet.svg) | [SVG](Fluent%20Mono/launcher/tablet.svg) |
 | `terminal.svg` | [SVG](Fluent%20Color/launcher/terminal.svg) | [SVG](Fluent%20Mono/launcher/terminal.svg) |
-| `trash.svg` | Bundled fallback | [SVG](Fluent%20Mono/launcher/trash.svg) |
+| `trash.svg` | [SVG](Fluent%20Color/launcher/trash.svg) | [SVG](Fluent%20Mono/launcher/trash.svg) |
 | `tuning.svg` | [SVG](Fluent%20Color/launcher/tuning.svg) | [SVG](Fluent%20Mono/launcher/tuning.svg) |
 | `upload.svg` | [SVG](Fluent%20Color/launcher/upload.svg) | [SVG](Fluent%20Mono/launcher/upload.svg) |
 
@@ -152,27 +153,27 @@ ZenPM categories, packages, verification shields, queue actions, and settings.
 | `browser.svg` | [SVG](Fluent%20Color/zenpm/browser.svg) | [SVG](Fluent%20Mono/zenpm/browser.svg) |
 | `categories.svg` | [SVG](Fluent%20Color/zenpm/categories.svg) | [SVG](Fluent%20Mono/zenpm/categories.svg) |
 | `date.svg` | [SVG](Fluent%20Color/zenpm/date.svg) | [SVG](Fluent%20Mono/zenpm/date.svg) |
-| `debug.svg` | Bundled fallback | [SVG](Fluent%20Mono/zenpm/debug.svg) |
-| `details.svg` | Bundled fallback | [SVG](Fluent%20Mono/zenpm/details.svg) |
-| `disable.svg` | Bundled fallback | [SVG](Fluent%20Mono/zenpm/disable.svg) |
-| `discover.svg` | Bundled fallback | [SVG](Fluent%20Mono/zenpm/discover.svg) |
+| `debug.svg` | — | [SVG](Fluent%20Mono/zenpm/debug.svg) |
+| `details.svg` | — | [SVG](Fluent%20Mono/zenpm/details.svg) |
+| `disable.svg` | — | [SVG](Fluent%20Mono/zenpm/disable.svg) |
+| `discover.svg` | — | [SVG](Fluent%20Mono/zenpm/discover.svg) |
 | `downgrade.svg` | [SVG](Fluent%20Color/zenpm/downgrade.svg) | [SVG](Fluent%20Mono/zenpm/downgrade.svg) |
 | `download.svg` | [SVG](Fluent%20Color/zenpm/download.svg) | [SVG](Fluent%20Mono/zenpm/download.svg) |
 | `downloads.svg` | [SVG](Fluent%20Color/zenpm/downloads.svg) | [SVG](Fluent%20Mono/zenpm/downloads.svg) |
-| `enable.svg` | Bundled fallback | [SVG](Fluent%20Mono/zenpm/enable.svg) |
-| `filter.svg` | Bundled fallback | [SVG](Fluent%20Mono/zenpm/filter.svg) |
+| `enable.svg` | — | [SVG](Fluent%20Mono/zenpm/enable.svg) |
+| `filter.svg` | [SVG](Fluent%20Color/zenpm/filter.svg) | [SVG](Fluent%20Mono/zenpm/filter.svg) |
 | `fonts.svg` | [SVG](Fluent%20Color/zenpm/fonts.svg) | [SVG](Fluent%20Mono/zenpm/fonts.svg) |
 | `games.svg` | [SVG](Fluent%20Color/zenpm/games.svg) | [SVG](Fluent%20Mono/zenpm/games.svg) |
 | `icon_packs.svg` | [SVG](Fluent%20Color/zenpm/icon_packs.svg) | [SVG](Fluent%20Mono/zenpm/icon_packs.svg) |
-| `ignore_updates.svg` | Bundled fallback | [SVG](Fluent%20Mono/zenpm/ignore_updates.svg) |
+| `ignore_updates.svg` | — | [SVG](Fluent%20Mono/zenpm/ignore_updates.svg) |
 | `kindleforge.svg` | [SVG](Fluent%20Color/zenpm/kindleforge.svg) | [SVG](Fluent%20Mono/zenpm/kindleforge.svg) |
 | `media.svg` | [SVG](Fluent%20Color/zenpm/media.svg) | [SVG](Fluent%20Mono/zenpm/media.svg) |
 | `open_box.svg` | [SVG](Fluent%20Color/zenpm/open_box.svg) | [SVG](Fluent%20Mono/zenpm/open_box.svg) |
 | `packages.svg` | [SVG](Fluent%20Color/zenpm/packages.svg) | [SVG](Fluent%20Mono/zenpm/packages.svg) |
-| `patch.svg` | Bundled fallback | [SVG](Fluent%20Mono/zenpm/patch.svg) |
+| `patch.svg` | — | [SVG](Fluent%20Mono/zenpm/patch.svg) |
 | `plugin.svg` | [SVG](Fluent%20Color/zenpm/plugin.svg) | [SVG](Fluent%20Mono/zenpm/plugin.svg) |
 | `productivity.svg` | [SVG](Fluent%20Color/zenpm/productivity.svg) | [SVG](Fluent%20Mono/zenpm/productivity.svg) |
-| `qrcode.svg` | Bundled fallback | [SVG](Fluent%20Mono/zenpm/qrcode.svg) |
+| `qrcode.svg` | — | [SVG](Fluent%20Mono/zenpm/qrcode.svg) |
 | `reference.svg` | [SVG](Fluent%20Color/zenpm/reference.svg) | [SVG](Fluent%20Mono/zenpm/reference.svg) |
 | `refresh.svg` | [SVG](Fluent%20Color/zenpm/refresh.svg) | [SVG](Fluent%20Mono/zenpm/refresh.svg) |
 | `reinstall.svg` | [SVG](Fluent%20Color/zenpm/reinstall.svg) | [SVG](Fluent%20Mono/zenpm/reinstall.svg) |
@@ -183,17 +184,17 @@ ZenPM categories, packages, verification shields, queue actions, and settings.
 | `search.svg` | [SVG](Fluent%20Color/zenpm/search.svg) | [SVG](Fluent%20Mono/zenpm/search.svg) |
 | `settings.svg` | [SVG](Fluent%20Color/zenpm/settings.svg) | [SVG](Fluent%20Mono/zenpm/settings.svg) |
 | `settings_advanced.svg` | [SVG](Fluent%20Color/zenpm/settings_advanced.svg) | [SVG](Fluent%20Mono/zenpm/settings_advanced.svg) |
-| `settings_bug.svg` | Bundled fallback | [SVG](Fluent%20Mono/zenpm/settings_bug.svg) |
+| `settings_bug.svg` | — | [SVG](Fluent%20Mono/zenpm/settings_bug.svg) |
 | `shield_check.svg` | [SVG](Fluent%20Color/zenpm/shield_check.svg) | [SVG](Fluent%20Mono/zenpm/shield_check.svg) |
 | `shield_warning.svg` | [SVG](Fluent%20Color/zenpm/shield_warning.svg) | [SVG](Fluent%20Mono/zenpm/shield_warning.svg) |
 | `sort.svg` | [SVG](Fluent%20Color/zenpm/sort.svg) | [SVG](Fluent%20Mono/zenpm/sort.svg) |
 | `sort_asc.svg` | [SVG](Fluent%20Color/zenpm/sort_asc.svg) | [SVG](Fluent%20Mono/zenpm/sort_asc.svg) |
-| `sort_desc.svg` | Bundled fallback | [SVG](Fluent%20Mono/zenpm/sort_desc.svg) |
+| `sort_desc.svg` | — | [SVG](Fluent%20Mono/zenpm/sort_desc.svg) |
 | `sources.svg` | [SVG](Fluent%20Color/zenpm/sources.svg) | [SVG](Fluent%20Mono/zenpm/sources.svg) |
-| `sync_off.svg` | Bundled fallback | [SVG](Fluent%20Mono/zenpm/sync_off.svg) |
+| `sync_off.svg` | — | [SVG](Fluent%20Mono/zenpm/sync_off.svg) |
 | `theme.svg` | [SVG](Fluent%20Color/zenpm/theme.svg) | [SVG](Fluent%20Mono/zenpm/theme.svg) |
 | `title.svg` | [SVG](Fluent%20Color/zenpm/title.svg) | [SVG](Fluent%20Mono/zenpm/title.svg) |
-| `uninstall.svg` | Bundled fallback | [SVG](Fluent%20Mono/zenpm/uninstall.svg) |
+| `uninstall.svg` | [SVG](Fluent%20Color/zenpm/uninstall.svg) | [SVG](Fluent%20Mono/zenpm/uninstall.svg) |
 | `unverified.svg` | [SVG](Fluent%20Color/zenpm/unverified.svg) | [SVG](Fluent%20Mono/zenpm/unverified.svg) |
 | `update.svg` | [SVG](Fluent%20Color/zenpm/update.svg) | [SVG](Fluent%20Mono/zenpm/update.svg) |
 | `upgrade.svg` | [SVG](Fluent%20Color/zenpm/upgrade.svg) | [SVG](Fluent%20Mono/zenpm/upgrade.svg) |
@@ -242,8 +243,12 @@ from [koreader](#koreader).
 | Lookup filename | Fluent Color | Fluent Mono |
 |---|---|---|
 | `coverflow.svg` | [SVG](Fluent%20Color/reader/coverflow.svg) | [SVG](Fluent%20Mono/reader/coverflow.svg) |
+| `footnote.svg` | [SVG](Fluent%20Color/reader/footnote.svg) | [SVG](Fluent%20Mono/reader/footnote.svg) |
 | `grid.svg` | [SVG](Fluent%20Color/reader/grid.svg) | [SVG](Fluent%20Mono/reader/grid.svg) |
 | `grid_slide.svg` | [SVG](Fluent%20Color/reader/grid_slide.svg) | [SVG](Fluent%20Mono/reader/grid_slide.svg) |
+| `pin.svg` | [SVG](Fluent%20Color/reader/pin.svg) | [SVG](Fluent%20Mono/reader/pin.svg) |
+| `return.svg` | [SVG](Fluent%20Color/reader/return.svg) | [SVG](Fluent%20Mono/reader/return.svg) |
+| `return_old.svg` | [SVG](Fluent%20Color/reader/return_old.svg) | [SVG](Fluent%20Mono/reader/return_old.svg) |
 | `tab_vocab.svg` | [SVG](Fluent%20Color/reader/tab_vocab.svg) | [SVG](Fluent%20Mono/reader/tab_vocab.svg) |
 | `toc.svg` | [SVG](Fluent%20Color/reader/toc.svg) | [SVG](Fluent%20Mono/reader/toc.svg) |
 
@@ -254,26 +259,114 @@ Zen battery, lighting, power, hardware, and system indicators.
 | Lookup filename | Fluent Color | Fluent Mono |
 |---|---|---|
 | `backup.svg` | [SVG](Fluent%20Color/device/backup.svg) | [SVG](Fluent%20Mono/device/backup.svg) |
-| `battery.svg` | Bundled fallback | [SVG](Fluent%20Mono/device/battery.svg) |
-| `battery_charging.svg` | Bundled fallback | [SVG](Fluent%20Mono/device/battery_charging.svg) |
-| `battery_full.svg` | Bundled fallback | [SVG](Fluent%20Mono/device/battery_full.svg) |
-| `battery_half.svg` | Bundled fallback | [SVG](Fluent%20Mono/device/battery_half.svg) |
-| `battery_low.svg` | Bundled fallback | [SVG](Fluent%20Mono/device/battery_low.svg) |
+| `battery.svg` | — | [SVG](Fluent%20Mono/device/battery.svg) |
+| `battery_charging.svg` | — | [SVG](Fluent%20Mono/device/battery_charging.svg) |
+| `battery_full.svg` | — | [SVG](Fluent%20Mono/device/battery_full.svg) |
+| `battery_half.svg` | — | [SVG](Fluent%20Mono/device/battery_half.svg) |
+| `battery_low.svg` | — | [SVG](Fluent%20Mono/device/battery_low.svg) |
 | `bell.svg` | [SVG](Fluent%20Color/device/bell.svg) | [SVG](Fluent%20Mono/device/bell.svg) |
-| `bell_off.svg` | Bundled fallback | [SVG](Fluent%20Mono/device/bell_off.svg) |
+| `bell_off.svg` | — | [SVG](Fluent%20Mono/device/bell_off.svg) |
 | `brightness.svg` | [SVG](Fluent%20Color/device/brightness.svg) | [SVG](Fluent%20Mono/device/brightness.svg) |
-| `cpu.svg` | Bundled fallback | [SVG](Fluent%20Mono/device/cpu.svg) |
+| `cpu.svg` | — | [SVG](Fluent%20Mono/device/cpu.svg) |
 | `database.svg` | [SVG](Fluent%20Color/device/database.svg) | [SVG](Fluent%20Mono/device/database.svg) |
 | `lightbulb.svg` | [SVG](Fluent%20Color/device/lightbulb.svg) | [SVG](Fluent%20Mono/device/lightbulb.svg) |
-| `lightning.svg` | Bundled fallback | [SVG](Fluent%20Mono/device/lightning.svg) |
+| `lightning.svg` | — | [SVG](Fluent%20Mono/device/lightning.svg) |
 | `network.svg` | [SVG](Fluent%20Color/device/network.svg) | [SVG](Fluent%20Mono/device/network.svg) |
 | `restart.svg` | [SVG](Fluent%20Color/device/restart.svg) | [SVG](Fluent%20Mono/device/restart.svg) |
 | `sleep.svg` | [SVG](Fluent%20Color/device/sleep.svg) | [SVG](Fluent%20Mono/device/sleep.svg) |
 | `sun.svg` | [SVG](Fluent%20Color/device/sun.svg) | [SVG](Fluent%20Mono/device/sun.svg) |
 | `time.svg` | [SVG](Fluent%20Color/device/time.svg) | [SVG](Fluent%20Mono/device/time.svg) |
 | `timer.svg` | [SVG](Fluent%20Color/device/timer.svg) | [SVG](Fluent%20Mono/device/timer.svg) |
-| `usb.svg` | Bundled fallback | [SVG](Fluent%20Mono/device/usb.svg) |
-| `warmth.svg` | Bundled fallback | [SVG](Fluent%20Mono/device/warmth.svg) |
+| `usb.svg` | — | [SVG](Fluent%20Mono/device/usb.svg) |
+| `warmth.svg` | — | [SVG](Fluent%20Mono/device/warmth.svg) |
+
+## settings
+
+ZenOS settings menu rows, mirroring ZenOS's bundled `settings_*` lookups.
+
+| Lookup filename | Fluent Color | Fluent Mono |
+|---|---|---|
+| `settings_archive_outline.svg` | [SVG](Fluent%20Color/settings/settings_archive_outline.svg) | [SVG](Fluent%20Mono/settings/settings_archive_outline.svg) |
+| `settings_arrow_up_circle_outline.svg` | [SVG](Fluent%20Color/settings/settings_arrow_up_circle_outline.svg) | [SVG](Fluent%20Mono/settings/settings_arrow_up_circle_outline.svg) |
+| `settings_backup_restore.svg` | [SVG](Fluent%20Color/settings/settings_backup_restore.svg) | [SVG](Fluent%20Mono/settings/settings_backup_restore.svg) |
+| `settings_battery_70.svg` | [SVG](Fluent%20Color/settings/settings_battery_70.svg) | [SVG](Fluent%20Mono/settings/settings_battery_70.svg) |
+| `settings_bluetooth.svg` | [SVG](Fluent%20Color/settings/settings_bluetooth.svg) | [SVG](Fluent%20Mono/settings/settings_bluetooth.svg) |
+| `settings_blur.svg` | [SVG](Fluent%20Color/settings/settings_blur.svg) | [SVG](Fluent%20Mono/settings/settings_blur.svg) |
+| `settings_book_check.svg` | [SVG](Fluent%20Color/settings/settings_book_check.svg) | [SVG](Fluent%20Mono/settings/settings_book_check.svg) |
+| `settings_book_cog_outline.svg` | [SVG](Fluent%20Color/settings/settings_book_cog_outline.svg) | [SVG](Fluent%20Mono/settings/settings_book_cog_outline.svg) |
+| `settings_book_multiple_outline.svg` | [SVG](Fluent%20Color/settings/settings_book_multiple_outline.svg) | [SVG](Fluent%20Mono/settings/settings_book_multiple_outline.svg) |
+| `settings_book_open_variant.svg` | [SVG](Fluent%20Color/settings/settings_book_open_variant.svg) | [SVG](Fluent%20Mono/settings/settings_book_open_variant.svg) |
+| `settings_bookshelf.svg` | [SVG](Fluent%20Color/settings/settings_bookshelf.svg) | [SVG](Fluent%20Mono/settings/settings_bookshelf.svg) |
+| `settings_brush.svg` | [SVG](Fluent%20Color/settings/settings_brush.svg) | [SVG](Fluent%20Mono/settings/settings_brush.svg) |
+| `settings_bug.svg` | [SVG](Fluent%20Color/settings/settings_bug.svg) | — |
+| `settings_calendar_month_outline.svg` | [SVG](Fluent%20Color/settings/settings_calendar_month_outline.svg) | [SVG](Fluent%20Mono/settings/settings_calendar_month_outline.svg) |
+| `settings_chart_line.svg` | [SVG](Fluent%20Color/settings/settings_chart_line.svg) | [SVG](Fluent%20Mono/settings/settings_chart_line.svg) |
+| `settings_chip.svg` | [SVG](Fluent%20Color/settings/settings_chip.svg) | [SVG](Fluent%20Mono/settings/settings_chip.svg) |
+| `settings_clipboard_play_outline.svg` | [SVG](Fluent%20Color/settings/settings_clipboard_play_outline.svg) | [SVG](Fluent%20Mono/settings/settings_clipboard_play_outline.svg) |
+| `settings_clock_outline.svg` | [SVG](Fluent%20Color/settings/settings_clock_outline.svg) | [SVG](Fluent%20Mono/settings/settings_clock_outline.svg) |
+| `settings_cloud_download_outline.svg` | [SVG](Fluent%20Color/settings/settings_cloud_download_outline.svg) | [SVG](Fluent%20Mono/settings/settings_cloud_download_outline.svg) |
+| `settings_cog.svg` | [SVG](Fluent%20Color/settings/settings_cog.svg) | [SVG](Fluent%20Mono/settings/settings_cog.svg) |
+| `settings_content_save.svg` | [SVG](Fluent%20Color/settings/settings_content_save.svg) | [SVG](Fluent%20Mono/settings/settings_content_save.svg) |
+| `settings_cursor_move.svg` | [SVG](Fluent%20Color/settings/settings_cursor_move.svg) | [SVG](Fluent%20Mono/settings/settings_cursor_move.svg) |
+| `settings_delete_outline.svg` | [SVG](Fluent%20Color/settings/settings_delete_outline.svg) | [SVG](Fluent%20Mono/settings/settings_delete_outline.svg) |
+| `settings_division.svg` | [SVG](Fluent%20Color/settings/settings_division.svg) | [SVG](Fluent%20Mono/settings/settings_division.svg) |
+| `settings_dock_bottom.svg` | [SVG](Fluent%20Color/settings/settings_dock_bottom.svg) | [SVG](Fluent%20Mono/settings/settings_dock_bottom.svg) |
+| `settings_dots_grid.svg` | [SVG](Fluent%20Color/settings/settings_dots_grid.svg) | [SVG](Fluent%20Mono/settings/settings_dots_grid.svg) |
+| `settings_drag_horizontal_variant.svg` | [SVG](Fluent%20Color/settings/settings_drag_horizontal_variant.svg) | [SVG](Fluent%20Mono/settings/settings_drag_horizontal_variant.svg) |
+| `settings_draw_pen.svg` | [SVG](Fluent%20Color/settings/settings_draw_pen.svg) | [SVG](Fluent%20Mono/settings/settings_draw_pen.svg) |
+| `settings_eye_off.svg` | [SVG](Fluent%20Color/settings/settings_eye_off.svg) | [SVG](Fluent%20Mono/settings/settings_eye_off.svg) |
+| `settings_file_tree.svg` | [SVG](Fluent%20Color/settings/settings_file_tree.svg) | [SVG](Fluent%20Mono/settings/settings_file_tree.svg) |
+| `settings_flash.svg` | [SVG](Fluent%20Color/settings/settings_flash.svg) | [SVG](Fluent%20Mono/settings/settings_flash.svg) |
+| `settings_folder_home_outline.svg` | [SVG](Fluent%20Color/settings/settings_folder_home_outline.svg) | [SVG](Fluent%20Mono/settings/settings_folder_home_outline.svg) |
+| `settings_folder_open_outline.svg` | [SVG](Fluent%20Color/settings/settings_folder_open_outline.svg) | [SVG](Fluent%20Mono/settings/settings_folder_open_outline.svg) |
+| `settings_folder_outline.svg` | [SVG](Fluent%20Color/settings/settings_folder_outline.svg) | [SVG](Fluent%20Mono/settings/settings_folder_outline.svg) |
+| `settings_folder_plus_outline.svg` | [SVG](Fluent%20Color/settings/settings_folder_plus_outline.svg) | [SVG](Fluent%20Mono/settings/settings_folder_plus_outline.svg) |
+| `settings_format_horizontal_align_center.svg` | [SVG](Fluent%20Color/settings/settings_format_horizontal_align_center.svg) | [SVG](Fluent%20Mono/settings/settings_format_horizontal_align_center.svg) |
+| `settings_format_underline.svg` | [SVG](Fluent%20Color/settings/settings_format_underline.svg) | [SVG](Fluent%20Mono/settings/settings_format_underline.svg) |
+| `settings_gesture_double_tap.svg` | [SVG](Fluent%20Color/settings/settings_gesture_double_tap.svg) | [SVG](Fluent%20Mono/settings/settings_gesture_double_tap.svg) |
+| `settings_gesture_swipe_down.svg` | [SVG](Fluent%20Color/settings/settings_gesture_swipe_down.svg) | [SVG](Fluent%20Mono/settings/settings_gesture_swipe_down.svg) |
+| `settings_gesture_swipe_up.svg` | [SVG](Fluent%20Color/settings/settings_gesture_swipe_up.svg) | [SVG](Fluent%20Mono/settings/settings_gesture_swipe_up.svg) |
+| `settings_grid_large.svg` | [SVG](Fluent%20Color/settings/settings_grid_large.svg) | [SVG](Fluent%20Mono/settings/settings_grid_large.svg) |
+| `settings_harddisk.svg` | [SVG](Fluent%20Color/settings/settings_harddisk.svg) | [SVG](Fluent%20Mono/settings/settings_harddisk.svg) |
+| `settings_home_variant.svg` | [SVG](Fluent%20Color/settings/settings_home_variant.svg) | [SVG](Fluent%20Mono/settings/settings_home_variant.svg) |
+| `settings_image_filter_hdr.svg` | [SVG](Fluent%20Color/settings/settings_image_filter_hdr.svg) | [SVG](Fluent%20Mono/settings/settings_image_filter_hdr.svg) |
+| `settings_image_multiple_outline.svg` | [SVG](Fluent%20Color/settings/settings_image_multiple_outline.svg) | [SVG](Fluent%20Mono/settings/settings_image_multiple_outline.svg) |
+| `settings_keyboard.svg` | [SVG](Fluent%20Color/settings/settings_keyboard.svg) | [SVG](Fluent%20Mono/settings/settings_keyboard.svg) |
+| `settings_lightning_bolt.svg` | [SVG](Fluent%20Color/settings/settings_lightning_bolt.svg) | [SVG](Fluent%20Mono/settings/settings_lightning_bolt.svg) |
+| `settings_lock.svg` | [SVG](Fluent%20Color/settings/settings_lock.svg) | [SVG](Fluent%20Mono/settings/settings_lock.svg) |
+| `settings_magnify.svg` | [SVG](Fluent%20Color/settings/settings_magnify.svg) | [SVG](Fluent%20Mono/settings/settings_magnify.svg) |
+| `settings_memory.svg` | [SVG](Fluent%20Color/settings/settings_memory.svg) | [SVG](Fluent%20Mono/settings/settings_memory.svg) |
+| `settings_menu.svg` | [SVG](Fluent%20Color/settings/settings_menu.svg) | [SVG](Fluent%20Mono/settings/settings_menu.svg) |
+| `settings_palette.svg` | [SVG](Fluent%20Color/settings/settings_palette.svg) | [SVG](Fluent%20Mono/settings/settings_palette.svg) |
+| `settings_pan_horizontal.svg` | [SVG](Fluent%20Color/settings/settings_pan_horizontal.svg) | [SVG](Fluent%20Mono/settings/settings_pan_horizontal.svg) |
+| `settings_play.svg` | [SVG](Fluent%20Color/settings/settings_play.svg) | [SVG](Fluent%20Mono/settings/settings_play.svg) |
+| `settings_power_plug.svg` | [SVG](Fluent%20Color/settings/settings_power_plug.svg) | [SVG](Fluent%20Mono/settings/settings_power_plug.svg) |
+| `settings_receipt_outline.svg` | [SVG](Fluent%20Color/settings/settings_receipt_outline.svg) | [SVG](Fluent%20Mono/settings/settings_receipt_outline.svg) |
+| `settings_reflect_horizontal.svg` | [SVG](Fluent%20Color/settings/settings_reflect_horizontal.svg) | [SVG](Fluent%20Mono/settings/settings_reflect_horizontal.svg) |
+| `settings_refresh.svg` | [SVG](Fluent%20Color/settings/settings_refresh.svg) | [SVG](Fluent%20Mono/settings/settings_refresh.svg) |
+| `settings_restart.svg` | [SVG](Fluent%20Color/settings/settings_restart.svg) | [SVG](Fluent%20Mono/settings/settings_restart.svg) |
+| `settings_sleep.svg` | [SVG](Fluent%20Color/settings/settings_sleep.svg) | [SVG](Fluent%20Mono/settings/settings_sleep.svg) |
+| `settings_sort_alphabetical_variant.svg` | [SVG](Fluent%20Color/settings/settings_sort_alphabetical_variant.svg) | [SVG](Fluent%20Mono/settings/settings_sort_alphabetical_variant.svg) |
+| `settings_sort_variant.svg` | [SVG](Fluent%20Color/settings/settings_sort_variant.svg) | [SVG](Fluent%20Mono/settings/settings_sort_variant.svg) |
+| `settings_square_edit_outline.svg` | [SVG](Fluent%20Color/settings/settings_square_edit_outline.svg) | [SVG](Fluent%20Mono/settings/settings_square_edit_outline.svg) |
+| `settings_star.svg` | [SVG](Fluent%20Color/settings/settings_star.svg) | [SVG](Fluent%20Mono/settings/settings_star.svg) |
+| `settings_table_row.svg` | [SVG](Fluent%20Color/settings/settings_table_row.svg) | [SVG](Fluent%20Mono/settings/settings_table_row.svg) |
+| `settings_tag.svg` | [SVG](Fluent%20Color/settings/settings_tag.svg) | [SVG](Fluent%20Mono/settings/settings_tag.svg) |
+| `settings_tag_multiple_outline.svg` | [SVG](Fluent%20Color/settings/settings_tag_multiple_outline.svg) | [SVG](Fluent%20Mono/settings/settings_tag_multiple_outline.svg) |
+| `settings_tag_outline.svg` | [SVG](Fluent%20Color/settings/settings_tag_outline.svg) | [SVG](Fluent%20Mono/settings/settings_tag_outline.svg) |
+| `settings_thermometer_lines.svg` | [SVG](Fluent%20Color/settings/settings_thermometer_lines.svg) | [SVG](Fluent%20Mono/settings/settings_thermometer_lines.svg) |
+| `settings_toggle_switch.svg` | [SVG](Fluent%20Color/settings/settings_toggle_switch.svg) | [SVG](Fluent%20Mono/settings/settings_toggle_switch.svg) |
+| `settings_tools.svg` | [SVG](Fluent%20Color/settings/settings_tools.svg) | [SVG](Fluent%20Mono/settings/settings_tools.svg) |
+| `settings_translate.svg` | [SVG](Fluent%20Color/settings/settings_translate.svg) | [SVG](Fluent%20Mono/settings/settings_translate.svg) |
+| `settings_view_grid_outline.svg` | [SVG](Fluent%20Color/settings/settings_view_grid_outline.svg) | [SVG](Fluent%20Mono/settings/settings_view_grid_outline.svg) |
+| `settings_view_list_outline.svg` | [SVG](Fluent%20Color/settings/settings_view_list_outline.svg) | [SVG](Fluent%20Mono/settings/settings_view_list_outline.svg) |
+| `settings_view_quilt.svg` | [SVG](Fluent%20Color/settings/settings_view_quilt.svg) | [SVG](Fluent%20Mono/settings/settings_view_quilt.svg) |
+| `settings_wallpaper.svg` | [SVG](Fluent%20Color/settings/settings_wallpaper.svg) | [SVG](Fluent%20Mono/settings/settings_wallpaper.svg) |
+| `settings_weather_night.svg` | [SVG](Fluent%20Color/settings/settings_weather_night.svg) | [SVG](Fluent%20Mono/settings/settings_weather_night.svg) |
+| `settings_weather_sunny.svg` | [SVG](Fluent%20Color/settings/settings_weather_sunny.svg) | [SVG](Fluent%20Mono/settings/settings_weather_sunny.svg) |
+| `settings_widgets.svg` | [SVG](Fluent%20Color/settings/settings_widgets.svg) | [SVG](Fluent%20Mono/settings/settings_widgets.svg) |
+| `settings_wifi.svg` | [SVG](Fluent%20Color/settings/settings_wifi.svg) | [SVG](Fluent%20Mono/settings/settings_wifi.svg) |
+| `view_carousel_outline.svg` | [SVG](Fluent%20Color/settings/view_carousel_outline.svg) | [SVG](Fluent%20Mono/settings/view_carousel_outline.svg) |
 
 ## koreader
 
@@ -281,17 +374,17 @@ Stock KOReader icons, including appbar, plus/info, bookmarks, and book_open.
 
 | Lookup filename | Fluent Color | Fluent Mono |
 |---|---|---|
-| `align.auto.svg` | Bundled fallback | [SVG](Fluent%20Mono/koreader/align.auto.svg) |
-| `align.center.svg` | Bundled fallback | [SVG](Fluent%20Mono/koreader/align.center.svg) |
-| `align.justify.svg` | Bundled fallback | [SVG](Fluent%20Mono/koreader/align.justify.svg) |
-| `align.left.svg` | Bundled fallback | [SVG](Fluent%20Mono/koreader/align.left.svg) |
-| `align.right.svg` | Bundled fallback | [SVG](Fluent%20Mono/koreader/align.right.svg) |
-| `appbar.contrast.svg` | Bundled fallback | [SVG](Fluent%20Mono/koreader/appbar.contrast.svg) |
-| `appbar.crop.svg` | Bundled fallback | [SVG](Fluent%20Mono/koreader/appbar.crop.svg) |
+| `align.auto.svg` | — | [SVG](Fluent%20Mono/koreader/align.auto.svg) |
+| `align.center.svg` | — | [SVG](Fluent%20Mono/koreader/align.center.svg) |
+| `align.justify.svg` | — | [SVG](Fluent%20Mono/koreader/align.justify.svg) |
+| `align.left.svg` | — | [SVG](Fluent%20Mono/koreader/align.left.svg) |
+| `align.right.svg` | — | [SVG](Fluent%20Mono/koreader/align.right.svg) |
+| `appbar.contrast.svg` | — | [SVG](Fluent%20Mono/koreader/appbar.contrast.svg) |
+| `appbar.crop.svg` | — | [SVG](Fluent%20Mono/koreader/appbar.crop.svg) |
 | `appbar.filebrowser.svg` | [SVG](Fluent%20Color/koreader/appbar.filebrowser.svg) | [SVG](Fluent%20Mono/koreader/appbar.filebrowser.svg) |
 | `appbar.menu.svg` | [SVG](Fluent%20Color/koreader/appbar.menu.svg) | [SVG](Fluent%20Mono/koreader/appbar.menu.svg) |
-| `appbar.navigation.svg` | Bundled fallback | [SVG](Fluent%20Mono/koreader/appbar.navigation.svg) |
-| `appbar.pagefit.svg` | Bundled fallback | [SVG](Fluent%20Mono/koreader/appbar.pagefit.svg) |
+| `appbar.navigation.svg` | — | [SVG](Fluent%20Mono/koreader/appbar.navigation.svg) |
+| `appbar.pagefit.svg` | — | [SVG](Fluent%20Mono/koreader/appbar.pagefit.svg) |
 | `appbar.pageview.svg` | [SVG](Fluent%20Color/koreader/appbar.pageview.svg) | [SVG](Fluent%20Mono/koreader/appbar.pageview.svg) |
 | `appbar.rotation.svg` | [SVG](Fluent%20Color/koreader/appbar.rotation.svg) | [SVG](Fluent%20Mono/koreader/appbar.rotation.svg) |
 | `appbar.search.svg` | [SVG](Fluent%20Color/koreader/appbar.search.svg) | [SVG](Fluent%20Mono/koreader/appbar.search.svg) |
@@ -312,31 +405,31 @@ Stock KOReader icons, including appbar, plus/info, bookmarks, and book_open.
 | `chevron.right.svg` | [SVG](Fluent%20Color/koreader/chevron.right.svg) | [SVG](Fluent%20Mono/koreader/chevron.right.svg) |
 | `chevron.up.svg` | [SVG](Fluent%20Color/koreader/chevron.up.svg) | [SVG](Fluent%20Mono/koreader/chevron.up.svg) |
 | `close.svg` | [SVG](Fluent%20Color/koreader/close.svg) | [SVG](Fluent%20Mono/koreader/close.svg) |
-| `column.one.svg` | Bundled fallback | [SVG](Fluent%20Mono/koreader/column.one.svg) |
-| `column.three.svg` | Bundled fallback | [SVG](Fluent%20Mono/koreader/column.three.svg) |
-| `column.two.svg` | Bundled fallback | [SVG](Fluent%20Mono/koreader/column.two.svg) |
+| `column.one.svg` | — | [SVG](Fluent%20Mono/koreader/column.one.svg) |
+| `column.three.svg` | — | [SVG](Fluent%20Mono/koreader/column.three.svg) |
+| `column.two.svg` | — | [SVG](Fluent%20Mono/koreader/column.two.svg) |
 | `control.collapse.svg` | [SVG](Fluent%20Color/koreader/control.collapse.svg) | [SVG](Fluent%20Mono/koreader/control.collapse.svg) |
 | `control.expand.alpha.svg` | [SVG](Fluent%20Color/koreader/control.expand.alpha.svg) | [SVG](Fluent%20Mono/koreader/control.expand.alpha.svg) |
 | `control.expand.svg` | [SVG](Fluent%20Color/koreader/control.expand.svg) | [SVG](Fluent%20Mono/koreader/control.expand.svg) |
-| `cre.render.partial.svg` | Bundled fallback | [SVG](Fluent%20Mono/koreader/cre.render.partial.svg) |
+| `cre.render.partial.svg` | — | [SVG](Fluent%20Mono/koreader/cre.render.partial.svg) |
 | `cre.render.ready.svg` | [SVG](Fluent%20Color/koreader/cre.render.ready.svg) | [SVG](Fluent%20Mono/koreader/cre.render.ready.svg) |
 | `cre.render.reload.alpha.svg` | [SVG](Fluent%20Color/koreader/cre.render.reload.alpha.svg) | [SVG](Fluent%20Mono/koreader/cre.render.reload.alpha.svg) |
 | `cre.render.reload.svg` | [SVG](Fluent%20Color/koreader/cre.render.reload.svg) | [SVG](Fluent%20Mono/koreader/cre.render.reload.svg) |
 | `cre.render.working.svg` | [SVG](Fluent%20Color/koreader/cre.render.working.svg) | [SVG](Fluent%20Mono/koreader/cre.render.working.svg) |
-| `dogear.abandoned.rtl.svg` | Bundled fallback | [SVG](Fluent%20Mono/koreader/dogear.abandoned.rtl.svg) |
-| `dogear.abandoned.svg` | Bundled fallback | [SVG](Fluent%20Mono/koreader/dogear.abandoned.svg) |
+| `dogear.abandoned.rtl.svg` | — | [SVG](Fluent%20Mono/koreader/dogear.abandoned.rtl.svg) |
+| `dogear.abandoned.svg` | — | [SVG](Fluent%20Mono/koreader/dogear.abandoned.svg) |
 | `dogear.alpha.svg` | [SVG](Fluent%20Color/koreader/dogear.alpha.svg) | [SVG](Fluent%20Mono/koreader/dogear.alpha.svg) |
-| `dogear.complete.rtl.svg` | Bundled fallback | [SVG](Fluent%20Mono/koreader/dogear.complete.rtl.svg) |
-| `dogear.complete.svg` | Bundled fallback | [SVG](Fluent%20Mono/koreader/dogear.complete.svg) |
+| `dogear.complete.rtl.svg` | — | [SVG](Fluent%20Mono/koreader/dogear.complete.rtl.svg) |
+| `dogear.complete.svg` | — | [SVG](Fluent%20Mono/koreader/dogear.complete.svg) |
 | `dogear.opaque.svg` | [SVG](Fluent%20Color/koreader/dogear.opaque.svg) | [SVG](Fluent%20Mono/koreader/dogear.opaque.svg) |
 | `dogear.reading.svg` | [SVG](Fluent%20Color/koreader/dogear.reading.svg) | [SVG](Fluent%20Mono/koreader/dogear.reading.svg) |
 | `edit.svg` | [SVG](Fluent%20Color/koreader/edit.svg) | [SVG](Fluent%20Mono/koreader/edit.svg) |
 | `exit.svg` | [SVG](Fluent%20Color/koreader/exit.svg) | [SVG](Fluent%20Mono/koreader/exit.svg) |
 | `home.svg` | [SVG](Fluent%20Color/koreader/home.svg) | [SVG](Fluent%20Mono/koreader/home.svg) |
-| `info.svg` | Bundled fallback | [SVG](Fluent%20Mono/koreader/info.svg) |
+| `info.svg` | — | [SVG](Fluent%20Mono/koreader/info.svg) |
 | `move.down.svg` | [SVG](Fluent%20Color/koreader/move.down.svg) | [SVG](Fluent%20Mono/koreader/move.down.svg) |
 | `move.up.svg` | [SVG](Fluent%20Color/koreader/move.up.svg) | [SVG](Fluent%20Mono/koreader/move.up.svg) |
-| `notice-info.svg` | Bundled fallback | [SVG](Fluent%20Mono/koreader/notice-info.svg) |
+| `notice-info.svg` | — | [SVG](Fluent%20Mono/koreader/notice-info.svg) |
 | `notice-question.svg` | [SVG](Fluent%20Color/koreader/notice-question.svg) | [SVG](Fluent%20Mono/koreader/notice-question.svg) |
 | `notice-warning.svg` | [SVG](Fluent%20Color/koreader/notice-warning.svg) | [SVG](Fluent%20Mono/koreader/notice-warning.svg) |
 | `plus.svg` | [SVG](Fluent%20Color/koreader/plus.svg) | [SVG](Fluent%20Mono/koreader/plus.svg) |
@@ -345,14 +438,14 @@ Stock KOReader icons, including appbar, plus/info, bookmarks, and book_open.
 | `star.empty.svg` | [SVG](Fluent%20Color/koreader/star.empty.svg) | [SVG](Fluent%20Mono/koreader/star.empty.svg) |
 | `star.full.svg` | [SVG](Fluent%20Color/koreader/star.full.svg) | [SVG](Fluent%20Mono/koreader/star.full.svg) |
 | `star.white.svg` | [SVG](Fluent%20Color/koreader/star.white.svg) | [SVG](Fluent%20Mono/koreader/star.white.svg) |
-| `triangle.svg` | Bundled fallback | [SVG](Fluent%20Mono/koreader/triangle.svg) |
-| `wifi.open.0.svg` | Bundled fallback | [SVG](Fluent%20Mono/koreader/wifi.open.0.svg) |
+| `triangle.svg` | — | [SVG](Fluent%20Mono/koreader/triangle.svg) |
+| `wifi.open.0.svg` | — | [SVG](Fluent%20Mono/koreader/wifi.open.0.svg) |
 | `wifi.open.100.svg` | [SVG](Fluent%20Color/koreader/wifi.open.100.svg) | [SVG](Fluent%20Mono/koreader/wifi.open.100.svg) |
-| `wifi.open.25.svg` | Bundled fallback | [SVG](Fluent%20Mono/koreader/wifi.open.25.svg) |
-| `wifi.open.50.svg` | Bundled fallback | [SVG](Fluent%20Mono/koreader/wifi.open.50.svg) |
-| `wifi.open.75.svg` | Bundled fallback | [SVG](Fluent%20Mono/koreader/wifi.open.75.svg) |
-| `wifi.secure.100.svg` | Bundled fallback | [SVG](Fluent%20Mono/koreader/wifi.secure.100.svg) |
+| `wifi.open.25.svg` | — | [SVG](Fluent%20Mono/koreader/wifi.open.25.svg) |
+| `wifi.open.50.svg` | — | [SVG](Fluent%20Mono/koreader/wifi.open.50.svg) |
+| `wifi.open.75.svg` | — | [SVG](Fluent%20Mono/koreader/wifi.open.75.svg) |
+| `wifi.secure.100.svg` | — | [SVG](Fluent%20Mono/koreader/wifi.secure.100.svg) |
 | `wifi.svg` | [SVG](Fluent%20Color/koreader/wifi.svg) | [SVG](Fluent%20Mono/koreader/wifi.svg) |
-| `zoom.content.svg` | Bundled fallback | [SVG](Fluent%20Mono/koreader/zoom.content.svg) |
+| `zoom.content.svg` | — | [SVG](Fluent%20Mono/koreader/zoom.content.svg) |
 | `zoom.manual.svg` | [SVG](Fluent%20Color/koreader/zoom.manual.svg) | [SVG](Fluent%20Mono/koreader/zoom.manual.svg) |
-| `zoom.page.svg` | Bundled fallback | [SVG](Fluent%20Mono/koreader/zoom.page.svg) |
+| `zoom.page.svg` | — | [SVG](Fluent%20Mono/koreader/zoom.page.svg) |

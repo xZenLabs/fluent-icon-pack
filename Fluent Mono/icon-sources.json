@@ -186,14 +186,6 @@
       "icon": "fluent:star-24-regular",
       "sha256": "48b48b41808857bc0d84e86ca771ecb62bd559ee606c1f77f3a92442e6895636"
     },
-    "Fluent Mono/navbar/tab_left.svg": {
-      "icon": "fluent:chevron-left-24-regular",
-      "sha256": "8951c5c5dbe2243ebd4879b0d851d9d7050bd0027a504757b1b2c4cf1c1bea0f"
-    },
-    "Fluent Mono/navbar/tab_right.svg": {
-      "icon": "fluent:chevron-right-24-regular",
-      "sha256": "3b9a6fa03a30d9c76cbf637afa8ee578dc87e819f7677bcdf74e6b3ed0b6068e"
-    },
     "Fluent Mono/device/backup.svg": {
       "icon": "fluent:arrow-clockwise-dashes-24-regular",
       "sha256": "8c45bdd8a733fa6f68be6d59dd86abc8c79977268fea516a260a06adab0f4541"
@@ -361,6 +353,10 @@
       "transform": "rotate(90 12 12)"
     },
     "Fluent Mono/koreader/book.opened.svg": {
+      "icon": "fluent:book-open-24-regular",
+      "sha256": "d7144870e852937ed747f2b13adb7751eda6fcc6d66f34f2ad34352a9ac7acb5"
+    },
+    "Fluent Mono/koreader/book_open.svg": {
       "icon": "fluent:book-open-24-regular",
       "sha256": "d7144870e852937ed747f2b13adb7751eda6fcc6d66f34f2ad34352a9ac7acb5"
     },
@@ -642,10 +638,6 @@
       "icon": "fluent:compass-northwest-24-regular",
       "sha256": "e84e934520a9654acad77fb55e8cd629bee5cc9cca0fd113aedac31228ea93e9"
     },
-    "Fluent Mono/reader/coverflow.svg": {
-      "icon": "fluent:content-view-24-regular",
-      "sha256": "e05b48d7dda44522428c9816dfb2e61c6998f9a21020c52c9bfe56807fc9e634"
-    },
     "Fluent Mono/launcher/education.svg": {
       "icon": "fluent:certificate-24-regular",
       "sha256": "630d1bfcdaf02fc2ee8614fc18e53135a0aa67de41395da71b62d8584393c4c4"
@@ -681,14 +673,6 @@
     "Fluent Mono/launcher/globe.svg": {
       "icon": "fluent:globe-24-regular",
       "sha256": "3e56f8710041f068e5463dd1f5df4a6a13f8fe485a118d0441d6a51dc4ca98a1"
-    },
-    "Fluent Mono/reader/grid.svg": {
-      "icon": "fluent:apps-24-regular",
-      "sha256": "d1d4340be3f58795f4ff56deb69680c723136bf6b82c2606915e3a6322eb0615"
-    },
-    "Fluent Mono/reader/grid_slide.svg": {
-      "icon": "fluent:slide-layout-24-regular",
-      "sha256": "e4a44b76ff50f7717b13ee28ee4308b5d7c4039b146cbeb70a7b84cfb6d07c8d"
     },
     "Fluent Mono/launcher/paint_palette.svg": {
       "icon": "fluent:color-24-regular",
@@ -842,6 +826,10 @@
       "icon": "fluent:history-24-regular",
       "sha256": "7983d870bdd8e0aea9cd0344ca818c2bf16d4b84bf3218fac39007369901f905"
     },
+    "Fluent Mono/navbar/tab_left.svg": {
+      "icon": "fluent:chevron-left-24-regular",
+      "sha256": "8951c5c5dbe2243ebd4879b0d851d9d7050bd0027a504757b1b2c4cf1c1bea0f"
+    },
     "Fluent Mono/navbar/tab_manga.svg": {
       "icon": "fluent:notebook-24-regular",
       "sha256": "7efd011d66e07d46228d369e70a5813088a77a7ae625c31b4749b20418f59ec5"
@@ -849,6 +837,10 @@
     "Fluent Mono/navbar/tab_news.svg": {
       "icon": "fluent:news-24-regular",
       "sha256": "9c67dc1f097fe5f58f128f4ab42ee2b6c1bad6d22de0afbe501bef0ae9233c86"
+    },
+    "Fluent Mono/navbar/tab_right.svg": {
+      "icon": "fluent:chevron-right-24-regular",
+      "sha256": "3b9a6fa03a30d9c76cbf637afa8ee578dc87e819f7677bcdf74e6b3ed0b6068e"
     },
     "Fluent Mono/navbar/tab_series.svg": {
       "icon": "fluent:book-open-24-regular",
@@ -882,17 +874,361 @@
       "icon": "fluent:globe-24-regular",
       "sha256": "3e56f8710041f068e5463dd1f5df4a6a13f8fe485a118d0441d6a51dc4ca98a1"
     },
+    "Fluent Mono/reader/coverflow.svg": {
+      "icon": "fluent:content-view-24-regular",
+      "sha256": "e05b48d7dda44522428c9816dfb2e61c6998f9a21020c52c9bfe56807fc9e634"
+    },
+    "Fluent Mono/reader/footnote.svg": {
+      "icon": "fluent:text-footnote-24-regular",
+      "sha256": "80cf6134f7f9f4e3ea642841c771a3b527b53555fa24c9de2a4679317eb74d2b"
+    },
+    "Fluent Mono/reader/grid.svg": {
+      "icon": "fluent:apps-24-regular",
+      "sha256": "d1d4340be3f58795f4ff56deb69680c723136bf6b82c2606915e3a6322eb0615"
+    },
+    "Fluent Mono/reader/grid_slide.svg": {
+      "icon": "fluent:slide-layout-24-regular",
+      "sha256": "e4a44b76ff50f7717b13ee28ee4308b5d7c4039b146cbeb70a7b84cfb6d07c8d"
+    },
+    "Fluent Mono/reader/pin.svg": {
+      "icon": "fluent:pin-24-regular",
+      "sha256": "2b7f85731dbb0c64cd4899d06c2d892d4f227a7e8266d74d7e29af0826ef9504"
+    },
+    "Fluent Mono/reader/return.svg": {
+      "icon": "fluent:arrow-hook-down-left-24-regular",
+      "sha256": "38e7562646334447bee7b36b896651c78b0994da08b8d08762180a93bf9f82eb"
+    },
+    "Fluent Mono/reader/return_old.svg": {
+      "icon": "fluent:arrow-undo-24-regular",
+      "sha256": "f8dad7f882d2d6d232f2788e822605c56f5f8c268f70209eeb74759867f51f3c"
+    },
     "Fluent Mono/reader/tab_vocab.svg": {
       "icon": "fluent:notebook-24-regular",
       "sha256": "7efd011d66e07d46228d369e70a5813088a77a7ae625c31b4749b20418f59ec5"
     },
-    "Fluent Mono/koreader/book_open.svg": {
-      "icon": "fluent:book-open-24-regular",
-      "sha256": "d7144870e852937ed747f2b13adb7751eda6fcc6d66f34f2ad34352a9ac7acb5"
-    },
     "Fluent Mono/reader/toc.svg": {
       "icon": "fluent:text-bullet-list-square-24-regular",
       "sha256": "d2ae47781c5e4170c34905ffb62cd851e8a1ff36c62edea53dac951947d72ecb"
+    },
+    "Fluent Mono/settings/settings_archive_outline.svg": {
+      "icon": "fluent:archive-24-regular",
+      "sha256": "e16def3897abe5c3614afdd1444c835a3cbae53264a42c6891bf395191235d5f"
+    },
+    "Fluent Mono/settings/settings_arrow_up_circle_outline.svg": {
+      "icon": "fluent:arrow-upload-24-regular",
+      "sha256": "9a9747f82855417029d5b7a0d8007183480c946863957b1408f53176df4a407b"
+    },
+    "Fluent Mono/settings/settings_backup_restore.svg": {
+      "icon": "fluent:arrow-clockwise-dashes-24-regular",
+      "sha256": "8c45bdd8a733fa6f68be6d59dd86abc8c79977268fea516a260a06adab0f4541"
+    },
+    "Fluent Mono/settings/settings_battery_70.svg": {
+      "icon": "fluent:battery-5-24-regular",
+      "sha256": "02b02cef188a619b54c7aff5684db4dbf244c330b06b6baa2d80efd66556b2c1"
+    },
+    "Fluent Mono/settings/settings_bluetooth.svg": {
+      "icon": "fluent:bluetooth-24-regular",
+      "sha256": "84195217b5e06fbc7edfcb4802f98096127d178ec6c01cc59fa020bca4821412"
+    },
+    "Fluent Mono/settings/settings_blur.svg": {
+      "icon": "fluent:blur-24-regular",
+      "sha256": "e6c6eb378205ae14a133b5910d852a2c11f30e075a6af9fc57fee41c0c42ce57"
+    },
+    "Fluent Mono/settings/settings_book_check.svg": {
+      "icon": "fluent:book-24-regular",
+      "sha256": "88fb8a7faafb076f54534ab4ea3bc71ddb99518cb1d3a5501ec346fd1f12a0d3"
+    },
+    "Fluent Mono/settings/settings_book_cog_outline.svg": {
+      "icon": "fluent:image-multiple-24-regular",
+      "sha256": "f41ceee2d328a163b9d710c9b6be58e1e274d861abe879e9983dfb3b26a5837e"
+    },
+    "Fluent Mono/settings/settings_book_multiple_outline.svg": {
+      "icon": "fluent:book-open-24-regular",
+      "sha256": "d7144870e852937ed747f2b13adb7751eda6fcc6d66f34f2ad34352a9ac7acb5"
+    },
+    "Fluent Mono/settings/settings_book_open_variant.svg": {
+      "icon": "fluent:book-open-24-regular",
+      "sha256": "d7144870e852937ed747f2b13adb7751eda6fcc6d66f34f2ad34352a9ac7acb5"
+    },
+    "Fluent Mono/settings/settings_bookshelf.svg": {
+      "icon": "fluent:library-24-regular",
+      "sha256": "ad0180a08490ef907f7903fb6c2ceaa6fe5391df487b7e4b42bbb64878a260d7"
+    },
+    "Fluent Mono/settings/settings_brush.svg": {
+      "icon": "fluent:paint-brush-24-regular",
+      "sha256": "0047181b3a4143ea4323a5f7570ee3e615a236503cfbdfff82ad0a00bae0ba08"
+    },
+    "Fluent Mono/settings/settings_calendar_month_outline.svg": {
+      "icon": "fluent:calendar-24-regular",
+      "sha256": "134e8f0f6b2b25d839dab586d290cce0d8a79df5a00f52e22d3fcb1782cb30f4"
+    },
+    "Fluent Mono/settings/settings_chart_line.svg": {
+      "icon": "fluent:data-trending-24-regular",
+      "sha256": "33f9623838a87c9d672373f5fe0cc478b7eb3cc11fe8545bcb806b10912b7b43"
+    },
+    "Fluent Mono/settings/settings_chip.svg": {
+      "icon": "fluent:developer-board-24-regular",
+      "sha256": "1ee977f82f8c75a347bfba32db90e76bf32d9a0d9bca423232113f249d0f75a9"
+    },
+    "Fluent Mono/settings/settings_clipboard_play_outline.svg": {
+      "icon": "fluent:clipboard-task-24-regular",
+      "sha256": "f04bfaa0b9623655124e856753e2ec43cf3f6d7a657e9414b203d355867dfec3"
+    },
+    "Fluent Mono/settings/settings_clock_outline.svg": {
+      "icon": "fluent:clock-24-regular",
+      "sha256": "6602cbdf7e99d9eb8b2a65e1a20816690ecf19fd11c1e182fd0bcc35935c4939"
+    },
+    "Fluent Mono/settings/settings_cloud_download_outline.svg": {
+      "icon": "fluent:globe-24-regular",
+      "sha256": "3e56f8710041f068e5463dd1f5df4a6a13f8fe485a118d0441d6a51dc4ca98a1"
+    },
+    "Fluent Mono/settings/settings_cog.svg": {
+      "icon": "fluent:settings-24-regular",
+      "sha256": "274eabb9d67a1d886de002024ee6de3b809853c868b64e2afb6107200cc852be"
+    },
+    "Fluent Mono/settings/settings_content_save.svg": {
+      "icon": "fluent:save-24-regular",
+      "sha256": "d929a5f2f91599b31c59fe0104f327b080c86fa3f8d06a98c3744c2f2e333d29"
+    },
+    "Fluent Mono/settings/settings_cursor_move.svg": {
+      "icon": "fluent:folder-arrow-right-24-regular",
+      "sha256": "366aa32fa9b59df05bb81223159b4d5267989293e04ed0b35eaa705b014592f3"
+    },
+    "Fluent Mono/settings/settings_delete_outline.svg": {
+      "icon": "fluent:delete-24-regular",
+      "sha256": "43ebfce62c356121c7a34c9095fac0decf6b15f90ac1456d56ec024d178f37c5"
+    },
+    "Fluent Mono/settings/settings_division.svg": {
+      "icon": "fluent:line-horizontal-3-24-regular",
+      "sha256": "03385b9d1b9ceaaf43b92d0af49b901705a65460460401080aa41c141e1c1f1f"
+    },
+    "Fluent Mono/settings/settings_dock_bottom.svg": {
+      "icon": "fluent:tab-desktop-bottom-24-regular",
+      "sha256": "760ddda4bdbb8575e3dbf1976cae20776f9b4da9ab2a21fe025a5bf3d0909651"
+    },
+    "Fluent Mono/settings/settings_dots_grid.svg": {
+      "icon": "fluent:apps-24-regular",
+      "sha256": "d1d4340be3f58795f4ff56deb69680c723136bf6b82c2606915e3a6322eb0615"
+    },
+    "Fluent Mono/settings/settings_drag_horizontal_variant.svg": {
+      "icon": "fluent:re-order-dots-horizontal-24-regular",
+      "sha256": "4a1359e53a6b44a4dd1c807cc188ccabe1282fceb53ef3050b4b5eea873787a0"
+    },
+    "Fluent Mono/settings/settings_draw_pen.svg": {
+      "icon": "fluent:pen-24-regular",
+      "sha256": "ebc5a06b68c854233c6be7e884b0e14be430ed8561cd543ef5aa7f268c06c701"
+    },
+    "Fluent Mono/settings/settings_eye_off.svg": {
+      "icon": "fluent:eye-off-24-regular",
+      "sha256": "cfaacf9cb2cdbe52086e73da194320912e0b908264157e541a1bda23a85c4554"
+    },
+    "Fluent Mono/settings/settings_file_tree.svg": {
+      "icon": "fluent:text-bullet-list-tree-24-regular",
+      "sha256": "ad74d3f04de98f4b3afcf91a9741b4f68812452b1cfb899a4699169d03fe3677"
+    },
+    "Fluent Mono/settings/settings_flash.svg": {
+      "icon": "fluent:flash-24-regular",
+      "sha256": "eb780247d3a77607d807e3a2d6686d95090c43408197750031baddbef34545a4"
+    },
+    "Fluent Mono/settings/settings_folder_home_outline.svg": {
+      "icon": "fluent:folder-person-24-regular",
+      "sha256": "8346ddaa08ffb9cb069b6a281d67ba0265b34261f6b2d9f8c14ab427876a08bc"
+    },
+    "Fluent Mono/settings/settings_folder_open_outline.svg": {
+      "icon": "fluent:folder-open-24-regular",
+      "sha256": "b3d0ebc1cb6be63a5c76f280ed54acc576f627d813206b41c7f1ae48e319b2ba"
+    },
+    "Fluent Mono/settings/settings_folder_outline.svg": {
+      "icon": "fluent:folder-24-regular",
+      "sha256": "f7d8a159c83e7858ab19237f9d332e9fba279d010e7d1e408a2e64d1bf108744"
+    },
+    "Fluent Mono/settings/settings_folder_plus_outline.svg": {
+      "icon": "fluent:folder-add-24-regular",
+      "sha256": "ab76513559fcd2b3ff37de726a51b08f6215fb47aa56b77de710241d08c360fe"
+    },
+    "Fluent Mono/settings/settings_format_horizontal_align_center.svg": {
+      "icon": "fluent:align-center-horizontal-24-regular",
+      "sha256": "4672784f0ea324a87cbe6f822a82d2a144c30a3041e4dada9627047289c7cbe7"
+    },
+    "Fluent Mono/settings/settings_format_underline.svg": {
+      "icon": "fluent:text-underline-24-regular",
+      "sha256": "c3247017fe6f1488274479a866a83c143a4dad86c53d86639f85b642b51f13b9"
+    },
+    "Fluent Mono/settings/settings_gesture_double_tap.svg": {
+      "icon": "fluent:tap-double-24-regular",
+      "sha256": "ed1712d61486a10dc053ff164df2f9a110a825e2a48546fe92bbdf5722ebcde9"
+    },
+    "Fluent Mono/settings/settings_gesture_swipe_down.svg": {
+      "icon": "fluent:arrow-down-24-regular",
+      "sha256": "c259309dced3ecf409590c490c2d2cad3ce08e431c6fde2f48e35b1f6f2bce2b"
+    },
+    "Fluent Mono/settings/settings_gesture_swipe_up.svg": {
+      "icon": "fluent:arrow-swap-24-regular",
+      "sha256": "b33d181b0c5062b403977c5fe1dbea2c4140a4dac758abcd2a456dcd3f18bac2"
+    },
+    "Fluent Mono/settings/settings_grid_large.svg": {
+      "icon": "fluent:apps-24-regular",
+      "sha256": "d1d4340be3f58795f4ff56deb69680c723136bf6b82c2606915e3a6322eb0615"
+    },
+    "Fluent Mono/settings/settings_harddisk.svg": {
+      "icon": "fluent:database-24-regular",
+      "sha256": "0541b85429b56a0fbc275e9d0c7ee7dc98555136983788113f75940ae85c08c1"
+    },
+    "Fluent Mono/settings/settings_home_variant.svg": {
+      "icon": "fluent:home-24-regular",
+      "sha256": "2cc9015459380454ce736965e55ee56b4579cd136f8fca222f0933b10fc07ae8"
+    },
+    "Fluent Mono/settings/settings_image_filter_hdr.svg": {
+      "icon": "fluent:image-24-regular",
+      "sha256": "c030455c276241b566d93699871d00d395c2096664c36e132d4219e9a4cbe56c"
+    },
+    "Fluent Mono/settings/settings_image_multiple_outline.svg": {
+      "icon": "fluent:apps-24-regular",
+      "sha256": "d1d4340be3f58795f4ff56deb69680c723136bf6b82c2606915e3a6322eb0615"
+    },
+    "Fluent Mono/settings/settings_keyboard.svg": {
+      "icon": "fluent:keyboard-24-regular",
+      "sha256": "7d1efd77316a2bf7e15c1271a6504e59e4020daf0eab4d2d9d46990ea07e4c94"
+    },
+    "Fluent Mono/settings/settings_lightning_bolt.svg": {
+      "icon": "fluent:flash-24-regular",
+      "sha256": "eb780247d3a77607d807e3a2d6686d95090c43408197750031baddbef34545a4"
+    },
+    "Fluent Mono/settings/settings_lock.svg": {
+      "icon": "fluent:lock-shield-24-regular",
+      "sha256": "6b2272df1cfabc51414ffd0e92f54eeddef1862b54d771428ec97ddef90e5fd6"
+    },
+    "Fluent Mono/settings/settings_magnify.svg": {
+      "icon": "fluent:search-sparkle-24-regular",
+      "sha256": "93133972f8f02d1e63d0c45c88d7485ad4ff60ae7ed43676ea23fa767940268e"
+    },
+    "Fluent Mono/settings/settings_memory.svg": {
+      "icon": "fluent:server-24-regular",
+      "sha256": "d5cf7584880e399651ef5b5ee536870de0682c3a57ff17a84dfe3b125f5d6644"
+    },
+    "Fluent Mono/settings/settings_menu.svg": {
+      "icon": "fluent:text-bullet-list-square-24-regular",
+      "sha256": "d2ae47781c5e4170c34905ffb62cd851e8a1ff36c62edea53dac951947d72ecb"
+    },
+    "Fluent Mono/settings/settings_palette.svg": {
+      "icon": "fluent:color-24-regular",
+      "sha256": "cb938bf5368c32ab243c399b1ae77465dc7385ec4dc06c84be97b9dd281c543c"
+    },
+    "Fluent Mono/settings/settings_pan_horizontal.svg": {
+      "icon": "fluent:arrow-autofit-width-24-regular",
+      "sha256": "c3c736bda6b609fa9666a5a96159bc041e7d94faefdd9f4980e74a887b07a3d6"
+    },
+    "Fluent Mono/settings/settings_play.svg": {
+      "icon": "fluent:play-circle-24-regular",
+      "sha256": "be7be90cd8085b9340f8c4b61646334f9517c0e78076676f22fef8de6b3a44b0"
+    },
+    "Fluent Mono/settings/settings_power_plug.svg": {
+      "icon": "fluent:puzzle-piece-24-regular",
+      "sha256": "2d81b5b4c46f3ee95e55d4489160f1e367465b7aa527759a7e37211c8cdfc0eb"
+    },
+    "Fluent Mono/settings/settings_receipt_outline.svg": {
+      "icon": "fluent:phone-laptop-24-regular",
+      "sha256": "1c46ec3a41e50f67dcd1144972628f501f86c207e055463cf13c02c423f33ea3"
+    },
+    "Fluent Mono/settings/settings_reflect_horizontal.svg": {
+      "icon": "fluent:flip-horizontal-24-regular",
+      "sha256": "b1ed7fed5c7c660b167c2a2547c8969820b10dc82597033aa0be918e0cd6e5e5"
+    },
+    "Fluent Mono/settings/settings_refresh.svg": {
+      "icon": "fluent:arrow-clockwise-24-regular",
+      "sha256": "01a419c5a5db08a425504c258d33a86698c0157d120d1dd6e07ad9dfee07868c"
+    },
+    "Fluent Mono/settings/settings_restart.svg": {
+      "icon": "fluent:arrow-clockwise-24-regular",
+      "sha256": "01a419c5a5db08a425504c258d33a86698c0157d120d1dd6e07ad9dfee07868c"
+    },
+    "Fluent Mono/settings/settings_sleep.svg": {
+      "icon": "fluent:weather-moon-24-regular",
+      "sha256": "586db0a06fa2ba5fc2b71f79788efccdb86d923d82dc093f0e5573a2cf95cc72"
+    },
+    "Fluent Mono/settings/settings_sort_alphabetical_variant.svg": {
+      "icon": "fluent:text-sort-ascending-24-regular",
+      "sha256": "1a8a91d623a6894dd266e48fe0a73421d68c200c139e7b5e05cd757092f707fd"
+    },
+    "Fluent Mono/settings/settings_sort_variant.svg": {
+      "icon": "fluent:arrow-sort-24-regular",
+      "sha256": "c44f95ad48aa3f6bbc8906b5d81d8b7a2050f76d7232d95ca52214221173223c"
+    },
+    "Fluent Mono/settings/settings_square_edit_outline.svg": {
+      "icon": "fluent:edit-24-regular",
+      "sha256": "2bc9e3dc71faedc15146629eefc2842b025dd5e22b96be5b6d1a50a87bc747bd"
+    },
+    "Fluent Mono/settings/settings_star.svg": {
+      "icon": "fluent:star-24-regular",
+      "sha256": "48b48b41808857bc0d84e86ca771ecb62bd559ee606c1f77f3a92442e6895636"
+    },
+    "Fluent Mono/settings/settings_table_row.svg": {
+      "icon": "fluent:tab-desktop-24-regular",
+      "sha256": "43e29ed64b43fbd43c49971552c8e86f2c9e4e83bcd107637ff407378a5fab3a"
+    },
+    "Fluent Mono/settings/settings_tag.svg": {
+      "icon": "fluent:tag-24-regular",
+      "sha256": "1dcebf47ad390fc0eb67fccc23662dd5608c7f0ce10470d3247b8a174c346e60"
+    },
+    "Fluent Mono/settings/settings_tag_multiple_outline.svg": {
+      "icon": "fluent:tag-24-regular",
+      "sha256": "1dcebf47ad390fc0eb67fccc23662dd5608c7f0ce10470d3247b8a174c346e60"
+    },
+    "Fluent Mono/settings/settings_tag_outline.svg": {
+      "icon": "fluent:text-edit-style-24-regular",
+      "sha256": "21828bafa2e13d5458f367df24419f0823516f65e77a2dfec21ca86585a14292"
+    },
+    "Fluent Mono/settings/settings_thermometer_lines.svg": {
+      "icon": "fluent:temperature-24-regular",
+      "sha256": "597f77ab12003e9857dad9576751e9a2febde097e7069238b1a6fcc81cb988a5"
+    },
+    "Fluent Mono/settings/settings_toggle_switch.svg": {
+      "icon": "fluent:options-24-regular",
+      "sha256": "44d9e88c4ae15d9e72e3e7edebc5e8b25c09f41a244838bfbe55d3863b62a999"
+    },
+    "Fluent Mono/settings/settings_tools.svg": {
+      "icon": "fluent:options-24-regular",
+      "sha256": "44d9e88c4ae15d9e72e3e7edebc5e8b25c09f41a244838bfbe55d3863b62a999"
+    },
+    "Fluent Mono/settings/settings_translate.svg": {
+      "icon": "fluent:globe-24-regular",
+      "sha256": "3e56f8710041f068e5463dd1f5df4a6a13f8fe485a118d0441d6a51dc4ca98a1"
+    },
+    "Fluent Mono/settings/settings_view_grid_outline.svg": {
+      "icon": "fluent:apps-24-regular",
+      "sha256": "d1d4340be3f58795f4ff56deb69680c723136bf6b82c2606915e3a6322eb0615"
+    },
+    "Fluent Mono/settings/settings_view_list_outline.svg": {
+      "icon": "fluent:text-bullet-list-square-24-regular",
+      "sha256": "d2ae47781c5e4170c34905ffb62cd851e8a1ff36c62edea53dac951947d72ecb"
+    },
+    "Fluent Mono/settings/settings_view_quilt.svg": {
+      "icon": "fluent:globe-24-regular",
+      "sha256": "3e56f8710041f068e5463dd1f5df4a6a13f8fe485a118d0441d6a51dc4ca98a1"
+    },
+    "Fluent Mono/settings/settings_wallpaper.svg": {
+      "icon": "fluent:image-24-regular",
+      "sha256": "c030455c276241b566d93699871d00d395c2096664c36e132d4219e9a4cbe56c"
+    },
+    "Fluent Mono/settings/settings_weather_night.svg": {
+      "icon": "fluent:weather-moon-24-regular",
+      "sha256": "586db0a06fa2ba5fc2b71f79788efccdb86d923d82dc093f0e5573a2cf95cc72"
+    },
+    "Fluent Mono/settings/settings_weather_sunny.svg": {
+      "icon": "fluent:weather-sunny-low-24-regular",
+      "sha256": "46f7c6cda7d9228198e30628bbb6f701b88e2e1e8dba3a7c13499de6f48fc6aa"
+    },
+    "Fluent Mono/settings/settings_widgets.svg": {
+      "icon": "fluent:apps-add-in-24-regular",
+      "sha256": "3e2c2f6b4e2687421cfe897440471a3bccab815656b7c2861257ab2744eefaef"
+    },
+    "Fluent Mono/settings/settings_wifi.svg": {
+      "icon": "fluent:wifi-1-24-regular",
+      "sha256": "1f801347680879e5fb94e751b0c8dd99eb88d8ac421f72a79ac03f679d657594"
+    },
+    "Fluent Mono/settings/view_carousel_outline.svg": {
+      "icon": "fluent:content-view-24-regular",
+      "sha256": "e05b48d7dda44522428c9816dfb2e61c6998f9a21020c52c9bfe56807fc9e634"
     },
     "Fluent Mono/zenpm/allow_updates.svg": {
       "icon": "fluent:alert-24-regular",

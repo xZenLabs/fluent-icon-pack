@@ -236,16 +236,6 @@
       "icon": "fluent-color:star-24",
       "sha256": "3eb58770f28ab7dd2155a21c77cdc993484e77e27107abc29a86da15498b73c6"
     },
-    "Fluent Color/navbar/tab_left.svg": {
-      "icon": "fluent-color:arrow-square-down-24",
-      "sha256": "f82f5976f97c9bf928d31565901227b019f5d52daf019c8a9cedc1c842749afc",
-      "transform": "rotate(90 12 12)"
-    },
-    "Fluent Color/navbar/tab_right.svg": {
-      "icon": "fluent-color:arrow-square-down-24",
-      "sha256": "33eab013e307956d93eeeec034897aa0f03606c21f7c22ef00751547f51056b2",
-      "transform": "rotate(270 12 12)"
-    },
     "Fluent Color/device/backup.svg": {
       "icon": "fluent-color:arrow-clockwise-dashes-24",
       "sha256": "3e83bf517a92a3fce1d86134c8e85779616ebd93f96f03a5005b535dd265c35a"
@@ -341,6 +331,10 @@
       "transform": "rotate(90 12 12)"
     },
     "Fluent Color/koreader/book.opened.svg": {
+      "icon": "fluent-color:book-open-24",
+      "sha256": "f372934dab09f0539b813099898948775710fcfe20d3b702b02a18cff161ed3b"
+    },
+    "Fluent Color/koreader/book_open.svg": {
       "icon": "fluent-color:book-open-24",
       "sha256": "f372934dab09f0539b813099898948775710fcfe20d3b702b02a18cff161ed3b"
     },
@@ -544,10 +538,6 @@
       "icon": "fluent-color:cloud-24",
       "sha256": "bf2556a068c79a8a5e24542dedbaaf68a3a23aa1f80ef1ed3ac538c78fd09050"
     },
-    "Fluent Color/reader/coverflow.svg": {
-      "icon": "fluent-color:content-view-24",
-      "sha256": "aad334c143687b4af4299d6868346061b0ecd3a2f17abf86b01638ad1f502910"
-    },
     "Fluent Color/launcher/education.svg": {
       "icon": "fluent-color:certificate-24",
       "sha256": "9efc344eca84189fdffeaf05515d9c4ff9f6b2fb6e9b3c4754f2d182ccc39664"
@@ -588,14 +578,6 @@
       "icon": "fluent-color:globe-24",
       "sha256": "6db557499580c8ae77fa84369cea7e567834bc02d003f08fe9a85469832c0373"
     },
-    "Fluent Color/reader/grid.svg": {
-      "icon": "fluent-color:apps-24",
-      "sha256": "947300e09c14568ef47ea9df020d4d561c275581a29734a5b0a5894eff4012be"
-    },
-    "Fluent Color/reader/grid_slide.svg": {
-      "icon": "fluent-color:document-24",
-      "sha256": "8d4b587d0d6f561808728d87388945fd8d45aa167df5689fc1a71263b9e22c62"
-    },
     "Fluent Color/launcher/paint_palette.svg": {
       "icon": "fluent-color:paint-brush-24",
       "sha256": "bbedd8789dbb1fe0658ed66f5c40d3777f7df35c723e2ef94bac528af3e2ce9e"
@@ -623,6 +605,14 @@
     "Fluent Color/launcher/terminal.svg": {
       "icon": "fluent-color:code-block-24",
       "sha256": "7de457fd84ea83c20659e1d49c395de78498bfc401367af0c54adf7c0044ea14"
+    },
+    "Fluent Color/launcher/trash.svg": {
+      "icon": "fluent:delete-24-filled",
+      "sha256": "908cf71ce6970b429cea3be5b33a52af025c3b2e0bad413545332d9b67850c37",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ]
     },
     "Fluent Color/launcher/tuning.svg": {
       "icon": "fluent-color:options-24",
@@ -749,6 +739,11 @@
       "icon": "fluent-color:history-24",
       "sha256": "a21d912cc5baaddfb9c3f089e63203f67e6c5748a0081135b21e2074db13f70b"
     },
+    "Fluent Color/navbar/tab_left.svg": {
+      "icon": "fluent-color:arrow-square-down-24",
+      "sha256": "f82f5976f97c9bf928d31565901227b019f5d52daf019c8a9cedc1c842749afc",
+      "transform": "rotate(90 12 12)"
+    },
     "Fluent Color/navbar/tab_manga.svg": {
       "icon": "fluent-color:notebook-24",
       "sha256": "e013d047465df18c5d3bbb4f6c85ae561e8755925c76370d7703f89fe682cbfe"
@@ -756,6 +751,11 @@
     "Fluent Color/navbar/tab_news.svg": {
       "icon": "fluent-color:news-24",
       "sha256": "3484326ebc70393e13bf619d4dd3402eaf571739827ae8fffe8021deff1e058a"
+    },
+    "Fluent Color/navbar/tab_right.svg": {
+      "icon": "fluent-color:arrow-square-down-24",
+      "sha256": "33eab013e307956d93eeeec034897aa0f03606c21f7c22ef00751547f51056b2",
+      "transform": "rotate(270 12 12)"
     },
     "Fluent Color/navbar/tab_series.svg": {
       "icon": "fluent-color:book-open-24",
@@ -793,17 +793,510 @@
       "icon": "fluent-color:globe-24",
       "sha256": "6db557499580c8ae77fa84369cea7e567834bc02d003f08fe9a85469832c0373"
     },
+    "Fluent Color/reader/coverflow.svg": {
+      "icon": "fluent-color:content-view-24",
+      "sha256": "aad334c143687b4af4299d6868346061b0ecd3a2f17abf86b01638ad1f502910"
+    },
+    "Fluent Color/reader/footnote.svg": {
+      "icon": "fluent:text-footnote-24-filled",
+      "sha256": "96481d363a81cb829933f1599b43d1f49973f268c615d2a170aa2fa7e332fcf1",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ]
+    },
+    "Fluent Color/reader/grid.svg": {
+      "icon": "fluent-color:apps-24",
+      "sha256": "947300e09c14568ef47ea9df020d4d561c275581a29734a5b0a5894eff4012be"
+    },
+    "Fluent Color/reader/grid_slide.svg": {
+      "icon": "fluent-color:document-24",
+      "sha256": "8d4b587d0d6f561808728d87388945fd8d45aa167df5689fc1a71263b9e22c62"
+    },
+    "Fluent Color/reader/pin.svg": {
+      "icon": "fluent-color:pin-24",
+      "sha256": "dbcfaf485aa58b02e506e1a938fed0716d4d84b14ca361bdf91865342ed240eb"
+    },
+    "Fluent Color/reader/return.svg": {
+      "icon": "fluent:arrow-hook-down-left-24-filled",
+      "sha256": "7bfcbbd99ccc9b0849bc0debe949014a3aa98c049337a93f345588db39ff991b",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ]
+    },
+    "Fluent Color/reader/return_old.svg": {
+      "icon": "fluent:arrow-undo-24-filled",
+      "sha256": "8ef84dce975fdaf151372f297ee1931c8c0313e643e9f62bf3614a8f10385714",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ]
+    },
     "Fluent Color/reader/tab_vocab.svg": {
       "icon": "fluent-color:notebook-24",
       "sha256": "e013d047465df18c5d3bbb4f6c85ae561e8755925c76370d7703f89fe682cbfe"
     },
-    "Fluent Color/koreader/book_open.svg": {
-      "icon": "fluent-color:book-open-24",
-      "sha256": "f372934dab09f0539b813099898948775710fcfe20d3b702b02a18cff161ed3b"
-    },
     "Fluent Color/reader/toc.svg": {
       "icon": "fluent-color:text-bullet-list-square-24",
       "sha256": "23f5fe47b7448d10984bce796ee8a9c6ee5057c330f18eb8aedf8346a69cbc56"
+    },
+    "Fluent Color/settings/settings_archive_outline.svg": {
+      "icon": "fluent-color:vault-24",
+      "sha256": "3338cd308443151f33c9060e8f7df59887cf9c15ba5394574e78b4c0a3965c55"
+    },
+    "Fluent Color/settings/settings_arrow_up_circle_outline.svg": {
+      "icon": "fluent-color:arrow-square-down-24",
+      "sha256": "caedcc2a3beec50d027e9a40057bb1cbf261154890dd77779a9a08aafeba817f",
+      "transform": "rotate(180 12 12)"
+    },
+    "Fluent Color/settings/settings_backup_restore.svg": {
+      "icon": "fluent-color:arrow-clockwise-dashes-24",
+      "sha256": "3e83bf517a92a3fce1d86134c8e85779616ebd93f96f03a5005b535dd265c35a"
+    },
+    "Fluent Color/settings/settings_battery_70.svg": {
+      "icon": "fluent:battery-10-24-filled",
+      "sha256": "c95d2728e4626338f47a33534f69148c9e8dc795acf58d16d9e815691f6ccfa4",
+      "gradient": [
+        "#5DDE89",
+        "#157C4B"
+      ]
+    },
+    "Fluent Color/settings/settings_bluetooth.svg": {
+      "icon": "fluent:bluetooth-24-filled",
+      "sha256": "d760961fc55ee5322b3e4b5664ca26d1bd7a6a6b054dec4a32af11360cc194b0",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ]
+    },
+    "Fluent Color/settings/settings_blur.svg": {
+      "icon": "fluent:blur-24-filled",
+      "sha256": "c761c53768768971f8e54ba21b9ab9ac1a86d14141bc6f6d63c6ab3b03a48e26",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ]
+    },
+    "Fluent Color/settings/settings_book_check.svg": {
+      "icon": "fluent-color:book-24",
+      "sha256": "834700d7aac65707e00be8c85439d3bb3da1397e37ae75f0a348a0eb4b93b8e7"
+    },
+    "Fluent Color/settings/settings_book_cog_outline.svg": {
+      "icon": "fluent:image-multiple-24-filled",
+      "sha256": "9c6cba00e7235b64f4746b97e2b05e202a18e72fbd0552c0112fbecf25fd9328",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ]
+    },
+    "Fluent Color/settings/settings_book_multiple_outline.svg": {
+      "icon": "fluent-color:book-open-24",
+      "sha256": "f372934dab09f0539b813099898948775710fcfe20d3b702b02a18cff161ed3b"
+    },
+    "Fluent Color/settings/settings_book_open_variant.svg": {
+      "icon": "fluent-color:book-open-24",
+      "sha256": "f372934dab09f0539b813099898948775710fcfe20d3b702b02a18cff161ed3b"
+    },
+    "Fluent Color/settings/settings_bookshelf.svg": {
+      "icon": "fluent-color:library-24",
+      "sha256": "e192363b9d398811f35088783f0e2ac24cff259cd4e22e0d571be3ad4355a951"
+    },
+    "Fluent Color/settings/settings_brush.svg": {
+      "icon": "fluent-color:paint-brush-24",
+      "sha256": "bbedd8789dbb1fe0658ed66f5c40d3777f7df35c723e2ef94bac528af3e2ce9e"
+    },
+    "Fluent Color/settings/settings_bug.svg": {
+      "icon": "fluent:bug-24-filled",
+      "sha256": "b21c99e590e82c811eddaf90630e998bd5a81377a9b4cbe9e209d0bd751ad179",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ]
+    },
+    "Fluent Color/settings/settings_calendar_month_outline.svg": {
+      "icon": "fluent-color:calendar-24",
+      "sha256": "80171aabe7b736f3d265e08c759308521397cc128ef91a2703f37fcf7b7ac056"
+    },
+    "Fluent Color/settings/settings_chart_line.svg": {
+      "icon": "fluent-color:data-trending-24",
+      "sha256": "2f866d78ebf4ec97d68da3c593d6b58b117b7e97d4b374394d42764dafe82c03"
+    },
+    "Fluent Color/settings/settings_chip.svg": {
+      "icon": "fluent:developer-board-24-filled",
+      "sha256": "da57d213f13baef718dbbc9a9f129a5ef3a010da9a8d1d9ae167f0e614a2a8ee",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ]
+    },
+    "Fluent Color/settings/settings_clipboard_play_outline.svg": {
+      "icon": "fluent-color:clipboard-task-24",
+      "sha256": "040b1fbe974230e6b706375f376eca5116c495f12bc892c3738931178fda17b6"
+    },
+    "Fluent Color/settings/settings_clock_outline.svg": {
+      "icon": "fluent-color:clock-24",
+      "sha256": "327d51d6f859d6fec96761b568ad4e0eb234f86047b07e930703d1e5e8e909be"
+    },
+    "Fluent Color/settings/settings_cloud_download_outline.svg": {
+      "icon": "fluent-color:globe-24",
+      "sha256": "6db557499580c8ae77fa84369cea7e567834bc02d003f08fe9a85469832c0373"
+    },
+    "Fluent Color/settings/settings_cog.svg": {
+      "icon": "fluent-color:settings-24",
+      "sha256": "8fea350f930c100310ace8d813647d814e220d1f056d4521111947d8c41da739"
+    },
+    "Fluent Color/settings/settings_content_save.svg": {
+      "icon": "fluent:save-24-filled",
+      "sha256": "b63849c4623942f724e3af6449f2eb27d0558d82ba8521eeea5ff21ee2545c0e",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ]
+    },
+    "Fluent Color/settings/settings_cursor_move.svg": {
+      "icon": "fluent:folder-arrow-right-24-filled",
+      "sha256": "219d5a1f12ef865835ae100ccfa0614628a095ee25090023c0a533e277529e75",
+      "gradient": [
+        "#FFD15C",
+        "#F7630C"
+      ]
+    },
+    "Fluent Color/settings/settings_delete_outline.svg": {
+      "icon": "fluent:delete-24-filled",
+      "sha256": "908cf71ce6970b429cea3be5b33a52af025c3b2e0bad413545332d9b67850c37",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ]
+    },
+    "Fluent Color/settings/settings_division.svg": {
+      "icon": "fluent:line-horizontal-3-24-filled",
+      "sha256": "1153ce0ac3a29ac80480c99e7e433eff057a90485234830b886d49d263d79ced",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ]
+    },
+    "Fluent Color/settings/settings_dock_bottom.svg": {
+      "icon": "fluent-color:board-24",
+      "sha256": "bd3973f9928515f1e7e4e7dbbd0b39f77eb2401d195fa75917b697560b278a72"
+    },
+    "Fluent Color/settings/settings_dots_grid.svg": {
+      "icon": "fluent-color:apps-24",
+      "sha256": "947300e09c14568ef47ea9df020d4d561c275581a29734a5b0a5894eff4012be"
+    },
+    "Fluent Color/settings/settings_drag_horizontal_variant.svg": {
+      "icon": "fluent:re-order-dots-horizontal-24-filled",
+      "sha256": "46746b442a93c791304d4aa98ebbd43caba76eee716561aaf053b399226753e2",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ]
+    },
+    "Fluent Color/settings/settings_draw_pen.svg": {
+      "icon": "fluent-color:edit-24",
+      "sha256": "8ff062d6a12b09fcf022666f40daba79e51cde2748614f7d626fd8f999bb542b"
+    },
+    "Fluent Color/settings/settings_eye_off.svg": {
+      "icon": "fluent:eye-off-24-filled",
+      "sha256": "be4f63b9c272ffac4a41b3d6c5ce54f7ef11a76c6e7cdc71bf1d36d48140ef98",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ]
+    },
+    "Fluent Color/settings/settings_file_tree.svg": {
+      "icon": "fluent:text-bullet-list-tree-24-filled",
+      "sha256": "fa9b6f3901f382793d1eac0cdfdfd74c0cfa24926c2f75c635f013b1eb3b2b31",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ]
+    },
+    "Fluent Color/settings/settings_flash.svg": {
+      "icon": "fluent:flash-24-filled",
+      "sha256": "583cfe39753f9b199d605b327d4931ca7f546bec5c9c7c2894f3b60f3fd10f72",
+      "gradient": [
+        "#FFD15C",
+        "#F7630C"
+      ]
+    },
+    "Fluent Color/settings/settings_folder_home_outline.svg": {
+      "icon": "fluent-color:home-24",
+      "sha256": "969e086029c51affc1432c20dbbef4237aa0f44f2131bb95598203c17321a2a4"
+    },
+    "Fluent Color/settings/settings_folder_open_outline.svg": {
+      "icon": "fluent-color:document-folder-24",
+      "sha256": "ef49d24fc4b86d4e3e30e1827f1d01dce8c714bf2fc5e62401700559c903b428"
+    },
+    "Fluent Color/settings/settings_folder_outline.svg": {
+      "icon": "fluent-color:document-folder-24",
+      "sha256": "ef49d24fc4b86d4e3e30e1827f1d01dce8c714bf2fc5e62401700559c903b428"
+    },
+    "Fluent Color/settings/settings_folder_plus_outline.svg": {
+      "icon": "fluent:folder-add-24-filled",
+      "sha256": "25e99be93bb1ff67c327f3cbd11a78a2b96bdf04955334d328760a5c31941395",
+      "gradient": [
+        "#FFD15C",
+        "#F7630C"
+      ]
+    },
+    "Fluent Color/settings/settings_format_horizontal_align_center.svg": {
+      "icon": "fluent:align-center-horizontal-24-filled",
+      "sha256": "853a10c86ccc8413d1d0bbe442825cffafe550e28b109f893675dd5511feaf32",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ]
+    },
+    "Fluent Color/settings/settings_format_underline.svg": {
+      "icon": "fluent:text-underline-24-filled",
+      "sha256": "446a1009ba0d86944fa02eaf3ba62ee5fcf41293f23706923f984c6b2e3796d5",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ]
+    },
+    "Fluent Color/settings/settings_gesture_double_tap.svg": {
+      "icon": "fluent:tap-double-24-filled",
+      "sha256": "ce1ee1d8e7855dfbe630f0e39a4b98abd7bf290a4bb329e1f420e99b0f28d44c",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ]
+    },
+    "Fluent Color/settings/settings_gesture_swipe_down.svg": {
+      "icon": "fluent:arrow-down-24-filled",
+      "sha256": "4d1d221472c9ec5ce2ab3ec4349c428b6aef87e348012cbaf7eaf28adc884c3c",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ]
+    },
+    "Fluent Color/settings/settings_gesture_swipe_up.svg": {
+      "icon": "fluent:arrow-swap-24-filled",
+      "sha256": "d9d47cc81465834c34a00c0cc6599b29450b52487bc74af9ccf99a62a3ff1a6b",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ]
+    },
+    "Fluent Color/settings/settings_grid_large.svg": {
+      "icon": "fluent-color:apps-24",
+      "sha256": "947300e09c14568ef47ea9df020d4d561c275581a29734a5b0a5894eff4012be"
+    },
+    "Fluent Color/settings/settings_harddisk.svg": {
+      "icon": "fluent-color:database-24",
+      "sha256": "9e48045edf6708f55af3597cbc5f82ad7d37ff228928cd24e72c08c73d11aeb4"
+    },
+    "Fluent Color/settings/settings_home_variant.svg": {
+      "icon": "fluent-color:home-24",
+      "sha256": "969e086029c51affc1432c20dbbef4237aa0f44f2131bb95598203c17321a2a4"
+    },
+    "Fluent Color/settings/settings_image_filter_hdr.svg": {
+      "icon": "fluent-color:image-24",
+      "sha256": "bf0588114120263ad521d8809ac5b4276852e9e6b4cd38eee301d272d834f6f3"
+    },
+    "Fluent Color/settings/settings_image_multiple_outline.svg": {
+      "icon": "fluent-color:apps-24",
+      "sha256": "947300e09c14568ef47ea9df020d4d561c275581a29734a5b0a5894eff4012be"
+    },
+    "Fluent Color/settings/settings_keyboard.svg": {
+      "icon": "fluent:keyboard-24-filled",
+      "sha256": "d59b38c08050b927bc72bc73301c0bca4208fe6892bfe2608bbdb684af30e63f",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ]
+    },
+    "Fluent Color/settings/settings_lightning_bolt.svg": {
+      "icon": "fluent:flash-24-filled",
+      "sha256": "583cfe39753f9b199d605b327d4931ca7f546bec5c9c7c2894f3b60f3fd10f72",
+      "gradient": [
+        "#FFD15C",
+        "#F7630C"
+      ]
+    },
+    "Fluent Color/settings/settings_lock.svg": {
+      "icon": "fluent-color:lock-shield-24",
+      "sha256": "37c6c54a21b5b1e143635480ccef66a21ab2a198417450d5d1c62a1abfed37d1"
+    },
+    "Fluent Color/settings/settings_magnify.svg": {
+      "icon": "fluent-color:search-sparkle-24",
+      "sha256": "d6f931f7a87f62932b4262db727e8cfaf8de757d47979b4be5ac62433c15dbd8"
+    },
+    "Fluent Color/settings/settings_memory.svg": {
+      "icon": "fluent:server-24-filled",
+      "sha256": "c889d341b616e94ae898c02f9deb114839863263654e116a60320fd8da5f1d94",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ]
+    },
+    "Fluent Color/settings/settings_menu.svg": {
+      "icon": "fluent-color:text-bullet-list-square-24",
+      "sha256": "23f5fe47b7448d10984bce796ee8a9c6ee5057c330f18eb8aedf8346a69cbc56"
+    },
+    "Fluent Color/settings/settings_palette.svg": {
+      "icon": "fluent-color:paint-brush-24",
+      "sha256": "bbedd8789dbb1fe0658ed66f5c40d3777f7df35c723e2ef94bac528af3e2ce9e"
+    },
+    "Fluent Color/settings/settings_pan_horizontal.svg": {
+      "icon": "fluent:arrow-autofit-width-24-filled",
+      "sha256": "f220ba3f9bb23aa0e9fe552e138475d5618cffd87352929c19a11778c648cfc7",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ]
+    },
+    "Fluent Color/settings/settings_play.svg": {
+      "icon": "fluent:play-circle-24-filled",
+      "sha256": "25262466c102054e0745ae93dc93bd1b57667488921aef85a908e4c706af0b42",
+      "gradient": [
+        "#5DDE89",
+        "#157C4B"
+      ]
+    },
+    "Fluent Color/settings/settings_power_plug.svg": {
+      "icon": "fluent-color:puzzle-piece-24",
+      "sha256": "be2fd6db8dcc1aa066fb4aefac6f2cb78eb55c4af6b15a24c529d7f0fa6c1650"
+    },
+    "Fluent Color/settings/settings_receipt_outline.svg": {
+      "icon": "fluent-color:phone-laptop-24",
+      "sha256": "c8c10d941c6f9579741dcf489482a5de8c8e9c428639a06a42f3381751fb4531"
+    },
+    "Fluent Color/settings/settings_reflect_horizontal.svg": {
+      "icon": "fluent:flip-horizontal-24-filled",
+      "sha256": "ec1088a28f3363bc2871f4521b0e1857a8256d4177145a49624e78318c8f5c98",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ]
+    },
+    "Fluent Color/settings/settings_refresh.svg": {
+      "icon": "fluent-color:arrow-clockwise-dashes-24",
+      "sha256": "3e83bf517a92a3fce1d86134c8e85779616ebd93f96f03a5005b535dd265c35a"
+    },
+    "Fluent Color/settings/settings_restart.svg": {
+      "icon": "fluent-color:arrow-clockwise-dashes-24",
+      "sha256": "3e83bf517a92a3fce1d86134c8e85779616ebd93f96f03a5005b535dd265c35a"
+    },
+    "Fluent Color/settings/settings_sleep.svg": {
+      "icon": "fluent:snooze-24-filled",
+      "sha256": "63d5b6d4d0e7e120411cdf20a6b1687bb26f1aa058dc09225f2030e1ccab0362",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ]
+    },
+    "Fluent Color/settings/settings_sort_alphabetical_variant.svg": {
+      "icon": "fluent:text-sort-ascending-24-filled",
+      "sha256": "335b815b770ac32784243a4b6d7fef9c5dddab0cd000629366e8de06f606a52a",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ]
+    },
+    "Fluent Color/settings/settings_sort_variant.svg": {
+      "icon": "fluent-color:data-bar-vertical-ascending-24",
+      "sha256": "6da7e1c8aeede58d6814a0c4a967b9332d32db3fc78f4bcb3391a8a7e189354c"
+    },
+    "Fluent Color/settings/settings_square_edit_outline.svg": {
+      "icon": "fluent-color:edit-24",
+      "sha256": "8ff062d6a12b09fcf022666f40daba79e51cde2748614f7d626fd8f999bb542b"
+    },
+    "Fluent Color/settings/settings_star.svg": {
+      "icon": "fluent-color:star-24",
+      "sha256": "3eb58770f28ab7dd2155a21c77cdc993484e77e27107abc29a86da15498b73c6"
+    },
+    "Fluent Color/settings/settings_table_row.svg": {
+      "icon": "fluent:tab-desktop-24-filled",
+      "sha256": "3222eb33d30aaaf725807c4a8e8fb06704dff8416bf99258ea8ca0382f8c516b",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ]
+    },
+    "Fluent Color/settings/settings_tag.svg": {
+      "icon": "fluent:tag-24-filled",
+      "sha256": "071d6382cc896acd0a7377e8b654dccd325978191ab2ae9ce588ab26dc5f2291",
+      "gradient": [
+        "#CB6FF7",
+        "#6F36C9"
+      ]
+    },
+    "Fluent Color/settings/settings_tag_multiple_outline.svg": {
+      "icon": "fluent:tag-24-filled",
+      "sha256": "071d6382cc896acd0a7377e8b654dccd325978191ab2ae9ce588ab26dc5f2291",
+      "gradient": [
+        "#CB6FF7",
+        "#6F36C9"
+      ]
+    },
+    "Fluent Color/settings/settings_tag_outline.svg": {
+      "icon": "fluent-color:text-edit-style-24",
+      "sha256": "f7dbdd64c7c9fbb233e75a3d8d0701b7a4782d50cbad903967cdea37f0c12cb8"
+    },
+    "Fluent Color/settings/settings_thermometer_lines.svg": {
+      "icon": "fluent:temperature-24-filled",
+      "sha256": "de4dc4023b18374bfeb686e8a37b8f1583440d5f5be0598c03a5ba3255c6dbd6",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ]
+    },
+    "Fluent Color/settings/settings_toggle_switch.svg": {
+      "icon": "fluent-color:options-24",
+      "sha256": "92b5c1b06fc833801729fdc05b1d8dd80395ec725f05da47591c6439806b9e1b"
+    },
+    "Fluent Color/settings/settings_tools.svg": {
+      "icon": "fluent-color:options-24",
+      "sha256": "92b5c1b06fc833801729fdc05b1d8dd80395ec725f05da47591c6439806b9e1b"
+    },
+    "Fluent Color/settings/settings_translate.svg": {
+      "icon": "fluent-color:globe-24",
+      "sha256": "6db557499580c8ae77fa84369cea7e567834bc02d003f08fe9a85469832c0373"
+    },
+    "Fluent Color/settings/settings_view_grid_outline.svg": {
+      "icon": "fluent-color:apps-24",
+      "sha256": "947300e09c14568ef47ea9df020d4d561c275581a29734a5b0a5894eff4012be"
+    },
+    "Fluent Color/settings/settings_view_list_outline.svg": {
+      "icon": "fluent-color:text-bullet-list-square-24",
+      "sha256": "23f5fe47b7448d10984bce796ee8a9c6ee5057c330f18eb8aedf8346a69cbc56"
+    },
+    "Fluent Color/settings/settings_view_quilt.svg": {
+      "icon": "fluent-color:globe-24",
+      "sha256": "6db557499580c8ae77fa84369cea7e567834bc02d003f08fe9a85469832c0373"
+    },
+    "Fluent Color/settings/settings_wallpaper.svg": {
+      "icon": "fluent-color:image-24",
+      "sha256": "bf0588114120263ad521d8809ac5b4276852e9e6b4cd38eee301d272d834f6f3"
+    },
+    "Fluent Color/settings/settings_weather_night.svg": {
+      "icon": "fluent:weather-moon-24-filled",
+      "sha256": "3fd0ce631334450c584ccc9a29021c425fb7da72032b1c1c65151673cd2e722f",
+      "gradient": [
+        "#CB6FF7",
+        "#6F36C9"
+      ]
+    },
+    "Fluent Color/settings/settings_weather_sunny.svg": {
+      "icon": "fluent-color:weather-sunny-low-24",
+      "sha256": "89ad1d5d95fbcf43f907d538173e049650b8e9ecfe532dd56d246891c8c10503"
+    },
+    "Fluent Color/settings/settings_widgets.svg": {
+      "icon": "fluent-color:puzzle-piece-24",
+      "sha256": "be2fd6db8dcc1aa066fb4aefac6f2cb78eb55c4af6b15a24c529d7f0fa6c1650"
+    },
+    "Fluent Color/settings/settings_wifi.svg": {
+      "icon": "fluent-color:wifi-24",
+      "sha256": "d69f46a4f699120cf999c4f04efd18ccb8826a78727c6e87c3ebd948d9c15b3e"
+    },
+    "Fluent Color/settings/view_carousel_outline.svg": {
+      "icon": "fluent-color:content-view-24",
+      "sha256": "aad334c143687b4af4299d6868346061b0ecd3a2f17abf86b01638ad1f502910"
     },
     "Fluent Color/zenpm/allow_updates.svg": {
       "icon": "fluent-color:alert-24",
@@ -832,6 +1325,14 @@
     "Fluent Color/zenpm/downloads.svg": {
       "icon": "fluent-color:arrow-square-down-24",
       "sha256": "da96bebc1243c834672a9d8fa025a6a23251cf16203b28c1e204f0fb53822b12"
+    },
+    "Fluent Color/zenpm/filter.svg": {
+      "icon": "fluent:filter-24-filled",
+      "sha256": "b68507e537822752dc14c125a6a170f28dcc93e940950d00e39c64125b9026b5",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ]
     },
     "Fluent Color/zenpm/fonts.svg": {
       "icon": "fluent-color:text-edit-style-24",
@@ -945,6 +1446,14 @@
       "icon": "fluent-color:text-edit-style-24",
       "sha256": "f7dbdd64c7c9fbb233e75a3d8d0701b7a4782d50cbad903967cdea37f0c12cb8"
     },
+    "Fluent Color/zenpm/uninstall.svg": {
+      "icon": "fluent:delete-24-filled",
+      "sha256": "908cf71ce6970b429cea3be5b33a52af025c3b2e0bad413545332d9b67850c37",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ]
+    },
     "Fluent Color/zenpm/unverified.svg": {
       "icon": "fluent-color:warning-24",
       "sha256": "9f7bf31cc7c9c31517c15517c90016a7ae5d9de415aa362e2a6e4a7a34545be9"
@@ -1025,7 +1534,6 @@
     "dogear.complete",
     "dogear.complete.rtl",
     "enable",
-    "filter",
     "info",
     "lightning",
     "notice-info",
@@ -1045,7 +1553,6 @@
     "rotation.P.90CW",
     "sort_desc",
     "texture-box",
-    "trash",
     "triangle",
     "usb",
     "warmth",

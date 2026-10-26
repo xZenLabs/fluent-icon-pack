@@ -29,8 +29,8 @@ opacity. Related actions may share a design.
 
 | Pack | Source files | SVG lookups | Screen | Release asset |
 |---|---|---|---|---|
-| **Fluent Color** | 220 | 220 | Color e-ink | `zen-fluent-color.zip` |
-| **Fluent Mono** | 274 | 274 | Black & white e-ink | `zen-fluent-mono.zip` |
+| **Fluent Color** | 308 | 308 | Color e-ink | `zen-fluent-color.zip` |
+| **Fluent Mono** | 358 | 358 | Black & white e-ink | `zen-fluent-mono.zip` |
 
 Both variants cover all 50 ZenOS `quick_` controls and `tab_` icons, excluding
 the blank spacer. Color uses Fluent filled moon, snooze, tag, battery, Bluetooth,
@@ -53,6 +53,10 @@ logos, and package previews retain their own artwork.
 
 ZenPM's frontend must support the selected ZenOS icon pack for replacements to
 appear. Older frontends loading their bundled icons directly keep those icons.
+
+Reader controls include `pin.svg`, `footnote.svg`, `return.svg`, and the
+compatible `return_old.svg` lookup, alongside the highlight style, color,
+delete, filter, and sort icons.
 
 ## Install with ZenPM
 
@@ -101,6 +105,7 @@ Categories without replacement artwork can be absent:
 ├── menus/                    # Zen menu entry points
 ├── reader/                   # Page browser: TOC, vocabulary, view modes
 ├── device/
+├── settings/                 # Zen settings menu rows
 └── koreader/                 # Stock KOReader icons, including plus/info
 ```
 

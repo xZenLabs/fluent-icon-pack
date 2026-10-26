@@ -25,6 +25,7 @@ SVG = b'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path d="M0 
 class BuildPacksTest(unittest.TestCase):
     def test_repository_packs_preserve_sources_and_build_supported_lookups(self):
         required = set("""
+            edit filter sort font paint_palette trash footnote pin return return_old
             app_launcher app_menu appbar.menu appbar.search appbar.settings appbar.tools
             appbar.textsize archive atom avatar blocks book_closed book_open bookshelf
             calendar cloud coverflow database education external_link folder folder_open
@@ -57,7 +58,7 @@ class BuildPacksTest(unittest.TestCase):
             sort_desc trash usb warmth column.one column.two column.three
             wifi.open.0 wifi.open.25 wifi.open.50 wifi.open.75 wifi.secure.100
         """.split())
-        expected_counts = {"Fluent Color": 220, "Fluent Mono": 274}
+        expected_counts = {"Fluent Color": 308, "Fluent Mono": 358}
         metadata = json.loads((builder.ROOT / "pack.json").read_text())
         with tempfile.TemporaryDirectory() as temporary:
             output = Path(temporary)
