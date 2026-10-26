@@ -177,7 +177,7 @@ release tags. Release runs are serialized. The initial source version is `1.0.0`
   retain [LICENSE-ICONS.txt](LICENSE-ICONS.txt) when redistributing the pack.
 
 Changes are limited to standalone SVG wrappers, lookup filenames, selected
-rotations, mirroring and opacity, explicit black currentColor for Mono, and
+rotations, mirroring and opacity, explicit black fills for Mono, and
 editable lookup aliases.
 Not affiliated with or endorsed by Microsoft, KOReader, or Iconify.
 

@@ -142,7 +142,10 @@ class BuildPacksTest(unittest.TestCase):
                     self.assertEqual(root.tag, "{http://www.w3.org/2000/svg}svg")
                     self.assertTrue(all(float(value) > 0 for value in root.attrib["viewBox"].split()[2:]))
                     if pack.name == "Fluent Mono":
-                        self.assertEqual(root.attrib["color"], "#000000")
+                        # KOReader's NanoSVG renders unknown colors such as currentColor gray.
+                        self.assertNotIn(b"currentColor", data)
+                        fills = {element.attrib["fill"] for element in root.iter() if "fill" in element.attrib}
+                        self.assertEqual(fills, {"#000000"})
                     ids = [element.attrib["id"] for element in root.iter() if "id" in element.attrib]
                     self.assertEqual(len(ids), len(set(ids)))
                     for element in root.iter():
