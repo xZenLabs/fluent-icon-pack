@@ -874,13 +874,38 @@
       "icon": "fluent:globe-24-regular",
       "sha256": "93bf50d23bc16c4c89fed14418308f22b3f47a7f38f40cc815fd2248b0c95d69"
     },
+    "Fluent Mono/reader/annotations.svg": {
+      "icon": "fluent:clipboard-text-edit-24-regular",
+      "sha256": "bd62aef2427e52adbff74117ad8032b51296fa8643bc13407141f8294315cf4c"
+    },
+    "Fluent Mono/reader/bookmark_outline.svg": {
+      "icon": "fluent:bookmark-24-regular",
+      "sha256": "451f9da8ad71a197a5783a43033e8328656634eaa90961ea6ca3dbd571099b2c"
+    },
+    "Fluent Mono/reader/bookmark_remove.svg": {
+      "icon": "fluent:bookmark-24-regular",
+      "sha256": "5890cf945cea0b4bfd702bdd8af94d6a243595ceda8528670fba8e04c09476fb",
+      "strike": true
+    },
     "Fluent Mono/reader/coverflow.svg": {
       "icon": "fluent:content-view-24-regular",
       "sha256": "b506a4333347f2c88bbab9b7e63149ee25cd31c559634715e84c9f3747b4861e"
     },
+    "Fluent Mono/reader/document.svg": {
+      "icon": "fluent:document-text-24-regular",
+      "sha256": "a015456bd21ae407550e3d7633d02760aa6eddf03b9af0d1a564ad41a26764c4"
+    },
     "Fluent Mono/reader/footnote.svg": {
       "icon": "fluent:text-footnote-24-regular",
       "sha256": "119baf31d03300ffd3f63792ff974ea29af68f2d72a2a44772cdf64f5f486097"
+    },
+    "Fluent Mono/reader/fullscreen.svg": {
+      "icon": "fluent:full-screen-maximize-24-regular",
+      "sha256": "7d97cf8057c24adbb5b5895247a87aab9052f13553d80636c668af297a4c9a22"
+    },
+    "Fluent Mono/reader/fullscreen_exit.svg": {
+      "icon": "fluent:full-screen-minimize-24-regular",
+      "sha256": "d3b301d4271326627270ca20d38bd7aab4c1d7bec40d906192607c33151b8412"
     },
     "Fluent Mono/reader/grid.svg": {
       "icon": "fluent:apps-24-regular",
@@ -890,9 +915,30 @@
       "icon": "fluent:slide-layout-24-regular",
       "sha256": "d0c08378443ed2fdde866946c66051e48246807f88b7215fbd8e3a5f1b28d823"
     },
+    "Fluent Mono/reader/history.svg": {
+      "icon": "fluent:history-24-regular",
+      "sha256": "8461c54a5982438afa9261288519f192cf98afc9d0b42880374a789c91d29f61"
+    },
+    "Fluent Mono/reader/moon_outline.svg": {
+      "icon": "fluent:weather-moon-24-regular",
+      "sha256": "93f626515c34a0abc3676e592286bcd9df4be2c9e9a907522a526a10256642f6"
+    },
+    "Fluent Mono/reader/page.svg": {
+      "icon": "fluent:document-one-page-24-regular",
+      "sha256": "8cff3ca8a39d2b1684045d5638ed2fc711d69c36812498104e4152c3f78a8774"
+    },
     "Fluent Mono/reader/pin.svg": {
       "icon": "fluent:pin-24-regular",
       "sha256": "9d4beff10eec533c6a075144a34aed9d1df50edcd78a16b0467e65cbcf63ccd6"
+    },
+    "Fluent Mono/reader/pin_remove.svg": {
+      "icon": "fluent:pin-24-regular",
+      "sha256": "67f0206f724f03bef04cb7ab1a3fac576e889caa29f958c73268e3f8954305ba",
+      "strike": true
+    },
+    "Fluent Mono/reader/profiles.svg": {
+      "icon": "fluent:options-24-regular",
+      "sha256": "b4cdf36c36cddf7c4ca332f73b6e7ccb437cd99195089649fa226591dffd61f5"
     },
     "Fluent Mono/reader/return.svg": {
       "icon": "fluent:arrow-hook-down-left-24-regular",
@@ -909,6 +955,18 @@
     "Fluent Mono/reader/toc.svg": {
       "icon": "fluent:text-bullet-list-square-24-regular",
       "sha256": "ccf503c28fb2b802d78e517e79fa735c6729952a5ec7367ff0d3e0ef8995422d"
+    },
+    "Fluent Mono/reader/zoom_in.svg": {
+      "icon": "fluent:zoom-in-24-regular",
+      "sha256": "122b6068e69eeea0407eea001ab4c7c65c05552dd2a890ec79d3ff20cc4cd55f"
+    },
+    "Fluent Mono/reader/zoom_out.svg": {
+      "icon": "fluent:zoom-out-24-regular",
+      "sha256": "c198fc99b397a8dd5007504f80279a9dce04406149f78c47e4c08228206aada6"
+    },
+    "Fluent Mono/settings/settings_account_outline.svg": {
+      "icon": "fluent:person-24-regular",
+      "sha256": "08ce4f07d91385a52fc012198fa0836f25f20584d00207a8b044715346d6c7fc"
     },
     "Fluent Mono/settings/settings_archive_outline.svg": {
       "icon": "fluent:archive-24-regular",
@@ -933,6 +991,10 @@
     "Fluent Mono/settings/settings_blur.svg": {
       "icon": "fluent:blur-24-regular",
       "sha256": "e210fffe2399d98b03a09a460347c2c2e0cad60d693b17a15e2d88708bf0d0a0"
+    },
+    "Fluent Mono/settings/settings_book.svg": {
+      "icon": "fluent:book-24-regular",
+      "sha256": "eeb6093ab897f43b04d8464ccf246527aa55133d1f25515cffa8168c0f2e9a11"
     },
     "Fluent Mono/settings/settings_book_check.svg": {
       "icon": "fluent:book-24-regular",
@@ -966,6 +1028,10 @@
       "icon": "fluent:data-trending-24-regular",
       "sha256": "a1bf640a9e00d710888a9971d8ddb7151b2e4796a308ccd0e544c9560a3266e8"
     },
+    "Fluent Mono/settings/settings_check.svg": {
+      "icon": "fluent:checkmark-24-regular",
+      "sha256": "02df89b283f02227dfe7715c33b04ded05218ae70a45e9562ae6042697c85701"
+    },
     "Fluent Mono/settings/settings_chip.svg": {
       "icon": "fluent:developer-board-24-regular",
       "sha256": "204d4ad710c21dcb1b3dd30b29a5b7f0856454ac068704a61a4592edf4428079"
@@ -985,6 +1051,18 @@
     "Fluent Mono/settings/settings_cog.svg": {
       "icon": "fluent:settings-24-regular",
       "sha256": "dff1797c467a395d94b6bd6a929c1b38cda86477791dbd17b67ec817849a2666"
+    },
+    "Fluent Mono/settings/settings_content_copy.svg": {
+      "icon": "fluent:copy-24-regular",
+      "sha256": "f71f8b55ffbe5fa216ba61abc70e0fec9019dead8f8bea014abd06a124fcaf05"
+    },
+    "Fluent Mono/settings/settings_content_cut.svg": {
+      "icon": "fluent:cut-24-regular",
+      "sha256": "d66cfa14188b44e003729b6ca1ce4a9fff311dd92cf23a81ebe4a2c77f332432"
+    },
+    "Fluent Mono/settings/settings_content_paste.svg": {
+      "icon": "fluent:clipboard-paste-24-regular",
+      "sha256": "d2cb7b1fd99c03ff62ef60a98de67ff3e44536a368dcbb59bc5002191577eb3c"
     },
     "Fluent Mono/settings/settings_content_save.svg": {
       "icon": "fluent:save-24-regular",
@@ -1010,6 +1088,14 @@
       "icon": "fluent:apps-24-regular",
       "sha256": "bda293870c514136a0a1544052e5b4b12d77607977af94c455c316c17ce636f3"
     },
+    "Fluent Mono/settings/settings_dots_horizontal.svg": {
+      "icon": "fluent:more-horizontal-24-regular",
+      "sha256": "2f658ec5bdb30ec571584bb36159c7a60350aff1b1be8b4db87500d48ffb7396"
+    },
+    "Fluent Mono/settings/settings_download.svg": {
+      "icon": "fluent:arrow-download-24-regular",
+      "sha256": "0895a8a084a3156f30a5d65df8e01255f877a5063ce387ec40fe365fbdfb9563"
+    },
     "Fluent Mono/settings/settings_drag_horizontal_variant.svg": {
       "icon": "fluent:re-order-dots-horizontal-24-regular",
       "sha256": "c8dcdc0254129f0c8ace25d7a5d3288f2fb833f857ea014f57c9ed72910357d0"
@@ -1021,6 +1107,14 @@
     "Fluent Mono/settings/settings_eye_off.svg": {
       "icon": "fluent:eye-off-24-regular",
       "sha256": "2b00c6c4dafbffc5e1c37c8d63e256cb69ba01594553aa75b221b8270d55511b"
+    },
+    "Fluent Mono/settings/settings_eye_outline.svg": {
+      "icon": "fluent:eye-24-regular",
+      "sha256": "0a92f70aaba60b5d9890e9e2386d74df872d897577ef407c205f134e4a48b249"
+    },
+    "Fluent Mono/settings/settings_file_outline.svg": {
+      "icon": "fluent:document-24-regular",
+      "sha256": "d26e3eba21172770a6a9bdb9b12ed66382d2412f252e00dc5674ab45741af74e"
     },
     "Fluent Mono/settings/settings_file_tree.svg": {
       "icon": "fluent:text-bullet-list-tree-24-regular",
@@ -1050,6 +1144,10 @@
       "icon": "fluent:align-center-horizontal-24-regular",
       "sha256": "d6902479df4e13bd33e772b51e00b4f476560a93fbcbb13633dac18b1b0dc4ee"
     },
+    "Fluent Mono/settings/settings_format_list_bulleted.svg": {
+      "icon": "fluent:text-bullet-list-ltr-24-regular",
+      "sha256": "78d99bc860bdee135717ff0229c8dc7d7cf30e54d45686c5f448c316986e7981"
+    },
     "Fluent Mono/settings/settings_format_underline.svg": {
       "icon": "fluent:text-underline-24-regular",
       "sha256": "dd1aa99adfef11a5a996f58a6c0bfa5b4551a7c01e4943d549262607d3faba1b"
@@ -1073,6 +1171,10 @@
     "Fluent Mono/settings/settings_harddisk.svg": {
       "icon": "fluent:database-24-regular",
       "sha256": "c034784e007ca5853babded73693f90ed75b9f6714c443d85ab57711885a23db"
+    },
+    "Fluent Mono/settings/settings_history.svg": {
+      "icon": "fluent:history-24-regular",
+      "sha256": "8461c54a5982438afa9261288519f192cf98afc9d0b42880374a789c91d29f61"
     },
     "Fluent Mono/settings/settings_home_variant.svg": {
       "icon": "fluent:home-24-regular",
@@ -1110,6 +1212,10 @@
       "icon": "fluent:text-bullet-list-square-24-regular",
       "sha256": "ccf503c28fb2b802d78e517e79fa735c6729952a5ec7367ff0d3e0ef8995422d"
     },
+    "Fluent Mono/settings/settings_note_plus_outline.svg": {
+      "icon": "fluent:note-add-24-regular",
+      "sha256": "d90a9a1ccb641282aea47c7f3a7090d04777ee6cd2451220eab73de9cfe2b512"
+    },
     "Fluent Mono/settings/settings_palette.svg": {
       "icon": "fluent:color-24-regular",
       "sha256": "e5d3abc11213004580f2326df83d8b4eb658ba8aea8a03b76f1abb637d9891ab"
@@ -1117,6 +1223,14 @@
     "Fluent Mono/settings/settings_pan_horizontal.svg": {
       "icon": "fluent:arrow-autofit-width-24-regular",
       "sha256": "ab95bff1e4034b2b7fdf1c05ada935332eb30eaaeadde3e167f563ce9014001b"
+    },
+    "Fluent Mono/settings/settings_pause.svg": {
+      "icon": "fluent:pause-24-regular",
+      "sha256": "1d6db08f79d3a6d6441df5efaeb2afe6dc453381e3a9c3875cb0903bb5f00217"
+    },
+    "Fluent Mono/settings/settings_pencil_outline.svg": {
+      "icon": "fluent:edit-24-regular",
+      "sha256": "8dcac94d9ce9e0afa723c94a92712c8c561b7f52c8bb7d84da7700f8a1eb7d9e"
     },
     "Fluent Mono/settings/settings_play.svg": {
       "icon": "fluent:play-circle-24-regular",
@@ -1142,9 +1256,25 @@
       "icon": "fluent:arrow-clockwise-24-regular",
       "sha256": "05ed14b17516c2cf4a0f32941d9b42a477401bb30510affe99255897d57294ac"
     },
+    "Fluent Mono/settings/settings_restore.svg": {
+      "icon": "fluent:arrow-counterclockwise-24-regular",
+      "sha256": "7745d107dc9703f918d8fd5aceef587795f77cb7aa3c13a6b8f439469b45e378"
+    },
+    "Fluent Mono/settings/settings_selection.svg": {
+      "icon": "fluent:select-object-24-regular",
+      "sha256": "af7b39f3af1dd067d18a95761c5ad869cca0aa5f1cbebf0cae4414a82ea1980c"
+    },
     "Fluent Mono/settings/settings_sleep.svg": {
       "icon": "fluent:weather-moon-24-regular",
       "sha256": "93f626515c34a0abc3676e592286bcd9df4be2c9e9a907522a526a10256642f6"
+    },
+    "Fluent Mono/settings/settings_sort_alphabetical_ascending.svg": {
+      "icon": "fluent:text-sort-ascending-24-regular",
+      "sha256": "525e80f274a784fbb94e8b6e33b1a2bcf79d917b3ff707a99f4b9e95866c507a"
+    },
+    "Fluent Mono/settings/settings_sort_alphabetical_descending.svg": {
+      "icon": "fluent:text-sort-descending-24-regular",
+      "sha256": "7ca000cc62077c14c8aead22eab7317f874a154ea10065bbb50af9aa6885466a"
     },
     "Fluent Mono/settings/settings_sort_alphabetical_variant.svg": {
       "icon": "fluent:text-sort-ascending-24-regular",
@@ -1161,6 +1291,14 @@
     "Fluent Mono/settings/settings_star.svg": {
       "icon": "fluent:star-24-regular",
       "sha256": "4d3fdbbd9354b4807cd509247cd93fe784b14c54c698172b2762a578ec51d0c4"
+    },
+    "Fluent Mono/settings/settings_star_outline.svg": {
+      "icon": "fluent:star-24-regular",
+      "sha256": "4d3fdbbd9354b4807cd509247cd93fe784b14c54c698172b2762a578ec51d0c4"
+    },
+    "Fluent Mono/settings/settings_sync.svg": {
+      "icon": "fluent:arrow-sync-24-regular",
+      "sha256": "6cf5b8af06b951710e46b58cd0fd50afcdc2d217de978585b1660f864cb5c987"
     },
     "Fluent Mono/settings/settings_table_row.svg": {
       "icon": "fluent:tab-desktop-24-regular",

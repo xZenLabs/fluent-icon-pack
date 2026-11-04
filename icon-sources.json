@@ -793,9 +793,26 @@
       "icon": "fluent-color:globe-24",
       "sha256": "6db557499580c8ae77fa84369cea7e567834bc02d003f08fe9a85469832c0373"
     },
+    "Fluent Color/reader/annotations.svg": {
+      "icon": "fluent-color:clipboard-text-edit-24",
+      "sha256": "adff4822d81a27cd2563342823b11b51625eb861bfc9c601a0ee6db4a62afd24"
+    },
+    "Fluent Color/reader/bookmark_outline.svg": {
+      "icon": "fluent-color:bookmark-24",
+      "sha256": "8bc25e92d26fe2ea8ffa4d278b3b50f05da3d6dd52b5e508fe6683d644343674"
+    },
+    "Fluent Color/reader/bookmark_remove.svg": {
+      "icon": "fluent-color:bookmark-24",
+      "sha256": "7319c06449351c040222d73d795b8595fb7f79828883169a8e57ffe9c3037d77",
+      "strike": true
+    },
     "Fluent Color/reader/coverflow.svg": {
       "icon": "fluent-color:content-view-24",
       "sha256": "aad334c143687b4af4299d6868346061b0ecd3a2f17abf86b01638ad1f502910"
+    },
+    "Fluent Color/reader/document.svg": {
+      "icon": "fluent-color:document-text-24",
+      "sha256": "dbf7b4774de7d6936ff5a04913c85a9ac2464fc64f76c55a74af0a921e6717e8"
     },
     "Fluent Color/reader/footnote.svg": {
       "icon": "fluent:text-footnote-24-filled",
@@ -805,6 +822,22 @@
         "#0F6CBD"
       ]
     },
+    "Fluent Color/reader/fullscreen.svg": {
+      "icon": "fluent:full-screen-maximize-24-filled",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ],
+      "sha256": "3bc1f506023b98ca1a2f6847d8dd9bee3af8df153b487962b985add20687784f"
+    },
+    "Fluent Color/reader/fullscreen_exit.svg": {
+      "icon": "fluent:full-screen-minimize-24-filled",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ],
+      "sha256": "763a404bee4156754b9769935ee51b0e176145cc5b84aebcd59c4c1c25db8803"
+    },
     "Fluent Color/reader/grid.svg": {
       "icon": "fluent-color:apps-24",
       "sha256": "947300e09c14568ef47ea9df020d4d561c275581a29734a5b0a5894eff4012be"
@@ -813,9 +846,38 @@
       "icon": "fluent-color:document-24",
       "sha256": "8d4b587d0d6f561808728d87388945fd8d45aa167df5689fc1a71263b9e22c62"
     },
+    "Fluent Color/reader/history.svg": {
+      "icon": "fluent-color:history-24",
+      "sha256": "a21d912cc5baaddfb9c3f089e63203f67e6c5748a0081135b21e2074db13f70b"
+    },
+    "Fluent Color/reader/moon_outline.svg": {
+      "icon": "fluent:weather-moon-24-filled",
+      "sha256": "3fd0ce631334450c584ccc9a29021c425fb7da72032b1c1c65151673cd2e722f",
+      "gradient": [
+        "#CB6FF7",
+        "#6F36C9"
+      ]
+    },
+    "Fluent Color/reader/page.svg": {
+      "icon": "fluent:document-one-page-24-filled",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ],
+      "sha256": "e84752291654997a2986b5e519a0c35d1c027418783a3dd95d8e86db6dfa4762"
+    },
     "Fluent Color/reader/pin.svg": {
       "icon": "fluent-color:pin-24",
       "sha256": "dbcfaf485aa58b02e506e1a938fed0716d4d84b14ca361bdf91865342ed240eb"
+    },
+    "Fluent Color/reader/pin_remove.svg": {
+      "icon": "fluent-color:pin-24",
+      "sha256": "eb6f970a8100e8d162d2f34bbb8cd36216b1a761c8006b17a9f00c4fe2010811",
+      "strike": true
+    },
+    "Fluent Color/reader/profiles.svg": {
+      "icon": "fluent-color:options-24",
+      "sha256": "f4ea6bc933b487aa4189151c9b87f0f6917e48b1f91f3af636c824ceab88d7f7"
     },
     "Fluent Color/reader/return.svg": {
       "icon": "fluent:arrow-hook-down-left-24-filled",
@@ -840,6 +902,26 @@
     "Fluent Color/reader/toc.svg": {
       "icon": "fluent-color:text-bullet-list-square-24",
       "sha256": "23f5fe47b7448d10984bce796ee8a9c6ee5057c330f18eb8aedf8346a69cbc56"
+    },
+    "Fluent Color/reader/zoom_in.svg": {
+      "icon": "fluent:zoom-in-24-filled",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ],
+      "sha256": "389e08b4964a3bea933bd4a40f890ecb276f0935ffa2d487ac132310d0199879"
+    },
+    "Fluent Color/reader/zoom_out.svg": {
+      "icon": "fluent:zoom-out-24-filled",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ],
+      "sha256": "7d273e7f0fa11eb84fa24167d2c9ddf4eba84cd531af3ae2f52ca30caaa82821"
+    },
+    "Fluent Color/settings/settings_account_outline.svg": {
+      "icon": "fluent-color:person-24",
+      "sha256": "4ad70108dee2919b8ac024b0ab750e387e7a27c30d00e98f1375e73c9ecc92db"
     },
     "Fluent Color/settings/settings_archive_outline.svg": {
       "icon": "fluent-color:vault-24",
@@ -877,6 +959,10 @@
         "#2D92F6",
         "#0F6CBD"
       ]
+    },
+    "Fluent Color/settings/settings_book.svg": {
+      "icon": "fluent-color:book-24",
+      "sha256": "834700d7aac65707e00be8c85439d3bb3da1397e37ae75f0a348a0eb4b93b8e7"
     },
     "Fluent Color/settings/settings_book_check.svg": {
       "icon": "fluent-color:book-24",
@@ -922,6 +1008,10 @@
       "icon": "fluent-color:data-trending-24",
       "sha256": "2f866d78ebf4ec97d68da3c593d6b58b117b7e97d4b374394d42764dafe82c03"
     },
+    "Fluent Color/settings/settings_check.svg": {
+      "icon": "fluent-color:checkmark-circle-24",
+      "sha256": "8bd59298add0abc9e020a00933d5c94bfbc818d64d22defc81bcbd6f4cfe8317"
+    },
     "Fluent Color/settings/settings_chip.svg": {
       "icon": "fluent:developer-board-24-filled",
       "sha256": "da57d213f13baef718dbbc9a9f129a5ef3a010da9a8d1d9ae167f0e614a2a8ee",
@@ -945,6 +1035,30 @@
     "Fluent Color/settings/settings_cog.svg": {
       "icon": "fluent-color:settings-24",
       "sha256": "8fea350f930c100310ace8d813647d814e220d1f056d4521111947d8c41da739"
+    },
+    "Fluent Color/settings/settings_content_copy.svg": {
+      "icon": "fluent:copy-24-filled",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ],
+      "sha256": "7e975a3fcc18f6b4edaa0e760d4ec3f099724bb4b714b03042c9f789f6a9d832"
+    },
+    "Fluent Color/settings/settings_content_cut.svg": {
+      "icon": "fluent:cut-24-filled",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ],
+      "sha256": "1c93dc1863f7b2497e33d00b55c0c0336dc977cd5e41f3391ade769508ee87b2"
+    },
+    "Fluent Color/settings/settings_content_paste.svg": {
+      "icon": "fluent:clipboard-paste-24-filled",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ],
+      "sha256": "3afb6ae50de11d29e0e184d4a016abcc578b69d4f8dbfc1f839e280a3fa4a2bb"
     },
     "Fluent Color/settings/settings_content_save.svg": {
       "icon": "fluent:save-24-filled",
@@ -986,6 +1100,18 @@
       "icon": "fluent-color:apps-24",
       "sha256": "947300e09c14568ef47ea9df020d4d561c275581a29734a5b0a5894eff4012be"
     },
+    "Fluent Color/settings/settings_dots_horizontal.svg": {
+      "icon": "fluent:more-horizontal-24-filled",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ],
+      "sha256": "79f5633e222e4a45942e688b3a8c7f92e71fea11eb3b4e54e3619b41d0d9a4c0"
+    },
+    "Fluent Color/settings/settings_download.svg": {
+      "icon": "fluent-color:arrow-square-down-24",
+      "sha256": "da96bebc1243c834672a9d8fa025a6a23251cf16203b28c1e204f0fb53822b12"
+    },
     "Fluent Color/settings/settings_drag_horizontal_variant.svg": {
       "icon": "fluent:re-order-dots-horizontal-24-filled",
       "sha256": "46746b442a93c791304d4aa98ebbd43caba76eee716561aaf053b399226753e2",
@@ -1005,6 +1131,18 @@
         "#2D92F6",
         "#0F6CBD"
       ]
+    },
+    "Fluent Color/settings/settings_eye_outline.svg": {
+      "icon": "fluent:eye-24-filled",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ],
+      "sha256": "13939ba3157ff7d6123088f93628c8fd562fef77272d6719795f21f9d7599c40"
+    },
+    "Fluent Color/settings/settings_file_outline.svg": {
+      "icon": "fluent-color:document-24",
+      "sha256": "6ad80a859851d5e6cd36c995d08f5696740cef3e9445c8cbd5ea886931a8cb90"
     },
     "Fluent Color/settings/settings_file_tree.svg": {
       "icon": "fluent:text-bullet-list-tree-24-filled",
@@ -1050,6 +1188,14 @@
         "#0F6CBD"
       ]
     },
+    "Fluent Color/settings/settings_format_list_bulleted.svg": {
+      "icon": "fluent:text-bullet-list-ltr-24-filled",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ],
+      "sha256": "e8ee88fadc6a5b3e684996479e5512ce94217e8a0b622dd388139e606d38196d"
+    },
     "Fluent Color/settings/settings_format_underline.svg": {
       "icon": "fluent:text-underline-24-filled",
       "sha256": "446a1009ba0d86944fa02eaf3ba62ee5fcf41293f23706923f984c6b2e3796d5",
@@ -1089,6 +1235,10 @@
     "Fluent Color/settings/settings_harddisk.svg": {
       "icon": "fluent-color:database-24",
       "sha256": "9e48045edf6708f55af3597cbc5f82ad7d37ff228928cd24e72c08c73d11aeb4"
+    },
+    "Fluent Color/settings/settings_history.svg": {
+      "icon": "fluent-color:history-24",
+      "sha256": "a21d912cc5baaddfb9c3f089e63203f67e6c5748a0081135b21e2074db13f70b"
     },
     "Fluent Color/settings/settings_home_variant.svg": {
       "icon": "fluent-color:home-24",
@@ -1138,6 +1288,14 @@
       "icon": "fluent-color:text-bullet-list-square-24",
       "sha256": "23f5fe47b7448d10984bce796ee8a9c6ee5057c330f18eb8aedf8346a69cbc56"
     },
+    "Fluent Color/settings/settings_note_plus_outline.svg": {
+      "icon": "fluent:note-add-24-filled",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ],
+      "sha256": "7988b0698f4843d063786067e40bbb71e66ad283e737484e581222d32bfb461d"
+    },
     "Fluent Color/settings/settings_palette.svg": {
       "icon": "fluent-color:paint-brush-24",
       "sha256": "bbedd8789dbb1fe0658ed66f5c40d3777f7df35c723e2ef94bac528af3e2ce9e"
@@ -1149,6 +1307,18 @@
         "#2D92F6",
         "#0F6CBD"
       ]
+    },
+    "Fluent Color/settings/settings_pause.svg": {
+      "icon": "fluent:pause-circle-24-filled",
+      "gradient": [
+        "#5DDE89",
+        "#157C4B"
+      ],
+      "sha256": "22383dd1d027c24380c76c8e5b6ae47d35b834ec034ae99a64d74a5d4a2d633e"
+    },
+    "Fluent Color/settings/settings_pencil_outline.svg": {
+      "icon": "fluent-color:edit-24",
+      "sha256": "8ff062d6a12b09fcf022666f40daba79e51cde2748614f7d626fd8f999bb542b"
     },
     "Fluent Color/settings/settings_play.svg": {
       "icon": "fluent:play-circle-24-filled",
@@ -1182,6 +1352,22 @@
       "icon": "fluent-color:arrow-clockwise-dashes-24",
       "sha256": "3e83bf517a92a3fce1d86134c8e85779616ebd93f96f03a5005b535dd265c35a"
     },
+    "Fluent Color/settings/settings_restore.svg": {
+      "icon": "fluent:arrow-counterclockwise-24-filled",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ],
+      "sha256": "bd9549baf6e77d886116a8f7937f43310eb75bb3db36a12d6b4e79399386dd7b"
+    },
+    "Fluent Color/settings/settings_selection.svg": {
+      "icon": "fluent:select-object-24-filled",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ],
+      "sha256": "7faefe8312e1da29de0a11a5accff597fd823dfdd2167b5608a7421a7e0c0646"
+    },
     "Fluent Color/settings/settings_sleep.svg": {
       "icon": "fluent:snooze-24-filled",
       "sha256": "63d5b6d4d0e7e120411cdf20a6b1687bb26f1aa058dc09225f2030e1ccab0362",
@@ -1189,6 +1375,22 @@
         "#2D92F6",
         "#0F6CBD"
       ]
+    },
+    "Fluent Color/settings/settings_sort_alphabetical_ascending.svg": {
+      "icon": "fluent:text-sort-ascending-24-filled",
+      "sha256": "335b815b770ac32784243a4b6d7fef9c5dddab0cd000629366e8de06f606a52a",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ]
+    },
+    "Fluent Color/settings/settings_sort_alphabetical_descending.svg": {
+      "icon": "fluent:text-sort-descending-24-filled",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ],
+      "sha256": "17faaabd50ec5fadad344d7cf9046ddb1d6effe65aee85492494169844f801d4"
     },
     "Fluent Color/settings/settings_sort_alphabetical_variant.svg": {
       "icon": "fluent:text-sort-ascending-24-filled",
@@ -1209,6 +1411,14 @@
     "Fluent Color/settings/settings_star.svg": {
       "icon": "fluent-color:star-24",
       "sha256": "3eb58770f28ab7dd2155a21c77cdc993484e77e27107abc29a86da15498b73c6"
+    },
+    "Fluent Color/settings/settings_star_outline.svg": {
+      "icon": "fluent-color:star-24",
+      "sha256": "3eb58770f28ab7dd2155a21c77cdc993484e77e27107abc29a86da15498b73c6"
+    },
+    "Fluent Color/settings/settings_sync.svg": {
+      "icon": "fluent-color:arrow-sync-24",
+      "sha256": "46e4da8483138e8122efe61f2b32f707f0574c08b8400ff926f927116f5af3d7"
     },
     "Fluent Color/settings/settings_table_row.svg": {
       "icon": "fluent:tab-desktop-24-filled",
