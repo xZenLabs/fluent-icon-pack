@@ -186,6 +186,10 @@
       "icon": "fluent:star-24-regular",
       "sha256": "4d3fdbbd9354b4807cd509247cd93fe784b14c54c698172b2762a578ec51d0c4"
     },
+    "Fluent Mono/controls/zenfm.svg": {
+      "icon": "fluent:folder-24-regular",
+      "sha256": "7b6670890f114d7ee65639824275e95d5bb64c0481f7131641dfbeebd5021095"
+    },
     "Fluent Mono/device/backup.svg": {
       "icon": "fluent:arrow-clockwise-dashes-24-regular",
       "sha256": "edb9a7e361e50dee90eacbac93a1c910af56dc88c8ba0d7aa40135cbc71e6204"

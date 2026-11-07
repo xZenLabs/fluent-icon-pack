@@ -236,6 +236,10 @@
       "icon": "fluent-color:star-24",
       "sha256": "3eb58770f28ab7dd2155a21c77cdc993484e77e27107abc29a86da15498b73c6"
     },
+    "Fluent Color/controls/zenfm.svg": {
+      "icon": "fluent-color:document-folder-24",
+      "sha256": "ef49d24fc4b86d4e3e30e1827f1d01dce8c714bf2fc5e62401700559c903b428"
+    },
     "Fluent Color/device/backup.svg": {
       "icon": "fluent-color:arrow-clockwise-dashes-24",
       "sha256": "3e83bf517a92a3fce1d86134c8e85779616ebd93f96f03a5005b535dd265c35a"

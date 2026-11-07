@@ -101,6 +101,7 @@ Quick settings, shared Zen buttons, and playback controls.
 | `skip_right.svg` | [SVG](Fluent%20Color/controls/skip_right.svg) | [SVG](Fluent%20Mono/controls/skip_right.svg) |
 | `star.filled.svg` | [SVG](Fluent%20Color/controls/star.filled.svg) | [SVG](Fluent%20Mono/controls/star.filled.svg) |
 | `star.svg` | [SVG](Fluent%20Color/controls/star.svg) | [SVG](Fluent%20Mono/controls/star.svg) |
+| `zenfm.svg` | [SVG](Fluent%20Color/controls/zenfm.svg) | [SVG](Fluent%20Mono/controls/zenfm.svg) |
 
 ## launcher
 

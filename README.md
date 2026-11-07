@@ -29,8 +29,8 @@ opacity. Related actions may share a design.
 
 | Pack | Source files | SVG lookups | Screen | Release asset |
 |---|---|---|---|---|
-| **Fluent Color** | 351 | 351 | Color e-ink | `zen-fluent-color.zip` |
-| **Fluent Mono** | 401 | 401 | Black & white e-ink | `zen-fluent-mono.zip` |
+| **Fluent Color** | 352 | 352 | Color e-ink | `zen-fluent-color.zip` |
+| **Fluent Mono** | 402 | 402 | Black & white e-ink | `zen-fluent-mono.zip` |
 
 Both variants cover all 50 ZenOS `quick_` controls and `tab_` icons, excluding
 the blank spacer. Color uses Fluent filled moon, snooze, tag, battery, Bluetooth,
@@ -71,6 +71,9 @@ Context-menu and settings rows also resolve `settings_link.svg`,
 `settings_file_cabinet.svg`, `settings_book_outline.svg`, and
 `settings_file_document_outline.svg`. Incognito, chevrons, file browser, book and document reuse
 the pack's existing artwork.
+
+The ZenFM Controls button and Launcher entry resolve `zenfm.svg`, a copy of the
+pack's file-browser folder artwork.
 
 ## Install with ZenPM
 
