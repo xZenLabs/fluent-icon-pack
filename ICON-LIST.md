@@ -311,12 +311,15 @@ ZenOS settings menu rows, mirroring ZenOS's bundled `settings_*` lookups.
 | `settings_book_cog_outline.svg` | [SVG](Fluent%20Color/settings/settings_book_cog_outline.svg) | [SVG](Fluent%20Mono/settings/settings_book_cog_outline.svg) |
 | `settings_book_multiple_outline.svg` | [SVG](Fluent%20Color/settings/settings_book_multiple_outline.svg) | [SVG](Fluent%20Mono/settings/settings_book_multiple_outline.svg) |
 | `settings_book_open_variant.svg` | [SVG](Fluent%20Color/settings/settings_book_open_variant.svg) | [SVG](Fluent%20Mono/settings/settings_book_open_variant.svg) |
+| `settings_book_outline.svg` | [SVG](Fluent%20Color/settings/settings_book_outline.svg) | [SVG](Fluent%20Mono/settings/settings_book_outline.svg) |
 | `settings_bookshelf.svg` | [SVG](Fluent%20Color/settings/settings_bookshelf.svg) | [SVG](Fluent%20Mono/settings/settings_bookshelf.svg) |
 | `settings_brush.svg` | [SVG](Fluent%20Color/settings/settings_brush.svg) | [SVG](Fluent%20Mono/settings/settings_brush.svg) |
 | `settings_bug.svg` | [SVG](Fluent%20Color/settings/settings_bug.svg) | — |
 | `settings_calendar_month_outline.svg` | [SVG](Fluent%20Color/settings/settings_calendar_month_outline.svg) | [SVG](Fluent%20Mono/settings/settings_calendar_month_outline.svg) |
 | `settings_chart_line.svg` | [SVG](Fluent%20Color/settings/settings_chart_line.svg) | [SVG](Fluent%20Mono/settings/settings_chart_line.svg) |
 | `settings_check.svg` | [SVG](Fluent%20Color/settings/settings_check.svg) | [SVG](Fluent%20Mono/settings/settings_check.svg) |
+| `settings_chevron_left.svg` | [SVG](Fluent%20Color/settings/settings_chevron_left.svg) | [SVG](Fluent%20Mono/settings/settings_chevron_left.svg) |
+| `settings_chevron_right.svg` | [SVG](Fluent%20Color/settings/settings_chevron_right.svg) | [SVG](Fluent%20Mono/settings/settings_chevron_right.svg) |
 | `settings_chip.svg` | [SVG](Fluent%20Color/settings/settings_chip.svg) | [SVG](Fluent%20Mono/settings/settings_chip.svg) |
 | `settings_clipboard_play_outline.svg` | [SVG](Fluent%20Color/settings/settings_clipboard_play_outline.svg) | [SVG](Fluent%20Mono/settings/settings_clipboard_play_outline.svg) |
 | `settings_clock_outline.svg` | [SVG](Fluent%20Color/settings/settings_clock_outline.svg) | [SVG](Fluent%20Mono/settings/settings_clock_outline.svg) |
@@ -337,6 +340,8 @@ ZenOS settings menu rows, mirroring ZenOS's bundled `settings_*` lookups.
 | `settings_draw_pen.svg` | [SVG](Fluent%20Color/settings/settings_draw_pen.svg) | [SVG](Fluent%20Mono/settings/settings_draw_pen.svg) |
 | `settings_eye_off.svg` | [SVG](Fluent%20Color/settings/settings_eye_off.svg) | [SVG](Fluent%20Mono/settings/settings_eye_off.svg) |
 | `settings_eye_outline.svg` | [SVG](Fluent%20Color/settings/settings_eye_outline.svg) | [SVG](Fluent%20Mono/settings/settings_eye_outline.svg) |
+| `settings_file_cabinet.svg` | [SVG](Fluent%20Color/settings/settings_file_cabinet.svg) | [SVG](Fluent%20Mono/settings/settings_file_cabinet.svg) |
+| `settings_file_document_outline.svg` | [SVG](Fluent%20Color/settings/settings_file_document_outline.svg) | [SVG](Fluent%20Mono/settings/settings_file_document_outline.svg) |
 | `settings_file_outline.svg` | [SVG](Fluent%20Color/settings/settings_file_outline.svg) | [SVG](Fluent%20Mono/settings/settings_file_outline.svg) |
 | `settings_file_tree.svg` | [SVG](Fluent%20Color/settings/settings_file_tree.svg) | [SVG](Fluent%20Mono/settings/settings_file_tree.svg) |
 | `settings_flash.svg` | [SVG](Fluent%20Color/settings/settings_flash.svg) | [SVG](Fluent%20Mono/settings/settings_flash.svg) |
@@ -356,8 +361,10 @@ ZenOS settings menu rows, mirroring ZenOS's bundled `settings_*` lookups.
 | `settings_home_variant.svg` | [SVG](Fluent%20Color/settings/settings_home_variant.svg) | [SVG](Fluent%20Mono/settings/settings_home_variant.svg) |
 | `settings_image_filter_hdr.svg` | [SVG](Fluent%20Color/settings/settings_image_filter_hdr.svg) | [SVG](Fluent%20Mono/settings/settings_image_filter_hdr.svg) |
 | `settings_image_multiple_outline.svg` | [SVG](Fluent%20Color/settings/settings_image_multiple_outline.svg) | [SVG](Fluent%20Mono/settings/settings_image_multiple_outline.svg) |
+| `settings_incognito.svg` | [SVG](Fluent%20Color/settings/settings_incognito.svg) | [SVG](Fluent%20Mono/settings/settings_incognito.svg) |
 | `settings_keyboard.svg` | [SVG](Fluent%20Color/settings/settings_keyboard.svg) | [SVG](Fluent%20Mono/settings/settings_keyboard.svg) |
 | `settings_lightning_bolt.svg` | [SVG](Fluent%20Color/settings/settings_lightning_bolt.svg) | [SVG](Fluent%20Mono/settings/settings_lightning_bolt.svg) |
+| `settings_link.svg` | [SVG](Fluent%20Color/settings/settings_link.svg) | [SVG](Fluent%20Mono/settings/settings_link.svg) |
 | `settings_lock.svg` | [SVG](Fluent%20Color/settings/settings_lock.svg) | [SVG](Fluent%20Mono/settings/settings_lock.svg) |
 | `settings_magnify.svg` | [SVG](Fluent%20Color/settings/settings_magnify.svg) | [SVG](Fluent%20Mono/settings/settings_magnify.svg) |
 | `settings_memory.svg` | [SVG](Fluent%20Color/settings/settings_memory.svg) | [SVG](Fluent%20Mono/settings/settings_memory.svg) |
@@ -375,6 +382,7 @@ ZenOS settings menu rows, mirroring ZenOS's bundled `settings_*` lookups.
 | `settings_restart.svg` | [SVG](Fluent%20Color/settings/settings_restart.svg) | [SVG](Fluent%20Mono/settings/settings_restart.svg) |
 | `settings_restore.svg` | [SVG](Fluent%20Color/settings/settings_restore.svg) | [SVG](Fluent%20Mono/settings/settings_restore.svg) |
 | `settings_selection.svg` | [SVG](Fluent%20Color/settings/settings_selection.svg) | [SVG](Fluent%20Mono/settings/settings_selection.svg) |
+| `settings_send.svg` | [SVG](Fluent%20Color/settings/settings_send.svg) | [SVG](Fluent%20Mono/settings/settings_send.svg) |
 | `settings_sleep.svg` | [SVG](Fluent%20Color/settings/settings_sleep.svg) | [SVG](Fluent%20Mono/settings/settings_sleep.svg) |
 | `settings_sort_alphabetical_ascending.svg` | [SVG](Fluent%20Color/settings/settings_sort_alphabetical_ascending.svg) | [SVG](Fluent%20Mono/settings/settings_sort_alphabetical_ascending.svg) |
 | `settings_sort_alphabetical_descending.svg` | [SVG](Fluent%20Color/settings/settings_sort_alphabetical_descending.svg) | [SVG](Fluent%20Mono/settings/settings_sort_alphabetical_descending.svg) |
@@ -400,6 +408,7 @@ ZenOS settings menu rows, mirroring ZenOS's bundled `settings_*` lookups.
 | `settings_weather_sunny.svg` | [SVG](Fluent%20Color/settings/settings_weather_sunny.svg) | [SVG](Fluent%20Mono/settings/settings_weather_sunny.svg) |
 | `settings_widgets.svg` | [SVG](Fluent%20Color/settings/settings_widgets.svg) | [SVG](Fluent%20Mono/settings/settings_widgets.svg) |
 | `settings_wifi.svg` | [SVG](Fluent%20Color/settings/settings_wifi.svg) | [SVG](Fluent%20Mono/settings/settings_wifi.svg) |
+| `settings_wifi_off.svg` | [SVG](Fluent%20Color/settings/settings_wifi_off.svg) | [SVG](Fluent%20Mono/settings/settings_wifi_off.svg) |
 | `view_carousel_outline.svg` | [SVG](Fluent%20Color/settings/view_carousel_outline.svg) | [SVG](Fluent%20Mono/settings/view_carousel_outline.svg) |
 
 ## koreader

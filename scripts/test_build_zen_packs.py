@@ -58,7 +58,7 @@ class BuildPacksTest(unittest.TestCase):
             sort_desc trash usb warmth column.one column.two column.three
             wifi.open.0 wifi.open.25 wifi.open.50 wifi.open.75 wifi.secure.100
         """.split())
-        expected_counts = {"Fluent Color": 342, "Fluent Mono": 392}
+        expected_counts = {"Fluent Color": 351, "Fluent Mono": 401}
         metadata = json.loads((builder.ROOT / "pack.json").read_text())
         with tempfile.TemporaryDirectory() as temporary:
             output = Path(temporary)

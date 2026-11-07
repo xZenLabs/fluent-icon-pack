@@ -984,6 +984,10 @@
       "icon": "fluent-color:book-open-24",
       "sha256": "f372934dab09f0539b813099898948775710fcfe20d3b702b02a18cff161ed3b"
     },
+    "Fluent Color/settings/settings_book_outline.svg": {
+      "icon": "fluent-color:book-24",
+      "sha256": "834700d7aac65707e00be8c85439d3bb3da1397e37ae75f0a348a0eb4b93b8e7"
+    },
     "Fluent Color/settings/settings_bookshelf.svg": {
       "icon": "fluent-color:library-24",
       "sha256": "e192363b9d398811f35088783f0e2ac24cff259cd4e22e0d571be3ad4355a951"
@@ -1011,6 +1015,16 @@
     "Fluent Color/settings/settings_check.svg": {
       "icon": "fluent-color:checkmark-circle-24",
       "sha256": "8bd59298add0abc9e020a00933d5c94bfbc818d64d22defc81bcbd6f4cfe8317"
+    },
+    "Fluent Color/settings/settings_chevron_left.svg": {
+      "icon": "fluent-color:arrow-square-down-24",
+      "sha256": "f82f5976f97c9bf928d31565901227b019f5d52daf019c8a9cedc1c842749afc",
+      "transform": "rotate(90 12 12)"
+    },
+    "Fluent Color/settings/settings_chevron_right.svg": {
+      "icon": "fluent-color:arrow-square-down-24",
+      "sha256": "33eab013e307956d93eeeec034897aa0f03606c21f7c22ef00751547f51056b2",
+      "transform": "rotate(270 12 12)"
     },
     "Fluent Color/settings/settings_chip.svg": {
       "icon": "fluent:developer-board-24-filled",
@@ -1140,6 +1154,14 @@
       ],
       "sha256": "13939ba3157ff7d6123088f93628c8fd562fef77272d6719795f21f9d7599c40"
     },
+    "Fluent Color/settings/settings_file_cabinet.svg": {
+      "icon": "fluent-color:document-folder-24",
+      "sha256": "ef49d24fc4b86d4e3e30e1827f1d01dce8c714bf2fc5e62401700559c903b428"
+    },
+    "Fluent Color/settings/settings_file_document_outline.svg": {
+      "icon": "fluent-color:document-text-24",
+      "sha256": "dbf7b4774de7d6936ff5a04913c85a9ac2464fc64f76c55a74af0a921e6717e8"
+    },
     "Fluent Color/settings/settings_file_outline.svg": {
       "icon": "fluent-color:document-24",
       "sha256": "6ad80a859851d5e6cd36c995d08f5696740cef3e9445c8cbd5ea886931a8cb90"
@@ -1252,6 +1274,14 @@
       "icon": "fluent-color:apps-24",
       "sha256": "947300e09c14568ef47ea9df020d4d561c275581a29734a5b0a5894eff4012be"
     },
+    "Fluent Color/settings/settings_incognito.svg": {
+      "icon": "fluent:incognito-24-filled",
+      "sha256": "e6231bf0aef40e66edcc0d22a8021d00ec46a4dd6e6495728ec8ddd2bc8a0c89",
+      "gradient": [
+        "#CB6FF7",
+        "#6F36C9"
+      ]
+    },
     "Fluent Color/settings/settings_keyboard.svg": {
       "icon": "fluent:keyboard-24-filled",
       "sha256": "d59b38c08050b927bc72bc73301c0bca4208fe6892bfe2608bbdb684af30e63f",
@@ -1267,6 +1297,10 @@
         "#FFD15C",
         "#F7630C"
       ]
+    },
+    "Fluent Color/settings/settings_link.svg": {
+      "icon": "fluent-color:link-24",
+      "sha256": "ec7df6d50ab5db6b54ae2f5f567d0f156037acf506ee5ebe772924737a84fcfc"
     },
     "Fluent Color/settings/settings_lock.svg": {
       "icon": "fluent-color:lock-shield-24",
@@ -1367,6 +1401,10 @@
         "#0F6CBD"
       ],
       "sha256": "7faefe8312e1da29de0a11a5accff597fd823dfdd2167b5608a7421a7e0c0646"
+    },
+    "Fluent Color/settings/settings_send.svg": {
+      "icon": "fluent-color:send-24",
+      "sha256": "1788653783de6c745b2762a5fb19e35f5ecafd37fe31f9e464aeceed58308946"
     },
     "Fluent Color/settings/settings_sleep.svg": {
       "icon": "fluent:snooze-24-filled",
@@ -1503,6 +1541,14 @@
     "Fluent Color/settings/settings_wifi.svg": {
       "icon": "fluent-color:wifi-24",
       "sha256": "d69f46a4f699120cf999c4f04efd18ccb8826a78727c6e87c3ebd948d9c15b3e"
+    },
+    "Fluent Color/settings/settings_wifi_off.svg": {
+      "icon": "fluent:wifi-off-24-filled",
+      "sha256": "f03ae84e82882409cbe8f9eb652b6731babd0bb41d98af5e84c9f7678fdc1750",
+      "gradient": [
+        "#2D92F6",
+        "#0F6CBD"
+      ]
     },
     "Fluent Color/settings/view_carousel_outline.svg": {
       "icon": "fluent-color:content-view-24",
